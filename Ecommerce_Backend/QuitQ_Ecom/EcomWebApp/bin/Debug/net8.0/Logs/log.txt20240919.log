@@ -1,0 +1,31 @@
+2024-09-19 17:26:28,705 ERROR AdminController - Error occurred while retrieving users from the last 24 hours.
+System.InvalidOperationException: 'FromSql' or 'SqlQuery' was called with non-composable SQL and with a query composing over it. Consider calling 'AsEnumerable' after the method to perform the composition on the client side.
+   at Microsoft.EntityFrameworkCore.Query.QuerySqlGenerator.CheckComposableSqlTrimmed(ReadOnlySpan`1 sql)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerQuerySqlGenerator.CheckComposableSqlTrimmed(ReadOnlySpan`1 sql)
+   at Microsoft.EntityFrameworkCore.Query.QuerySqlGenerator.CheckComposableSql(String sql)
+   at Microsoft.EntityFrameworkCore.Query.QuerySqlGenerator.VisitFromSql(FromSqlExpression fromSqlExpression)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionVisitor.VisitExtension(Expression extensionExpression)
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerQuerySqlGenerator.VisitExtension(Expression extensionExpression)
+   at Microsoft.EntityFrameworkCore.Query.QuerySqlGenerator.<VisitSelect>b__21_1(TableExpressionBase e)
+   at Microsoft.EntityFrameworkCore.Query.QuerySqlGenerator.GenerateList[T](IReadOnlyList`1 items, Action`1 generationAction, Action`1 joinAction)
+   at Microsoft.EntityFrameworkCore.Query.QuerySqlGenerator.VisitSelect(SelectExpression selectExpression)
+   at Microsoft.EntityFrameworkCore.Query.QuerySqlGenerator.GenerateRootCommand(Expression queryExpression)
+   at Microsoft.EntityFrameworkCore.Query.QuerySqlGenerator.GetCommand(Expression queryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.RelationalCommandCache.GetRelationalCommandTemplate(IReadOnlyDictionary`2 parameters)
+   at Microsoft.EntityFrameworkCore.Internal.RelationCommandCacheExtensions.RentAndPopulateRelationalCommand(RelationalCommandCache relationalCommandCache, RelationalQueryContext queryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EcomQuitQ.BusinessLogicLayer.UserRepository.UserRepository.GetUsersLast24HoursAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\UserRepository\UserRepository .cs:line 180
+   at EcomLib.Service.UserService.GetUsersLast24HoursAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 206
+   at AdminController.GetUsersLast24Hours() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\AdminController.cs:line 23
+2024-09-19 17:32:52,264 ERROR AdminController - UserNotFoundException: No users found in the last 24 hours.
+EcomLib.Exceptionhandling.UserNotFoundException: There are no users registered in the last 24 hours.
+   at EcomQuitQ.BusinessLogicLayer.UserRepository.UserRepository.GetUsersLast24HoursAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\UserRepository\UserRepository .cs:line 196
+   at EcomLib.Service.UserService.GetUsersLast24HoursAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 206
+   at AdminController.GetUsersLast24Hours() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\AdminController.cs:line 23
+2024-09-19 18:25:14,541 WARN  AdminController - UserNotFoundException: No users registered in the last 24 hours.
+2024-09-19 18:25:22,638 ERROR AdminController - DataAccessException: An error occurred while executing the stored procedure.
+2024-09-19 18:26:05,488 ERROR AdminController - DataAccessException: An error occurred while executing the stored procedure.

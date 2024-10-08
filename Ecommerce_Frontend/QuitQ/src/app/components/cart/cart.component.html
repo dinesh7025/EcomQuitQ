@@ -1,0 +1,114 @@
+<app-header></app-header>
+
+<div class="container cart-container mt-5">
+    <div class="cart-header text-center mb-4">
+        <h1>Your Cart</h1>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count badge badge-pill badge-primary">{{ getTotalItems() }}</span>
+        </div>   
+    </div>
+
+    <div class="row">
+        <!-- Cart Items Section (Left Column) -->
+        <div class="col-md-8" *ngIf="cart && cart.cartItems && cart.cartItems.length > 0; else emptyCart">
+            <div class="cart-items">
+                <div class="cart-item d-flex justify-content-between align-items-center mb-3" *ngFor="let item of cart.cartItems">
+                    <div class="item-info d-flex align-items-center">
+                        <img [src]="item.imageUrl || 'default-image-url.jpg'" 
+                             alt="{{ item.productName || 'Unknown Product' }}" 
+                             class="product-image img-fluid">
+                        <div class="item-details ml-3">
+                            <h5>{{ item.productName || 'Unknown Product' }}</h5>
+                            <p class="item-price">Price: {{ item.price | currency:'INR' }}</p>
+                        </div>
+                    </div>
+                    <div class="quantity-controls d-flex align-items-center">
+                        <button class="btn btn-outline-secondary btn-sm" (click)="decreaseQuantity(item)">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <input type="text" [value]="item.quantity" class="form-control mx-1 text-center" style="width: 40px;" readonly>
+                        <button class="btn btn-outline-secondary btn-sm" (click)="increaseQuantity(item)">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <p class="item-total">{{ item.totalPrice | currency:'INR' }}</p>
+                    <button class="btn btn-danger btn-sm remove-item" (click)="removeItem(item.cartItemId)">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summary, Discount, and Checkout Section (Right Column) -->
+        <div class="col-md-4" *ngIf="cart && cart.cartItems && cart.cartItems.length > 0">
+            <!-- Discount Section -->
+            <div class="discount-section mb-4">
+                <h4>Apply Discount</h4>
+                <input type="text" class="form-control" [(ngModel)]="discountCode" placeholder="Enter discount code">
+                <button class="btn btn-primary mt-2" (click)="applyDiscount()">
+                    <i class="fas fa-tag"></i> Apply Discount
+                </button>
+                <div *ngIf="discount" class="discount-applied mt-2">
+                    <p>Discount Applied: {{ discount.description }} ({{ discount.discountValue }} {{ discount.discountType === DiscountType.Percentage ? '%' : 'INR' }})</p>
+                </div>
+            </div>
+
+            <!-- Address Section -->
+            <div class="address-section mb-4">
+                <h4>Select Shipping & Billing Address</h4>
+                <div class="form-group">
+                    <label for="shippingAddress">Shipping Address</label>
+                    <select class="form-control" [(ngModel)]="selectedShippingAddressId">
+                        <option *ngFor="let address of addresses" [value]="address.addressId">
+                            {{ address.addressLine1 }}, {{ address.addressLine2 }}, {{ address.city }},{{ address.state }} - {{ address.postalCode }}, {{ address.country }}
+                        </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="billingAddress">Billing Address</label>
+                    <select class="form-control" [(ngModel)]="selectedBillingAddressId">
+                        <option *ngFor="let address of addresses" [value]="address.addressId">
+                            {{ address.addressLine1 }}, {{ address.addressLine2 }}, {{ address.city }},{{ address.state }} - {{ address.postalCode }}, {{ address.country }}
+                        </option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Payment Method Section -->
+            <div class="payment-method-section mb-4">
+                <h4>Select Payment Method</h4>
+                <select class="form-control" [(ngModel)]="selectedPaymentMethod">
+                    <option *ngFor="let method of paymentMethods" [ngValue]="method.value">{{ method.label }}</option>
+                </select>
+            </div>
+
+            <!-- Cart Summary -->
+            <div class="cart-summary">
+                <h4>Cart Summary</h4>
+                <p>Total Items: {{ getTotalItems() }}</p>
+                <p *ngIf="!discount">Total Price: {{ getTotalPrice() | currency:'INR' }}</p>
+                <p *ngIf="discount" class="discount-applied">Total Price (Discount Applied): {{ discountedTotal | currency:'INR' }}</p>
+                <div class="cart-buttons d-flex justify-content-between mt-3">
+                    <button class="btn btn-success btn-lg" (click)="confirmCheckout()">
+                        <i class="fas fa-credit-card"></i> Checkout
+                    </button>
+                    <button class="btn btn-warning btn-lg" (click)="clearCart()">
+                        <i class="fas fa-trash"></i> Clear Cart
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <ng-template #emptyCart>
+        <p class="text-center">Your cart is empty. Start adding products to see them here!
+            <a [routerLink]="['']" class="go-home-link">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </p>
+    </ng-template>
+</div>
+
+<app-footer></app-footer>

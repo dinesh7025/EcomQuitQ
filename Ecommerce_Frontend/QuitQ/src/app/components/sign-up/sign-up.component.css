@@ -1,0 +1,129 @@
+/* Global styles to ensure consistent font */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Helvetica, Arial, sans-serif;
+    font-weight: 300; 
+}
+
+/* Session container */
+.session {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    max-width: 100%;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.2);
+    padding: 45px;
+}
+
+/* Sign-up form container */
+.sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Floating label styling for inputs */
+.floating-label {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.floating-label input,
+.floating-label select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-family: inherit;
+    font-size: 16px;
+    background: transparent;
+    max-width: 500px;
+}
+
+/* Hide placeholder text */
+.floating-label input::placeholder {
+    color: transparent; /* This hides the placeholder */
+}
+
+/* Styling for label */
+.floating-label label {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    background-color: white; /* Ensures label does not overlap input border */
+    padding: 0 5px;
+    transition: 0.2s ease all;
+    color: #999;
+    font-family: inherit;
+}
+
+/* Input focus and active state for labels */
+.floating-label input:focus + label,
+.floating-label input:not(:placeholder-shown) + label,
+.floating-label select:focus + label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    color: #a050d5;
+}
+
+/* Focus state for input */
+.floating-label input:focus,
+.floating-label select:focus {
+    border-color: #a050d5; /* Add a highlight color when focused */
+    outline: none;
+}
+
+/* Scrollable address details */
+.address-details {
+    margin-top: 20px;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+/* Section headings */
+h5 {
+    margin-bottom: 15px;
+}
+
+/* Title heading */
+h4 {
+    color: #a050d5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+/* Button styling */
+button {
+    margin-top: 20px;
+    background-color: #B69DE6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    margin: 10px 5px;
+    transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #b238db;
+}
+
+/* Additional button styles for disabled state */
+button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed; /* Change cursor on disabled button */
+}
+
+/* Wizard step visibility */
+.wizard-step {
+    display: block; /* Hidden by default */
+}
+
+.wizard-step.ng-star-inserted {
+    display: block; /* Show when inserted */
+}

@@ -1,0 +1,173 @@
+2024-10-08 08:53:45,778 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 08:53:45,778 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 08:53:45,778 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 08:53:48,296 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 08:54:06,421 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 08:54:06,421 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 08:54:06,421 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 08:54:06,433 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 08:55:00,987 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: shiva_enterprises@gmail.com
+2024-10-08 08:55:01,888 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: shiva_enterprises@gmail.com
+2024-10-08 08:55:02,091 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by month for sellerId: 1
+2024-10-08 08:55:02,091 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching top-selling product for sellerId: 1
+2024-10-08 08:55:02,091 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by product for sellerId: 1
+2024-10-08 09:16:06,843 INFO  OrderController - Order item status updated. Order Item ID: 24, New Status: Pending
+2024-10-08 09:16:23,146 INFO  OrderController - Order item status updated. Order Item ID: 24, New Status: Delivered
+2024-10-08 09:16:26,630 INFO  OrderController - Order item status updated. Order Item ID: 33, New Status: Shipped
+2024-10-08 09:16:28,701 INFO  OrderController - Order item status updated. Order Item ID: 36, New Status: Shipped
+2024-10-08 09:16:31,106 INFO  OrderController - Order item status updated. Order Item ID: 40, New Status: Shipped
+2024-10-08 10:43:43,441 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: admin2@quitq.in
+2024-10-08 10:43:43,702 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: admin2@quitq.in
+2024-10-08 10:43:43,799 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total user registrations successfully.
+2024-10-08 10:43:43,799 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total seller registrations successfully.
+2024-10-08 10:45:10,130 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 10:45:10,130 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 10:45:10,155 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 10:45:10,158 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 10:45:18,466 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: admin2@quitq.in
+2024-10-08 10:45:18,692 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: admin2@quitq.in
+2024-10-08 10:45:18,745 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total user registrations successfully.
+2024-10-08 10:45:18,746 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total seller registrations successfully.
+2024-10-08 10:56:13,980 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 10:56:13,982 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 10:56:14,010 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 10:56:14,014 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 10:56:34,793 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: admin2@quitq.in
+2024-10-08 10:56:35,069 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: admin2@quitq.in
+2024-10-08 10:56:35,119 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total seller registrations successfully.
+2024-10-08 10:56:35,121 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total user registrations successfully.
+2024-10-08 10:56:37,799 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 10:56:37,799 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 10:56:46,748 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 10:56:46,751 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:02:34,710 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 2
+2024-10-08 11:02:37,484 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 1
+2024-10-08 11:10:40,472 ERROR EcomWebApp.Controllers.ProductController - Error adding product
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EcomWebApp.Controllers.ProductController.AddProduct(ProductWithInventoryDTO productWithInventoryDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\ProductController.cs:line 96
+2024-10-08 11:11:33,419 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:11:33,420 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:16:35,290 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 11
+2024-10-08 11:16:36,858 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 1
+2024-10-08 11:18:29,259 ERROR EcomWebApp.Controllers.ProductController - Error adding product
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EcomWebApp.Controllers.ProductController.AddProduct(ProductWithInventoryDTO productWithInventoryDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\ProductController.cs:line 96
+2024-10-08 11:23:03,016 ERROR EcomWebApp.Controllers.ProductController - Error adding product
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EcomWebApp.Controllers.ProductController.AddProduct(ProductWithInventoryDTO productWithInventoryDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\ProductController.cs:line 96
+2024-10-08 11:23:03,024 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:23:03,026 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:23:24,843 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 11
+2024-10-08 11:23:26,507 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 1
+2024-10-08 11:29:41,185 ERROR EcomWebApp.Controllers.ProductController - Error adding product
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EcomWebApp.Controllers.ProductController.AddProduct(ProductWithInventoryDTO productWithInventoryDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\ProductController.cs:line 96
+2024-10-08 11:29:41,566 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:29:41,574 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:30:19,465 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 5
+2024-10-08 11:30:21,235 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 1
+2024-10-08 11:34:58,447 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:34:58,456 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:35:14,620 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 11:35:14,620 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:35:14,622 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:35:14,657 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:37:01,662 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 11:37:01,663 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:37:01,671 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:37:01,714 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:40:34,781 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 2
+2024-10-08 11:40:55,456 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:40:55,456 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 11:40:55,456 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:40:55,487 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:41:18,805 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: shiva_enterprises@gmail.com
+2024-10-08 11:41:19,010 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: shiva_enterprises@gmail.com
+2024-10-08 11:41:19,044 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by product for sellerId: 1
+2024-10-08 11:41:19,045 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by month for sellerId: 1
+2024-10-08 11:41:19,045 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching top-selling product for sellerId: 1
+2024-10-08 11:41:28,024 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:41:28,024 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:42:03,859 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:42:03,863 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:47:27,692 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:47:27,692 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:47:28,629 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:47:28,635 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:47:53,903 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:47:53,922 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:47:54,266 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:47:54,266 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:48:48,150 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:48:48,151 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:48:50,399 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by product for sellerId: 1
+2024-10-08 11:48:50,403 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by month for sellerId: 1
+2024-10-08 11:48:50,403 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching top-selling product for sellerId: 1
+2024-10-08 11:48:51,295 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:48:51,295 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:48:54,549 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:48:54,549 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:49:05,559 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:49:05,559 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:49:10,358 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 2
+2024-10-08 11:50:24,618 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:50:24,619 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:50:37,393 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:50:37,395 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:50:54,785 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:50:54,785 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 11:50:54,790 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:50:54,801 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:55:04,194 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:55:04,197 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:55:11,359 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:55:11,368 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:56:11,095 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:56:11,095 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:56:51,698 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:56:51,700 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:57:16,511 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:57:16,513 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:57:25,651 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:57:25,653 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:58:13,679 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:58:13,682 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:58:40,603 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:58:40,605 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:59:24,617 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:59:24,618 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 11:59:34,552 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total seller registrations successfully.
+2024-10-08 11:59:34,555 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total user registrations successfully.
+2024-10-08 11:59:35,820 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 11:59:35,820 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 12:00:05,523 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: shiva_enterprises@gmail.com
+2024-10-08 12:00:05,762 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: shiva_enterprises@gmail.com
+2024-10-08 12:00:05,793 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by product for sellerId: 1
+2024-10-08 12:00:05,793 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by month for sellerId: 1
+2024-10-08 12:00:05,793 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching top-selling product for sellerId: 1
+2024-10-08 12:00:07,539 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 12:00:07,539 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 12:00:26,525 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 12:00:26,525 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 12:46:44,187 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 12:46:44,187 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 12:46:44,187 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 12:46:46,516 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 12:48:10,792 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: kakarot_dheen
+2024-10-08 12:48:11,585 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: kakarot_dheen
+2024-10-08 12:48:11,665 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 12:48:11,668 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 12:48:11,671 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 12:48:11,754 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 12:48:17,173 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 34
+2024-10-08 12:48:17,173 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 34
+2024-10-08 12:48:17,299 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 34
+2024-10-08 12:48:19,678 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-08 12:48:19,678 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-08 12:48:19,681 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 12:48:19,716 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-08 12:48:22,247 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 34, Product ID: 10
+2024-10-08 12:48:22,427 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 34, Product ID: 10
+2024-10-08 12:48:25,667 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 34
+2024-10-08 12:48:25,668 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 34
+2024-10-08 12:48:25,743 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 34

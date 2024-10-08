@@ -1,0 +1,200 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Helvetica, Arial, sans-serif;
+    font-weight: 300; 
+    margin: 0; 
+  }
+  
+  html, body {
+    height: 100vh; 
+    width: 100vw;
+    margin: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: #f3f2f2; 
+  }
+  
+  h4 {
+    font-size: 30px; 
+    font-weight: 600; 
+    color: #000; 
+    opacity: .85; 
+    margin-bottom: 30px;
+  }
+  
+  label {
+    font-size: 14px; 
+    color: #000;
+    opacity: .8;
+    font-weight: 400; 
+  }
+  
+  form {
+    padding: 50px 40px; 
+    background: #fefefe; 
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 360px;  /* Increase form width */
+    box-shadow: 0px 2px 8px -1px rgba(0, 0, 0, .15);
+    border-radius: 6px;
+    gap: 25px; /* Extra spacing between form elements */
+  }
+  
+  p {
+    line-height: 155%; 
+    margin-bottom: 5px; 
+    font-size: 20px; 
+    color: #000; 
+    opacity: .65;
+    font-weight: 400; 
+    max-width: 280px; /* Slightly larger paragraph width */
+  }
+  
+  a.discrete {
+    color: rgba(0, 0, 0, .4); 
+    font-size: 14px; 
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+    padding-bottom: 4px;  
+    margin-left: auto; 
+    font-weight: 300; 
+    transition: all .3s ease; 
+  }
+  
+  a.discrete:hover {
+    border-bottom: solid 1px rgba(0, 0, 0, .2);
+  }
+  
+  button {
+    width: auto;
+    min-width: 120px; /* Increased button size */
+    border-radius: 28px; 
+    text-align: center; 
+    padding: 15px 50px;
+    background-color: #B69DE6; /* Primary color */
+    color: #fff; 
+    font-size: 16px; /* Slightly larger font */
+    font-weight: 500; 
+    box-shadow: 0px 2px 8px -1px rgba(0, 0, 0, .15); 
+    border: none;
+    transition: all .3s ease; 
+    outline: 0; 
+  }
+  
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 8px -1px rgba(182, 157, 230, .65);
+    background-color: #a250e5;
+  }
+  
+  button:active {
+    transform: scale(.99);
+  }
+  
+  input {
+    font-size: 18px;  
+    padding: 20px 0; /* Adjusted padding for top and bottom */
+    padding-left: 10px; /* Added left padding to avoid overlap with icon */
+    height: 60px;  
+    border: none; 
+    border-bottom: solid 1px rgba(0, 0, 0, .1); 
+    background: #fff; 
+    width: calc(100% - 44px); 
+    box-sizing: border-box; 
+    transition: all .3s linear; 
+    color: #000; 
+    font-weight: 400;
+  }
+  
+  input:focus {
+    border-bottom: solid 2px #B69DE6; /* Primary color */
+    outline: 0; 
+    box-shadow: 0 2px 6px -8px rgba(182, 157, 230, .45);
+  }
+  
+  .floating-label {
+    position: relative; 
+    margin-bottom: 25px;
+    width: 100%; 
+  }
+  
+  .floating-label label {
+    position: absolute; 
+    top: calc(50% - 7px);
+    left: 10px; /* Adjusted left position for better alignment */
+    opacity: 0; 
+    transition: all .3s ease; 
+  }
+  
+  input:not(:placeholder-shown) {
+    padding: 30px 0 12px 0; 
+  }
+  
+  input:not(:placeholder-shown) + label {
+    transform: translateY(-12px); 
+    opacity: .7; 
+  }
+  .icon {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 60px; 
+    width: 50px; /* Adjusted width for icon space */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .icon i {
+    font-size: 28px; /* Adjust icon size if needed */
+    color: rgba(0, 0, 0, 0.6); /* Icon color */
+  }
+  
+  input:focus + label + .icon mat-icon {
+    opacity: 1;
+  }
+  
+  .extra-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .extra-links a {
+    font-size: 15px;
+    color: #B69DE6;
+    text-decoration: none;
+  }
+  
+  .extra-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .session {
+    display: flex; 
+    flex-direction: row; 
+    width: auto; 
+    height: auto; 
+    margin: auto; 
+    background: #ffffff; 
+    border-radius: 6px; 
+    box-shadow: 0px 2px 8px -1px rgba(0, 0, 0, .15);
+  }
+  
+  .left {
+    width: 220px; 
+    height: auto; 
+    min-height: 100%; 
+    position: relative; 
+    background-image: url("https://images.pexels.com/photos/8939520/pexels-photo-8939520.jpeg"); /* Updated URL */
+    background-size: cover;
+    border-top-left-radius: 4px; 
+    border-bottom-left-radius: 4px; 
+    svg {
+      height: 40px; 
+      width: auto; 
+      margin: 20px; 
+    }
+}
+  

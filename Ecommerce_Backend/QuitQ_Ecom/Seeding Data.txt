@@ -1,0 +1,852 @@
+============================Data Seeding for ECOM QuitQ========================================
+Category API-------
+Add Parent category---------
+{
+  "categoryName": "Electronics",
+  "description": "Devices and gadgets including phones, computers, and home appliances"
+}
+
+{
+  "categoryName": "Fashion",
+  "description": "Clothing, footwear, and accessories for men, women, and children"
+}
+
+{
+  "categoryName": "Home & Kitchen",
+  "description": "Furniture, home decor, kitchen appliances, and tools"
+}
+
+{
+  "categoryName": "Beauty & Personal Care",
+  "description": "Cosmetics, skincare products, and personal hygiene items"
+}
+
+{
+  "categoryName": "Sports & Outdoors",
+  "description": "Equipment and gear for sports, fitness, and outdoor activities"
+}
+
+{
+  "categoryName": "Books",
+  "description": "A wide range of books, including fiction, non-fiction, and educational"
+}
+
+{
+  "categoryName": "Toys & Games",
+  "description": "Toys, board games, and puzzles for children of all ages"
+}
+
+{
+  "categoryName": "Automotive",
+  "description": "Car accessories, tools, and automotive parts"
+}
+
+{
+  "categoryName": "Health & Wellness",
+  "description": "Healthcare products, supplements, and wellness items"
+}
+
+{
+  "categoryName": "Grocery & Gourmet Food",
+  "description": "Food items, snacks, beverages, and gourmet products"
+}
+
+Add Sub categories------
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 1,
+  "subCategoryName": "Mobile Phones",
+  "description": "Smartphones and feature phones"
+}
+
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 2,
+  "subCategoryName": "Men's Clothing",
+  "description": "Apparel including shirts, pants, and jackets for men"
+}
+
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 3,
+  "subCategoryName": "Kitchen Appliances",
+  "description": "Appliances such as microwaves, mixers, and refrigerators"
+}
+
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 4,
+  "subCategoryName": "Skincare",
+  "description": "Products for skincare, including moisturizers and sunscreens"
+}
+
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 5,
+  "subCategoryName": "Fitness Equipment",
+  "description": "Gym equipment and fitness accessories"
+}
+
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 6,
+  "subCategoryName": "Fiction Books",
+  "description": "Books in the fiction genre including novels and short stories"
+}
+
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 7,
+  "subCategoryName": "Board Games",
+  "description": "Strategy and family board games"
+}
+
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 8,
+  "subCategoryName": "Car Accessories",
+  "description": "Accessories for car interiors and exteriors"
+}
+
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 9,
+  "subCategoryName": "Vitamins & Supplements",
+  "description": "Health supplements, vitamins, and minerals"
+}
+
+{
+  "subCategoryId": 0,
+  "parentCategoryId": 11,
+  "subCategoryName": "Organic Food",
+  "description": "Organic grocery products and gourmet food items"
+}
+
+Add Brand -------------
+{
+  "brandName": "Apple",
+  "description": "Premium mobile phones and electronics manufacturer",
+  "logoUrl": "https://example.com/logos/apple.png"
+},
+{
+  "brandName": "Nike",
+  "description": "Leading brand in men's and women's clothing, footwear, and accessories",
+  "logoUrl": "https://example.com/logos/nike.png"
+},
+{
+  "brandName": "Samsung",
+  "description": "Global leader in kitchen appliances and electronics",
+  "logoUrl": "https://example.com/logos/samsung.png"
+},
+{
+  "brandName": "Neutrogena",
+  "description": "Popular skincare brand known for high-quality skin care products",
+  "logoUrl": "https://example.com/logos/neutrogena.png"
+},
+{
+  "brandName": "Adidas",
+  "description": "Renowned fitness and sports equipment manufacturer",
+  "logoUrl": "https://example.com/logos/adidas.png"
+},
+{
+  "brandName": "Penguin Random House",
+  "description": "Leading publisher of fiction books and other literary works",
+  "logoUrl": "https://example.com/logos/penguin.png"
+},
+{
+  "brandName": "Hasbro",
+  "description": "Manufacturer of popular board games and toys",
+  "logoUrl": "https://example.com/logos/hasbro.png"
+},
+{
+  "brandName": "Bosch",
+  "description": "World-leading brand in car accessories and automotive parts",
+  "logoUrl": "https://example.com/logos/bosch.png"
+},
+{
+  "brandName": "Nature's Way",
+  "description": "A trusted brand in vitamins, supplements, and natural healthcare products",
+  "logoUrl": "https://example.com/logos/natures-way.png"
+},
+{
+  "brandName": "Whole Foods Market",
+  "description": "Retailer known for its organic and gourmet food selections",
+  "logoUrl": "https://example.com/logos/wholefoods.png"
+}
+
+--------------------------------------------------------------------------------------------
+=========================Product Api========================================================
+Add Products------------------
+
+{
+  "product": {
+    "productName": "iPhone 14",
+    "description": "Apple iPhone 14 with 128GB storage and A15 Bionic chip",
+"sellerId": 0,
+    "price": 79999,
+    "stockQuantity": 50,
+    "imageUrl": "https://example.com/images/iphone14.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 1,
+    "subCategoryId": 1
+  },
+  "inventory": {
+    "quantityInStock": 50,
+    "reorderLevel": 10,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+},
+{
+  "product": {
+    "productName": "Nike Air Max 270",
+    "description": "Men's running shoes with comfortable cushioning",
+"sellerId": 0,
+    "price": 8499,
+    "stockQuantity": 120,
+    "imageUrl": "https://example.com/images/nike_air_max_270.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 2,
+    "subCategoryId": 2
+  },
+  "inventory": {
+    "quantityInStock": 120,
+    "reorderLevel": 15,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+},
+{
+  "product": {
+    "productName": "Samsung Microwave Oven",
+    "description": "Samsung 23L Solo Microwave Oven with Auto Cook",
+	"sellerId": 0,
+    "price": 10999,
+    "stockQuantity": 75,
+    "imageUrl": "https://example.com/images/samsung_microwave.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 3,
+    "subCategoryId": 3
+  },
+  "inventory": {
+    "quantityInStock": 75,
+    "reorderLevel": 10,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+},
+{
+  "product": {
+    "productName": "Neutrogena Hydro Boost Water Gel",
+    "description": "Neutrogena Hydro Boost Water Gel for 72-hour hydration",
+"sellerId": 0,
+    "price": 849,
+    "stockQuantity": 200,
+    "imageUrl": "https://example.com/images/neutrogena_gel.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 4,
+    "subCategoryId": 4
+  },
+  "inventory": {
+    "quantityInStock": 200,
+    "reorderLevel": 20,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+},
+{
+  "product": {
+    "productName": "Adidas Home Gym Set",
+    "description": "Adidas fitness equipment for a complete home workout",
+"sellerId": 0,
+    "price": 14999,
+    "stockQuantity": 35,
+    "imageUrl": "https://example.com/images/adidas_home_gym.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 5,
+    "subCategoryId": 5
+  },
+  "inventory": {
+    "quantityInStock": 35,
+    "reorderLevel": 5,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+},
+{
+  "product": {
+    "productName": "The Great Gatsby",
+    "description": "Classic fiction book by F. Scott Fitzgerald",
+"sellerId": 0,
+    "price": 399,
+    "stockQuantity": 150,
+    "imageUrl": "https://example.com/images/great_gatsby.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 6,
+    "subCategoryId": 6
+  },
+  "inventory": {
+    "quantityInStock": 150,
+    "reorderLevel": 20,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+},
+{
+  "product": {
+    "productName": "Monopoly Board Game",
+    "description": "Classic Monopoly game by Hasbro",
+"sellerId": 0,
+    "price": 1199,
+    "stockQuantity": 100,
+    "imageUrl": "https://example.com/images/monopoly.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 7,
+    "subCategoryId": 7
+  },
+  "inventory": {
+    "quantityInStock": 100,
+    "reorderLevel": 15,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+},
+{
+  "product": {
+    "productName": "Bosch Car Vacuum Cleaner",
+    "description": "Compact vacuum cleaner for car interiors by Bosch",
+"sellerId": 0,
+    "price": 4599,
+    "stockQuantity": 45,
+    "imageUrl": "https://example.com/images/bosch_vacuum.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 8,
+    "subCategoryId": 8
+  },
+  "inventory": {
+    "quantityInStock": 45,
+    "reorderLevel": 5,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+},
+{
+  "product": {
+    "productName": "Nature's Way Multivitamins",
+    "description": "Daily multivitamin supplement for overall health",
+"sellerId": 0,
+    "price": 1299,
+    "stockQuantity": 250,
+    "imageUrl": "https://example.com/images/natures_way_vitamins.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 9,
+    "subCategoryId": 9
+  },
+  "inventory": {
+    "quantityInStock": 250,
+    "reorderLevel": 30,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+},
+{
+  "product": {
+    "productName": "Organic Almonds",
+    "description": "High-quality organic almonds by Whole Foods Market",
+"sellerId": 0,
+    "price": 799,
+    "stockQuantity": 180,
+    "imageUrl": "https://example.com/images/organic_almonds.png",
+    "dateAdded": "2024-09-15T12:25:20.077Z",
+    "isActive": true,
+    "brandId": 10,
+    "subCategoryId": 10
+  },
+  "inventory": {
+    "quantityInStock": 180,
+    "reorderLevel": 20,
+    "lastRestockedDate": "2024-09-15T12:25:20.077Z"
+  }
+}
+
+=======================================Add Discounts ==================================
+{
+  "discountCode": "SUMMER2024",
+  "description": "Summer sale discount for 7 days",
+  "discountType": 1,
+  "discountValue": 10,
+  "startDate": "2024-09-15T15:17:08.933Z",
+  "endDate": "2024-09-22T15:17:08.933Z",
+  "isActive": true
+}
+{
+  "discountCode": "FALL2024",
+  "description": "Fall season discount for 1 month",
+  "discountType": 1,
+  "discountValue": 15,
+  "startDate": "2024-09-15T15:17:08.933Z",
+  "endDate": "2024-10-15T15:17:08.933Z",
+  "isActive": true
+}
+{
+  "discountCode": "WINTER2024",
+  "description": "Winter sale discount for 3 months",
+  "discountType": 2,
+  "discountValue": 20,
+  "startDate": "2024-09-15T15:17:08.933Z",
+  "endDate": "2024-12-15T15:17:08.933Z",
+  "isActive": true
+}
+{
+  "discountCode": "YEARLY2024",
+  "description": "Annual discount for 1 year",
+  "discountType": 2,
+  "discountValue": 25,
+  "startDate": "2024-09-15T15:17:08.933Z",
+  "endDate": "2025-09-15T15:17:08.933Z",
+  "isActive": true
+}
+=======================================Add product discounts ==========================
+{
+  "productId": 1,
+  "discountId": 1
+}
+{
+  "productId": 2,
+  "discountId": 2
+}
+{
+  "productId": 3,
+  "discountId": 3
+}
+{
+  "productId": 4,
+  "discountId": 4
+}
+{
+  "productId": 5,
+  "discountId": 1
+}
+
+================================Add Users====================================================
+
+[
+  {
+    "username": "arunkumar123",
+    "password": "Password@123",
+    "email": "arunkumar123@gmail.com",
+    "personalDetails": {
+      "firstName": "Arun",
+      "lastName": "Kumar",
+      "gender": "Male",
+      "dateOfBirth": "1990-03-14T00:00:00Z",
+      "phoneNumber": "9876543210"
+    },
+    "address": {
+      "addressLine1": "12, Main Road",
+      "addressLine2": "Gandhipuram",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "postalCode": "641012",
+      "country": "India"
+    }
+  },
+  {
+    "username": "subashini89",
+    "password": "Password@123",
+    "email": "subashini89@gmail.com",
+    "personalDetails": {
+      "firstName": "Subashini",
+      "lastName": "Ravi",
+      "gender": "Female",
+      "dateOfBirth": "1989-05-23T00:00:00Z",
+      "phoneNumber": "9445566778"
+    },
+    "address": {
+      "addressLine1": "45, Park Street",
+      "addressLine2": "T. Nagar",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600017",
+      "country": "India"
+    }
+  },
+  {
+    "username": "ganesh24",
+    "password": "Password@123",
+    "email": "ganesh24@gmail.com",
+    "personalDetails": {
+      "firstName": "Ganesh",
+      "lastName": "Iyer",
+      "gender": "Male",
+      "dateOfBirth": "1992-07-19T00:00:00Z",
+      "phoneNumber": "9003218765"
+    },
+    "address": {
+      "addressLine1": "22, MG Road",
+      "addressLine2": "Mylapore",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600004",
+      "country": "India"
+    }
+  },
+  {
+    "username": "nandhini_sharma",
+    "password": "Password@123",
+    "email": "nandhini_sharma@gmail.com",
+    "personalDetails": {
+      "firstName": "Nandhini",
+      "lastName": "Sharma",
+      "gender": "Female",
+      "dateOfBirth": "1995-08-12T00:00:00Z",
+      "phoneNumber": "9556677889"
+    },
+    "address": {
+      "addressLine1": "7, Beach Road",
+      "addressLine2": "Besant Nagar",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600090",
+      "country": "India"
+    }
+  },
+  {
+    "username": "mohanraj_k",
+    "password": "Password@123",
+    "email": "mohanraj_k@gmail.com",
+    "personalDetails": {
+      "firstName": "Mohanraj",
+      "lastName": "Krishnan",
+      "gender": "Male",
+      "dateOfBirth": "1987-12-10T00:00:00Z",
+      "phoneNumber": "9447776655"
+    },
+    "address": {
+      "addressLine1": "55, Anna Nagar",
+      "addressLine2": "West Extension",
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "postalCode": "625020",
+      "country": "India"
+    }
+  },
+  {
+    "username": "keerthana_raj",
+    "password": "Password@123",
+    "email": "keerthana_raj@gmail.com",
+    "personalDetails": {
+      "firstName": "Keerthana",
+      "lastName": "Raj",
+      "gender": "Female",
+      "dateOfBirth": "1994-11-11T00:00:00Z",
+      "phoneNumber": "9365778899"
+    },
+    "address": {
+      "addressLine1": "120, Gandhi Street",
+      "addressLine2": "Karumathampatti",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "postalCode": "641659",
+      "country": "India"
+    }
+  },
+  {
+    "username": "vikram_madhavan",
+    "password": "Password@123",
+    "email": "vikram_madhavan@gmail.com",
+    "personalDetails": {
+      "firstName": "Vikram",
+      "lastName": "Madhavan",
+      "gender": "Male",
+      "dateOfBirth": "1985-10-25T00:00:00Z",
+      "phoneNumber": "9344332211"
+    },
+    "address": {
+      "addressLine1": "18, Nelson Manickam Road",
+      "addressLine2": "Aminjikarai",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600029",
+      "country": "India"
+    }
+  },
+  {
+    "username": "lakshmi_narayanan",
+    "password": "Password@123",
+    "email": "lakshmi_narayanan@gmail.com",
+    "personalDetails": {
+      "firstName": "Lakshmi",
+      "lastName": "Narayanan",
+      "gender": "Female",
+      "dateOfBirth": "1991-04-15T00:00:00Z",
+      "phoneNumber": "9445566888"
+    },
+    "address": {
+      "addressLine1": "36, Raja Street",
+      "addressLine2": "Anna Nagar",
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "postalCode": "625010",
+      "country": "India"
+    }
+  },
+  {
+    "username": "gopal_k",
+    "password": "Password@123",
+    "email": "gopal_k@gmail.com",
+    "personalDetails": {
+      "firstName": "Gopal",
+      "lastName": "Kumar",
+      "gender": "Male",
+      "dateOfBirth": "1993-03-22T00:00:00Z",
+      "phoneNumber": "9009988776"
+    },
+    "address": {
+      "addressLine1": "88, Kalpakkam Street",
+      "addressLine2": "Alandur",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600016",
+      "country": "India"
+    }
+  },
+  {
+    "username": "priya_s",
+    "password": "Password@123",
+    "email": "priya_s@gmail.com",
+    "personalDetails": {
+      "firstName": "Priya",
+      "lastName": "Sundar",
+      "gender": "Female",
+      "dateOfBirth": "1996-09-27T00:00:00Z",
+      "phoneNumber": "9443344555"
+    },
+    "address": {
+      "addressLine1": "99, North Street",
+      "addressLine2": "Gopalapuram",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600086",
+      "country": "India"
+    }
+  },
+  {
+    "username": "rahul_verma",
+    "password": "Password@123",
+    "email": "rahul_verma@gmail.com",
+    "personalDetails": {
+      "firstName": "Rahul",
+      "lastName": "Verma",
+      "gender": "Male",
+      "dateOfBirth": "1992-06-05T00:00:00Z",
+      "phoneNumber": "9998877665"
+    },
+    "address": {
+      "addressLine1": "101, East Coast Road",
+      "addressLine2": "Thiruvanmiyur",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600041",
+      "country": "India"
+    }
+  },
+  {
+    "username": "deepak_ravi",
+    "password": "Password@123",
+    "email": "deepak_ravi@gmail.com",
+    "personalDetails": {
+      "firstName": "Deepak",
+      "lastName": "Ravi",
+      "gender": "Male",
+      "dateOfBirth": "1988-12-30T00:00:00Z",
+      "phoneNumber": "9442233445"
+    },
+    "address": {
+      "addressLine1": "60, West Avenue",
+      "addressLine2": "Anna Nagar",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600040",
+      "country": "India"
+    }
+  },
+  {
+    "username": "anitha_j",
+    "password": "Password@123",
+    "email": "anitha_j@gmail.com",
+    "personalDetails": {
+      "firstName": "Anitha",
+      "lastName": "Jayaraman",
+      "gender": "Female",
+      "dateOfBirth": "1997-02-18T00:00:00Z",
+      "phoneNumber": "9332233445"
+    },
+    "address": {
+      "addressLine1": "45, Mount Road",
+      "addressLine2": "Guindy",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600032",
+      "country": "India"
+    }
+  },
+  {
+    "username": "rajini_krishna",
+    "password": "Password@123",
+    "email": "rajini_krishna@gmail.com",
+    "personalDetails": {
+      "firstName": "Rajini",
+      "lastName": "Krishna",
+      "gender": "Female",
+      "dateOfBirth": "1990-11-02T00:00:00Z",
+      "phoneNumber": "9995544332"
+    },
+    "address": {
+      "addressLine1": "9, Pondy Bazaar",
+      "addressLine2": "T. Nagar",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600017",
+      "country": "India"
+    }
+  },
+  {
+    "username": "bharath_vijay",
+    "password": "Password@123",
+    "email": "bharath_vijay@gmail.com",
+    "personalDetails": {
+      "firstName": "Bharath",
+      "lastName": "Vijay",
+      "gender": "Male",
+      "dateOfBirth": "1995-07-21T00:00:00Z",
+      "phoneNumber": "9344556677"
+    },
+    "address": {
+      "addressLine1": "108, Church Street",
+      "addressLine2": "Saidapet",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600015",
+      "country": "India"
+    }
+  }
+]
+
+
+================================== register sellers ===============================
+      "companyRegistrationNumber": "TN89XYZ4321",
+      "gstNumber": "33AACDL5678J1ZR",
+      "businessType": "Textile Manufacturing"
+    }
+  },
+  {
+    "username": "arun_furniture",
+    "password": "Password@123",
+    "email": "arun_furniture@gmail.com",
+    "personalDetails": {
+      "firstName": "Arun",
+      "lastName": "Kumar",
+      "gender": "Male",
+      "dateOfBirth": "1993-01-19T00:00:00Z",
+      "phoneNumber": "9876543216"
+    },
+    "address": {
+      "addressLine1": "21, Gandhi Road",
+      "addressLine2": "Velachery",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600042",
+      "country": "India"
+    },
+    "sellerDetails": {
+      "companyName": "Arun Furniture",
+      "companyRegistrationNumber": "TN23FURN5678",
+      "gstNumber": "33AACDA9876B1ZP",
+      "businessType": "Furniture Retail"
+    }
+  },
+  {
+    "username": "sunshine_electronics",
+    "password": "Password@123",
+    "email": "sunshine_electronics@gmail.com",
+    "personalDetails": {
+      "firstName": "Vikram",
+      "lastName": "Natarajan",
+      "gender": "Male",
+      "dateOfBirth": "1991-07-10T00:00:00Z",
+      "phoneNumber": "9876543217"
+    },
+    "address": {
+      "addressLine1": "56, Ambattur Industrial Estate",
+      "addressLine2": "Ambattur",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600058",
+      "country": "India"
+    },
+    "sellerDetails": {
+      "companyName": "Sunshine Electronics",
+      "companyRegistrationNumber": "TN12ELEC9876",
+      "gstNumber": "33AAACB2345N1ZX",
+      "businessType": "Electronics Retail"
+    }
+  },
+  {
+    "username": "green_agro_products",
+    "password": "Password@123",
+    "email": "green_agro_products@gmail.com",
+    "personalDetails": {
+      "firstName": "Meenakshi",
+      "lastName": "Rao",
+      "gender": "Female",
+      "dateOfBirth": "1986-02-03T00:00:00Z",
+      "phoneNumber": "9876543218"
+    },
+    "address": {
+      "addressLine1": "43, Palani Road",
+      "addressLine2": "Pollachi",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "postalCode": "642001",
+      "country": "India"
+    },
+    "sellerDetails": {
+      "companyName": "Green Agro Products",
+      "companyRegistrationNumber": "TN76AGRO1234",
+      "gstNumber": "33AAFGP9876C1ZY",
+      "businessType": "Agriculture"
+    }
+  },
+  {
+    "username": "metro_innovations",
+    "password": "Password@123",
+    "email": "metro_innovations@gmail.com",
+    "personalDetails": {
+      "firstName": "Vijay",
+      "lastName": "Nair",
+      "gender": "Male",
+      "dateOfBirth": "1984-12-25T00:00:00Z",
+      "phoneNumber": "9876543219"
+    },
+    "address": {
+      "addressLine1": "17, Avinashi Road",
+      "addressLine2": "Peelamedu",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "postalCode": "641018",
+      "country": "India"
+    },
+    "sellerDetails": {
+      "companyName": "Metro Innovations",
+      "companyRegistrationNumber": "TN34TECH5678",
+      "gstNumber": "33AACDV5678F1ZU",
+      "businessType": "Technology Solutions"
+    }
+  }
+]
+
+
+
+
+

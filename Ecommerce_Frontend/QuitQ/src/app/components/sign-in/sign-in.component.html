@@ -1,0 +1,32 @@
+<body>
+  <div class="session">
+    <div class="left">
+      <!-- Optional left-side content -->
+    </div>
+    <form (submit)="onLogin()" class="log-in" autocomplete="off">
+      <h4>We are <span>QUITQ</span></h4>
+      <p>Welcome back! Log in to your account to view today's deal</p>
+
+      <div class="floating-label">
+        <input placeholder="Email or Username" type="text" name="username" [(ngModel)]="usernameOrEmail" id="username" autocomplete="off" required>
+        <label for="username">Email or Username:</label>
+      </div>
+
+      <div class="floating-label">
+        <input placeholder="Password" type="password" name="password" [(ngModel)]="password" id="password" autocomplete="off" required>
+        <label for="password">Password:</label>
+      </div>
+
+      <button mat-raised-button color="primary" type="submit">Log in</button>
+
+      <!-- Error message display -->
+      <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+
+      <div class="actions">
+        <a href="#" class="discrete">Forgot Password?</a>
+        <p></p>
+        <p class="discrete">Don't have an account? <a href="/register">Sign up</a></p>
+      </div>
+    </form>
+  </div>
+</body>

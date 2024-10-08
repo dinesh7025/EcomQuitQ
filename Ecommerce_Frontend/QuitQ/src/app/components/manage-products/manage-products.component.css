@@ -1,0 +1,234 @@
+.manage-product-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.product-table th, .product-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table th {
+  background-color: #f1f1f1;
+}
+
+.product-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.edit-btn, .delete-btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.product-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-form h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.product-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.product-form input, .product-form textarea, .product-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product-form button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.product-form button[type="button"] {
+  background-color: #6c757d;
+  color: white;
+}
+
+.product-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.product-form button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+.confirmation-modal {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px 0;
+}
+.btn-confirm {
+  background-color: #28a745;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px; /* Adds space to the right of the confirm button */
+}
+
+.btn-cancel {
+  background-color: #dc3545;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px; /* Adds space to the left of the cancel button */
+}
+
+
+.btn-confirm:hover {
+  background-color: #218838;
+}
+
+.btn-cancel:hover {
+  background-color: #c82333;
+}.manage-product-container {
+  padding: 20px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.product-table th, .product-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f8f9fa;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.low-stock {
+  color: red;
+  font-weight: bold;
+
+}
+
+.medium-stock {
+  color: rgb(255, 174, 0);
+  font-weight: bold;
+}
+
+.high-stock {
+  color: green;
+  font-weight: bold;
+}

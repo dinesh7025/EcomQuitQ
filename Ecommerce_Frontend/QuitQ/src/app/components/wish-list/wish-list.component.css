@@ -1,0 +1,43 @@
+/* Ensure the entire page takes up the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Container for the whole page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+/* Content will expand and take up remaining space */
+.content-container {
+  flex: 1; /* Allow the content to grow and fill available space */
+}
+
+/* Footer styling to keep it at the bottom */
+app-footer {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+}
+
+.wishlist-card {
+    transition: transform 0.2s; /* Smooth scaling effect */
+  }
+  
+  .wishlist-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between; /* Align buttons to the left and right */
+  }
+  
+  .card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: contain; /* Maintain aspect ratio */
+  }

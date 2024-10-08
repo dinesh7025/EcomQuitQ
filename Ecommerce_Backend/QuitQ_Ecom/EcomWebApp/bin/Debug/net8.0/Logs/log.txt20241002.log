@@ -1,0 +1,216 @@
+2024-10-02 10:28:12,468 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:28:12,468 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:29:14,228 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:29:14,228 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:29:19,651 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:29:19,651 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:30:04,446 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:30:04,446 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:30:21,764 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:30:21,764 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:30:54,675 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:30:54,675 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:30:59,414 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:30:59,414 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:31:23,315 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:31:23,317 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:31:54,356 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:31:54,356 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:32:25,639 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:32:25,639 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:32:42,896 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:32:42,896 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:32:54,758 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:32:54,758 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:33:04,388 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:33:04,388 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:33:48,218 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:33:48,218 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:33:54,663 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:33:54,663 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:40:06,269 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:40:06,269 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:40:28,314 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:40:28,316 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:40:59,287 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 10:40:59,287 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:41:13,071 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 10:41:13,071 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 11:23:27,385 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 11:23:27,385 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 11:46:54,207 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email keerthi@gmail.com.
+2024-10-02 12:05:08,392 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 12:05:08,393 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 12:05:36,467 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 12:05:36,467 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 12:28:42,421 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email naruto@gmail.com.
+2024-10-02 12:45:57,437 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 12:45:57,437 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 12:56:55,254 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 12:56:55,255 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 12:57:55,317 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 12:57:55,317 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 14:29:47,353 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 14:29:47,353 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 14:29:47,397 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 14:34:12,409 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 14:34:12,413 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 14:34:12,461 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 14:40:28,386 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 14:40:28,390 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 14:43:07,404 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 14:43:07,404 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 14:48:42,534 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 14:48:42,534 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 14:54:41,321 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 14:54:41,321 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 14:59:00,330 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 14:59:00,332 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:00:43,406 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:00:43,409 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:04:34,513 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:04:34,524 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:05:02,556 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:05:02,559 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:11:34,503 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:11:34,531 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:13:47,488 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:13:47,495 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:22:35,526 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:22:35,532 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:24:21,474 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:24:21,474 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:27:46,488 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:27:46,496 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:29:23,463 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:29:23,472 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:30:53,476 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:30:53,482 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:39:12,521 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:39:12,529 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:40:13,533 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:40:13,539 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:42:41,527 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:42:41,535 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:44:30,875 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:44:30,880 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:46:00,527 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:46:00,532 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:46:24,498 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:46:24,508 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:46:37,491 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:46:37,495 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:51:20,243 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:51:20,244 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:55:46,541 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 15:55:46,542 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:57:55,405 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 15:57:55,406 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 16:15:38,737 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: string
+2024-10-02 16:15:38,907 ERROR EcomWebApp.Controllers.AuthController - Unauthorized login attempt: Invalid username, email, or password.
+2024-10-02 16:18:53,108 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 16:18:53,108 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 17:42:31,655 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 17:42:31,656 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 18:24:55,245 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 18:24:55,245 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 18:28:49,727 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: admin2@quitq.in
+2024-10-02 18:28:50,100 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: admin2@quitq.in
+2024-10-02 18:37:01,159 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: admin2@quitq.in
+2024-10-02 18:37:01,399 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: admin2@quitq.in
+2024-10-02 18:38:54,863 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: admin2@quitq.in
+2024-10-02 18:38:55,109 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: admin2@quitq.in
+2024-10-02 18:38:59,602 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total seller registrations successfully.
+2024-10-02 18:38:59,602 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total user registrations successfully.
+2024-10-02 18:40:44,623 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total user registrations successfully.
+2024-10-02 18:40:44,624 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total seller registrations successfully.
+2024-10-02 19:23:50,994 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total user registrations successfully.
+2024-10-02 19:23:50,999 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total seller registrations successfully.
+2024-10-02 19:24:04,141 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 19:24:04,141 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 20:12:42,796 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 20:12:42,796 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 21:46:03,678 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 21:46:03,678 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 21:47:13,109 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 21:47:13,109 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 21:47:54,813 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 21:47:54,813 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 21:48:40,839 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 21:48:40,840 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 21:49:37,268 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 21:49:37,268 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 22:20:17,710 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 0
+2024-10-02 22:20:20,200 WARN  EcomWebApp.Controllers.CartController - No cart found for User ID: 0
+2024-10-02 22:24:19,644 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 0, Product ID: 0
+2024-10-02 22:24:19,950 ERROR EcomWebApp.Controllers.CartController - Error while adding item to cart for User ID 0: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CartItems_Carts_CartId". The conflict occurred in database "EcomQuitQ", table "dbo.Carts", column 'CartId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:8a4eabbb-bec1-42de-96dc-38ca7a9f0f17
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EcomLib.Repository.CartRepository.CartRepository.Save() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\CartRepository\CartRepository.cs:line 53
+   at EcomLib.Service.CartService.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\CartService.cs:line 73
+   at EcomWebApp.Controllers.CartController.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\CartController.cs:line 57
+2024-10-02 22:25:55,424 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 0
+2024-10-02 22:25:55,512 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 0
+2024-10-02 22:26:27,774 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 0 from cart for User ID: 0
+2024-10-02 22:26:27,788 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 0 for User ID: 0
+2024-10-02 23:28:04,635 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 23:28:04,635 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 23:28:57,982 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 23:28:57,982 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 23:36:52,496 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-02 23:36:53,116 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-02 23:37:38,037 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-02 23:37:38,288 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-02 23:37:38,317 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 23:37:38,318 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 23:42:08,632 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-02 23:42:08,632 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-02 23:43:19,632 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 10
+2024-10-02 23:43:20,051 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 10
+2024-10-02 23:44:19,928 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-02 23:44:19,961 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-02 23:44:28,567 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-02 23:44:28,602 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-02 23:44:29,556 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-02 23:44:29,586 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-02 23:48:13,360 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-02 23:48:13,387 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-02 23:48:30,039 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-02 23:48:30,044 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-02 23:49:36,729 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-02 23:49:36,746 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-02 23:49:53,020 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-02 23:49:53,034 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-02 23:50:09,139 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-02 23:50:09,150 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-02 23:57:26,612 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 19
+2024-10-02 23:57:26,649 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 19
+2024-10-02 23:57:47,906 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-02 23:57:47,918 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-02 23:58:18,535 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-02 23:58:18,547 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4

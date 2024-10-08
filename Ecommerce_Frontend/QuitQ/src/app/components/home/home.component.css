@@ -1,0 +1,247 @@
+/* General body and layout */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Banner Section */
+.banner-section {
+  margin: 0; /* No margin to align with full width */
+  overflow: hidden;
+  width: 100%;
+  height: 300px; /* Standard height for banners */
+  max-width: 100%;
+  position: relative;
+  z-index: 1; /* Ensures banner stays behind the menu */
+}
+
+.banner-slider {
+  display: flex; /* Align banners in a row */
+  width: 100%; /* Full width */
+  height: 100%;
+  transition: transform 1s ease-in-out; /* Smooth transition for sliding */
+}
+
+.banner {
+  min-width: 100%; /* Each banner takes full width */
+  height: 100%; /* Ensure it fills the height */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 1s ease-in-out; /* Fade-in effect */
+}
+
+.banner img {
+  width: 100%;
+  height: 100%; /* Ensure the image fills the banner */
+  object-fit: contain; /* Maintain aspect ratio without cropping */
+}
+
+.banner.active {
+  opacity: 1; /* Only active banner is visible */
+}
+
+
+/* Navigation Buttons */
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  border: none;
+  border-radius: 50%; /* Round buttons */
+  width: 40px; /* Button size */
+  height: 40px; /* Button size */
+  cursor: pointer;
+  z-index: 2; /* Ensure buttons are above banners */
+  transition: background-color 0.3s;
+}
+
+.prev-btn {
+  left: 10px; /* Position on the left */
+}
+
+.next-btn {
+  right: 10px; /* Position on the right */
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: rgba(255, 255, 255, 1); /* Fully opaque on hover */
+}
+
+.prev-btn i, .next-btn i {
+  font-size: 18px; /* Icon size */
+  color: #000; /* Icon color */
+}
+
+/* Category Menu */
+.category-menu {
+  margin: 10px 0;
+  position: relative;
+  z-index: 2; /* Ensures it appears above the banner */
+  background-color: #fffdfd;
+  border: 1px solid #fffefe; /* Add a light border */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
+.parent-category-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.parent-category {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center; /* Center the text within the parent category */
+}
+
+.parent-category-content {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.parent-category-content img {
+  width: 50px; /* Adjusted to make the category images smaller */
+  height: 50px; /* Adjusted to match width for uniformity */
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out; /* Add a hover zoom effect */
+}
+
+.parent-category-content img:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.category-name {
+  margin-top: 5px; /* Add some space between the image and the name */
+  font-size: 14px; /* Adjust font size if necessary */
+}
+
+.sub-category-list {
+  position: absolute;
+  top: 100%; /* Display the sub-category below the parent */
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+  z-index: 2; /* Ensures the sub-menu appears above the banner */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.parent-category:hover .sub-category-list {
+  display: block;
+}
+
+.sub-category {
+  padding: 5px 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.sub-category:hover {
+  background-color: #f0f0f0;
+}
+
+.input-group .form-control:hover {
+  border-color: #007bff; /* Change the border color on hover */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow */
+}
+
+.form-select:hover {
+  border-color: #007bff; /* Change the border color on hover */
+  background-color: #f8f9fa; /* Light background color on hover */
+}
+.input-group .form-control {
+  width: 100%; /* Ensures the input takes full width of the input group */
+}
+
+.brand-filter .form-select {
+  width: 100%; /* Ensures the dropdown takes full width */
+}
+
+
+.form-select:focus, .form-control:focus {
+  border-color: #0056b3; /* Darker border on focus */
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Focus shadow effect */
+}
+
+
+
+/* Product Listing Section */
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensure proper spacing between products */
+  margin: 20px;
+}
+
+.product-card {
+  width: 23%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: box-shadow 0.3s ease-in-out; /* Add shadow hover effect */
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Slight shadow on hover */
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px; /* Adjust for standard image height */
+  object-fit: cover; /* Ensures images do not get stretched */
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.product-card h4 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.product-card button:active {
+  background-color: #004494; /* Even darker when clicked */
+}
+
+/* General Link Styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #007bff;
+}

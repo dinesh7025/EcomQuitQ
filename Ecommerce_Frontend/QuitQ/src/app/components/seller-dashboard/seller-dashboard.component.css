@@ -1,0 +1,77 @@
+/* Ensure body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* The container for your page content */
+  .container {
+    flex: 1 0 auto; /* Makes the container flexible and take available space */
+    padding-top: 40px; /* Keeps the padding for the content */
+  }
+  
+  /* Sticky footer */
+  footer {
+    flex-shrink: 0; /* Prevent footer from shrinking */
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative; /* Ensures footer spans full width */
+  }
+  
+  /* To wrap the content and footer properly */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+  }
+  /* Common card styling */
+  .card {
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Card Hover Effect */
+  .card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+  
+  /* Container padding */
+  .container {
+    padding-top: 40px;
+  }
+  
+  canvas {
+    width: 100% !important; /* Ensures the chart takes the full width of its container */
+    height: 300px !important; /* Set a fixed height for visibility */
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  /* Gradient background for the cards */
+.gradient-card {
+  background: linear-gradient(135deg, #a08105 0%, #ebca10 100%);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+  
+  .canvas-container {
+    margin-top: 30px;
+  }
+  
+  h4 {
+    margin-bottom: 15px;
+  }
+  

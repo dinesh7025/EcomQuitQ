@@ -1,0 +1,51 @@
+<app-admin-header></app-admin-header>
+
+<div class="order-container container mt-4">
+  <h2 class="text-center mb-4">Manage Orders</h2>
+
+  <!-- Filter Options -->
+  <div class="filter-options mb-3 text-center">
+    <button class="btn btn-outline-primary me-2" (click)="sortOrdersByTotalAmount('highToLow')">
+      <i class="bi bi-arrow-down-up"></i> Price (High to Low)
+    </button>
+    <button class="btn btn-outline-primary me-2" (click)="sortOrdersByTotalAmount('lowToHigh')">
+      <i class="bi bi-arrow-up-down"></i> Price (Low to High)
+    </button>
+    <button class="btn btn-outline-primary me-2" (click)="sortOrdersByUserName('az')">
+      <i class="bi bi-sort-alpha-down"></i> User Name (A-Z)
+    </button>
+    <button class="btn btn-outline-primary" (click)="sortOrdersByUserName('za')">
+      <i class="bi bi-sort-alpha-up"></i> User Name (Z-A)
+    </button>
+  </div>
+
+  <!-- Orders Table -->
+  <div class="table-responsive">
+    <table class="table table-striped table-hover">
+      <thead class="table-light">
+        <tr>
+          <th>Order ID</th>
+          <th>User Name</th>
+          <th>Order Date</th>
+          <th>Total Amount</th>
+          <th>Order Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of filteredOrders">
+          <td>{{ order.orderId }}</td>
+          <td>{{ order.userName }}</td>
+          <td>{{ order.orderDate | date:'short' }}</td>
+          <td>{{ order.totalAmount | currency:'INR' }}</td>
+          <td>
+            <span [ngClass]="getStatusColor(order.orderStatus)" class="status-label">
+              {{ getStatusLabel(order.orderStatus) }}
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<app-admin-footer></app-admin-footer>

@@ -1,0 +1,197 @@
+<div class="session">
+  <form [formGroup]="sellerForm" (ngSubmit)="onSubmit()" class="sign-up" autocomplete="off">
+    <h4>Join <span>QuitQ</span></h4>
+    <p>Sign up to create your SELLER account</p>
+
+    <!-- Step 1: User Details -->
+    <div *ngIf="currentStep === 1">
+      <div class="floating-label">
+        <input placeholder="First Name" type="text" id="firstName" formControlName="firstName" autocomplete="off" required>
+        <label for="firstName">First Name:</label>
+        <div *ngIf="sellerForm.get('firstName')?.invalid && (sellerForm.get('firstName')?.touched || sellerForm.get('firstName')?.dirty)">
+          <small *ngIf="sellerForm.get('firstName')?.hasError('required')">First Name is required!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input placeholder="Last Name" type="text" id="lastName" formControlName="lastName" autocomplete="off" required>
+        <label for="lastName">Last Name:</label>
+        <div *ngIf="sellerForm.get('lastName')?.invalid && (sellerForm.get('lastName')?.touched || sellerForm.get('lastName')?.dirty)">
+          <small *ngIf="sellerForm.get('lastName')?.hasError('required')">Last Name is required!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input placeholder="Email" type="email" id="email" formControlName="email" autocomplete="off" required>
+        <label for="email">Email:</label>
+        <div *ngIf="sellerForm.get('email')?.invalid && (sellerForm.get('email')?.touched || sellerForm.get('email')?.dirty)">
+          <small *ngIf="sellerForm.get('email')?.hasError('required')">Email is required!</small>
+          <small *ngIf="sellerForm.get('email')?.hasError('email')">Please enter a valid email!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input placeholder="Username" type="text" id="username" formControlName="username" autocomplete="off" required>
+        <label for="username">Username:</label>
+        <div *ngIf="sellerForm.get('username')?.invalid && (sellerForm.get('username')?.touched || sellerForm.get('username')?.dirty)">
+          <small *ngIf="sellerForm.get('username')?.hasError('required')">Username is required!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input placeholder="Password" type="password" id="password" formControlName="password" autocomplete="off" required>
+        <label for="password">Password:</label>
+        <div *ngIf="sellerForm.get('password')?.invalid && (sellerForm.get('password')?.touched || sellerForm.get('password')?.dirty)">
+          <small *ngIf="sellerForm.get('password')?.hasError('required')">Password is required!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input placeholder="Confirm Password" type="password" id="confirmPassword" formControlName="confirmPassword" autocomplete="off" required>
+        <label for="confirmPassword">Confirm Password:</label>
+        <div *ngIf="sellerForm.get('confirmPassword')?.hasError('mismatch')">
+          <small>Passwords do not match!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <select id="gender" formControlName="gender" required>
+          <option value="" disabled selected>Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <div *ngIf="sellerForm.get('gender')?.invalid && (sellerForm.get('gender')?.touched || sellerForm.get('gender')?.dirty)">
+          <small *ngIf="sellerForm.get('gender')?.hasError('required')">Gender selection is required!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input type="date" id="dob" formControlName="dob" required>
+        <label for="dob">Date of Birth:</label>
+        <div *ngIf="sellerForm.get('dob')?.invalid && (sellerForm.get('dob')?.touched || sellerForm.get('dob')?.dirty)">
+          <small *ngIf="sellerForm.get('dob')?.hasError('required')">Date of Birth is required!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input placeholder="Phone Number" type="text" id="phonenumber" formControlName="phonenumber" required>
+        <label for="phonenumber">Phone Number:</label>
+        <div *ngIf="sellerForm.get('phonenumber')?.invalid && (sellerForm.get('phonenumber')?.touched || sellerForm.get('phonenumber')?.dirty)">
+          <small *ngIf="sellerForm.get('phonenumber')?.hasError('required')">Phone Number is required!</small>
+        </div>
+      </div>
+      <button type="button" (click)="nextStep()" >Next</button>
+    </div>
+
+    <!-- Step 2: Address Details -->
+    <div *ngIf="currentStep === 2">
+      <h5>Address Details</h5>
+      <div class="floating-label">
+        <input placeholder="Line 1" type="text" id="addressLine1" formControlName="addressLine1" autocomplete="off">
+        <label for="addressLine1">Address Line 1:</label>
+        <div *ngIf="sellerForm.get('addressLine1')?.invalid && (sellerForm.get('addressLine1')?.touched || sellerForm.get('addressLine1')?.dirty)">
+          <small *ngIf="sellerForm.get('addressLine1')?.hasError('required')">Address Line 1 is required!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input placeholder="Line 2" type="text" id="addressLine2" formControlName="addressLine2" autocomplete="off">
+        <label for="addressLine2">Address Line 2:</label>
+      </div>
+      <div class="floating-label">
+        <input placeholder="City" type="text" id="city" formControlName="city" autocomplete="off">
+        <label for="city">City:</label>
+        <div *ngIf="sellerForm.get('city')?.invalid && (sellerForm.get('city')?.touched || sellerForm.get('city')?.dirty)">
+          <small *ngIf="sellerForm.get('city')?.hasError('required')">City is required!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input placeholder="State" type="text" id="state" formControlName="state" autocomplete="off">
+        <label for="state">State:</label>
+      </div>
+      <div class="floating-label">
+        <input placeholder="Pin Code" type="text" id="postalCode" formControlName="postalCode" autocomplete="off">
+        <label for="postalCode">Pin Code:</label>
+        <div *ngIf="sellerForm.get('postalCode')?.invalid && (sellerForm.get('postalCode')?.touched || sellerForm.get('postalCode')?.dirty)">
+          <small *ngIf="sellerForm.get('postalCode')?.hasError('required')">Pin Code is required!</small>
+        </div>
+      </div>
+      <div class="floating-label">
+        <input placeholder="Country" type="text" id="country" formControlName="country" autocomplete="off">
+        <label for="country">Country:</label>
+      </div>
+      <button type="button" (click)="previousStep()">Previous</button>
+      <button type="button" (click)="nextStep()" 
+      [disabled]="!sellerForm.get('addressLine1')?.valid || 
+                  !sellerForm.get('city')?.valid || 
+                  !sellerForm.get('postalCode')?.valid">
+      Next
+      </button>
+    </div>
+
+    <!-- Step 3: Seller Details -->
+<div *ngIf="currentStep === 3">
+  <h5>Seller Details</h5>
+  <form [formGroup]="sellerForm" (ngSubmit)="nextStep()" novalidate>
+    <div class="floating-label">
+      <input
+        placeholder="Company Name"
+        type="text"
+        id="companyName"
+        formControlName="companyName"
+        autocomplete="off"
+      />
+      <label for="companyName">Company Name:</label>
+      <div *ngIf="sellerForm.get('companyName')?.invalid && (sellerForm.get('companyName')?.touched || sellerForm.get('companyName')?.dirty)">
+        <small *ngIf="sellerForm.get('companyName')?.hasError('required')">Company Name is required!</small>
+      </div>
+    </div>
+    <div class="floating-label">
+      <input
+        placeholder="Company Registration Number"
+        type="text"
+        id="companyRegistrationNumber"
+        formControlName="companyRegistrationNumber"
+        autocomplete="off"
+      />
+      <label for="companyRegistrationNumber">Company Registration Number:</label>
+      <div *ngIf="sellerForm.get('companyRegistrationNumber')?.invalid && (sellerForm.get('companyRegistrationNumber')?.touched || sellerForm.get('companyRegistrationNumber')?.dirty)">
+        <small *ngIf="sellerForm.get('companyRegistrationNumber')?.hasError('required')">Company Registration Number is required!</small>
+      </div>
+    </div>
+    <div class="floating-label">
+      <input
+        placeholder="GST Number"
+        type="text"
+        id="gstNumber"
+        formControlName="gstNumber"
+        autocomplete="off"
+      />
+      <label for="gstNumber">GST Number:</label>
+      <div *ngIf="sellerForm.get('gstNumber')?.invalid && (sellerForm.get('gstNumber')?.touched || sellerForm.get('gstNumber')?.dirty)">
+        <small *ngIf="sellerForm.get('gstNumber')?.hasError('required')">GST Number is required!</small>
+      </div>
+    </div>
+    <div class="floating-label">
+      <input
+        placeholder="Business Type"
+        type="text"
+        id="businessType"
+        formControlName="businessType"
+        autocomplete="off"
+      />
+      <label for="businessType">Business Type:</label>
+      <div *ngIf="sellerForm.get('businessType')?.invalid && (sellerForm.get('businessType')?.touched || sellerForm.get('businessType')?.dirty)">
+        <small *ngIf="sellerForm.get('businessType')?.hasError('required')">Business Type is required!</small>
+      </div>
+    </div>
+    <button type="button" (click)="previousStep()">Previous</button>
+    <button type="button" (click)="nextStep()" [disabled]="sellerForm.invalid">Next</button>
+  </form>
+</div>
+
+<!-- Step 4: Final Review and Submit -->
+<div *ngIf="currentStep === 4">
+  <h5>Review your details and submit</h5>
+  <p>Please check your entered details before submitting.</p>
+  <button type="button" (click)="previousStep()">Previous</button>
+  <button type="submit" [disabled]="sellerForm.invalid">Submit</button>
+</div>
+
+<p class="discrete">Already have an account? <a href="/login">Log In</a></p>
+
+
+  </form>
+</div>

@@ -1,0 +1,39 @@
+<app-seller-header></app-seller-header>
+
+<div class="container my-4">
+  <!-- Top Stats -->
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card gradient-card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Top Selling Product</h5>
+          <p class="card-text">{{ topSellingProduct?.productName || 'Loading...' }}</p>
+          <p>Quantity Sold: {{ topSellingProduct?.totalQuantitySold }}</p>
+          <p>Total Sales: ₹ {{ topSellingProduct?.totalSalesAmount | number:'1.0-2' }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card gradient-card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Total Revenue</h5>
+          <p class="card-text">₹ {{ sellerRevenue | number:'1.0-2' }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts -->
+  <div class="row my-4">
+    <div class="col-md-6">
+      <h4>Sales by Product</h4>
+      <canvas id="salesByProductChart"></canvas>
+    </div>
+    <div class="col-md-6">
+      <h4>Sales by Month</h4>
+      <canvas id="salesByMonthChart"></canvas>
+    </div>
+  </div>
+</div>
+
+<app-admin-footer></app-admin-footer>

@@ -1,0 +1,35 @@
+<app-header></app-header>
+<div class="container mt-4">
+    <h2>Order History</h2>
+    <div class="total-spending mb-4 p-3 rounded shadow-sm" style="background-color: #f8f9fa;">
+        <h4 class="text-dark">Total Spending: {{ totalAmount | currency: 'INR' }}</h4>
+    </div>
+
+    <div *ngIf="orderItems.length === 0" class="text-center">
+        <p class="text-danger">No orders placed yet!</p>
+    </div>
+
+    <div class="row">
+        <div *ngFor="let order of orderItems" [@bounceIn] class="col-md-4 col-lg-3 mb-4">
+            <div class="order-item card h-100 shadow-sm hover-card">
+                <div class="row no-gutters">
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <img [src]="order.imageUrl" class="card-img rounded-circle" alt="{{ order.productName }}" />
+                    </div>
+                    <div class="col-12">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">{{ order.productName }}</h5>
+                            <p class="card-text price-text"><strong>Price:</strong> {{ order.unitPrice | currency: 'INR' }}</p>
+                            <p class="card-text"><strong>Quantity:</strong> {{ order.quantity }}</p>
+                            <p class="card-text total-text"><strong>Total:</strong> {{ order.totalPrice | currency: 'INR' }}</p>
+                            <span class="badge status-label" [ngClass]="getStatusClass(order.itemStatus)">
+                                {{ order.itemStatus }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

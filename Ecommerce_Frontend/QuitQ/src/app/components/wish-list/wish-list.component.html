@@ -1,0 +1,43 @@
+<div class="page-container">
+  <app-header></app-header>
+
+  <div class="content-container">
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Your Wishlist</h2>
+      <!-- Display this message when the wishlist is empty -->
+      <div *ngIf="wishlist.length === 0" class="empty-wishlist-message text-center">
+        <p class="text-danger">No products in your wishlist!</p>
+        <p class="text-success">
+          Go add some products 
+          <a [routerLink]="['']" class="go-home-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
+      <div *ngIf="wishlist.length > 0">
+        <div class="row">
+          <div class="col-md-4" *ngFor="let item of wishlist">
+            <div class="card mb-4 shadow-sm wishlist-card" (click)="navigateToProductDetails(item.productId)">
+              <img [src]="item.imageUrl" class="card-img-top" alt="{{ item.productName }}" />
+              <div class="card-body">
+                <h5 class="card-title">{{ item.productName }}</h5>
+                <p class="card-text">Price: {{ item.price | currency: 'INR' }}</p>
+                <p class="card-text">Added On: {{ item.wishlistAddedDate | date }}</p>
+                <div class="button-group">
+                  <button class="btn btn-danger" (click)="removeFromWishlist(item.productId); $event.stopPropagation();">
+                    <i class="fa fa-trash" aria-hidden="true"></i> Remove
+                  </button>
+                  <button class="btn btn-success" (click)="addToCart(item); $event.stopPropagation();">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</div>

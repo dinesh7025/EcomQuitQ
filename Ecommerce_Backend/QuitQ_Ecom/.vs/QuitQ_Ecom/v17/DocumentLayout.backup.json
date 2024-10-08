@@ -1,0 +1,1845 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\salesanalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\salesanalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\wishlistrepository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\wishlistrepository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\discountmanagemnt\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\discountmanagemnt\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\discountrepository\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\discountrepository\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\cartrepository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\cartrepository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\userrepository\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\userrepository\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\loginrepository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\loginrepository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\productdtos\\productwithinventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\productdtos\\productwithinventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\orderdtos\\placedorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\orderdtos\\placedorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\useranalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\useranalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\productreviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\productreviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\jwt\\tokengeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\jwt\\tokengeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\orderdtos\\getorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\orderdtos\\getorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\orderrepository\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\orderrepository\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\orderrepository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\orderrepository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\orderrepository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\orderrepository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\usermanagement\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\usermanagement\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\usermanagement\\sellerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\usermanagement\\sellerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\usermanagement\\personaldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\usermanagement\\personaldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\usermanagement\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\usermanagement\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\productdtos\\productdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\productdtos\\productdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\productreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\productreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\reviewrepository\\productreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\reviewrepository\\productreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\wishlistrepository\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\wishlistrepository\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\productmanagment\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\productmanagment\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\analyticsrepository\\selleranalysis\\iselleranalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\analyticsrepository\\selleranalysis\\iselleranalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\analyticsdtos\\selleranaliticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\analyticsdtos\\selleranaliticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\analyticsdtos\\salesanalyticsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\analyticsdtos\\salesanalyticsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\sellerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\sellerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\productdtos\\sellerproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\productdtos\\sellerproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\productdtos\\productwithsellerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\productdtos\\productwithsellerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\sellerdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\sellerdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\orderrepository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\orderrepository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\ordermanagement\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\ordermanagement\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\ordermanagement\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\ordermanagement\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\migrations\\20241001042306_changeorderrelated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\migrations\\20241001042306_changeorderrelated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\paymentrepository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\paymentrepository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\exceptionhandling\\customexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\exceptionhandling\\customexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\discountdtos\\discountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\discountdtos\\discountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\discountmanagemnt\\productdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\discountmanagemnt\\productdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\getaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\getaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\cartdtos\\cartdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\cartdtos\\cartdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\cartmanagement\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\cartmanagement\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\cartrepository\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\cartrepository\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\cartmanagement\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\cartmanagement\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\useranalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\useranalyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\categorydtos\\categorydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\categorydtos\\categorydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\ecomwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\ecomwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\productdiscountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\productdiscountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\analyticsdtos\\useranalyticsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\analyticsdtos\\useranalyticsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\analyticsrepository\\salesanalytics\\isalesanalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\analyticsrepository\\salesanalytics\\isalesanalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\lastregistereddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\lastregistereddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\productdiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\productdiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\reviewrepository\\iproductreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\reviewrepository\\iproductreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\inventoryrepository\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\inventoryrepository\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\productmanagment\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\productmanagment\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\paymentrepository\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\paymentrepository\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\discountrepository\\idiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\discountrepository\\idiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\discountrepository\\productdiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\discountrepository\\productdiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\discountrepository\\iproductdiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\discountrepository\\iproductdiscountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\discountdtos\\productdiscountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\discountdtos\\productdiscountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\productdtos\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\productdtos\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\productdtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\productdtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\productmanagment\\parentcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\productmanagment\\parentcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\inventoryrepository\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\inventoryrepository\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\productmanagment\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\productmanagment\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\personaldetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\personaldetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\loginrepository\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\loginrepository\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\registersellerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\registersellerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\migrations\\20241005043811_addedwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\migrations\\20241005043811_addedwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\migrations\\20241005052619_chechwishlistadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\migrations\\20241005052619_chechwishlistadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Discount.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\DiscountManagemnt\\Discount.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\DiscountManagemnt\\Discount.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\DiscountManagemnt\\Discount.cs",
+              "RelativeToolTip": "EcomLib\\Models\\DiscountManagemnt\\Discount.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:17:35.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WishlistRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAIBJwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:05:09.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesAnalyticsController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:26:04.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\InventoryController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T06:18:43.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwFkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:28:18.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class1.cs",
+              "RelativeDocumentMoniker": "EcomTests\\Class1.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class1.cs",
+              "RelativeToolTip": "EcomTests\\Class1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwFAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:18:47.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\ProductService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\ProductService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAA9wJQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:31:26.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAnwIoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:08:54.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository .cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\UserRepository .cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\UserRepository\\UserRepository .cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\UserRepository .cs",
+              "RelativeToolTip": "EcomLib\\Repository\\UserRepository\\UserRepository .cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwC0AAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:23:19.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DiscountRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:42:30.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class2.cs",
+              "RelativeDocumentMoniker": "EcomTests\\Class2.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class2.cs",
+              "RelativeToolTip": "EcomTests\\Class2.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAA0wH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:21:11.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class3.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class3.cs",
+              "RelativeDocumentMoniker": "EcomTests\\Class3.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class3.cs",
+              "RelativeToolTip": "EcomTests\\Class3.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:23:58.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class4.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class4.cs",
+              "RelativeDocumentMoniker": "EcomTests\\Class4.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class4.cs",
+              "RelativeToolTip": "EcomTests\\Class4.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:40:29.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class5.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class5.cs",
+              "RelativeDocumentMoniker": "EcomTests\\Class5.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class5.cs",
+              "RelativeToolTip": "EcomTests\\Class5.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwF0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:41:50.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\LoginRepository\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\LoginRepository\\LoginRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\LoginRepository\\LoginRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\LoginRepository\\LoginRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:38:17.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\AuthService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\AuthService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\AuthService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAnwBwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:31:58.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:07:16.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductReviewController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\ProductReviewController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\ProductReviewController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\ProductReviewController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\ProductReviewController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBoAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:31:49.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CartRepository\\CartRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\CartRepository\\CartRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CartRepository\\CartRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\CartRepository\\CartRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwDYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:19:36.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductWithInventoryDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductWithInventoryDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\ProductWithInventoryDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductWithInventoryDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\ProductDtos\\ProductWithInventoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:44:28.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:21:49.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PlacedOrderDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\OrderDtos\\PlacedOrderDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\OrderDtos\\PlacedOrderDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\OrderDtos\\PlacedOrderDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\OrderDtos\\PlacedOrderDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:55:30.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetUserDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\GetUserDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\GetUserDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\GetUserDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\GetUserDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T11:37:33.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\UserService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\UserService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\UserService.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAADwv6UAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T04:25:33.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\OrderDtos\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\OrderDtos\\OrderDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\OrderDtos\\OrderDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\OrderDtos\\OrderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:37:05.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\WishlistController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\WishlistController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwEgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:15:19.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwIQAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:44:26.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserAnalyticsController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\UserAnalyticsController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\UserAnalyticsController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\UserAnalyticsController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\UserAnalyticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T19:01:59.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\DiscountController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\DiscountController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T14:12:30.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\CartController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T10:52:36.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T11:54:27.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IOrderItemRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\IOrderItemRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\OrderRepository\\IOrderItemRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\IOrderItemRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\OrderRepository\\IOrderItemRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwBMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:57:38.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\OrderService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\OrderService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\OrderService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwD4AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:05:36.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\OrderRepository\\OrderRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\OrderRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\OrderRepository\\OrderRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIA8wBUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:42:27.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TokenGeneration.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\JWT\\TokenGeneration.cs",
+              "RelativeDocumentMoniker": "EcomLib\\JWT\\TokenGeneration.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\JWT\\TokenGeneration.cs",
+              "RelativeToolTip": "EcomLib\\JWT\\TokenGeneration.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAEwBQAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:57:46.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetOrderDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\OrderDtos\\GetOrderDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\OrderDtos\\GetOrderDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\OrderDtos\\GetOrderDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\OrderDtos\\GetOrderDTO.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T15:15:59.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\OrderRepository\\OrderItemRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\OrderItemRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\OrderRepository\\OrderItemRepository.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwE4AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T06:59:25.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SellerDetails.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\SellerDetails.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\UserManagement\\SellerDetails.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\SellerDetails.cs",
+              "RelativeToolTip": "EcomLib\\Models\\UserManagement\\SellerDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:12:00.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PersonalDetails.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\PersonalDetails.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\UserManagement\\PersonalDetails.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\PersonalDetails.cs",
+              "RelativeToolTip": "EcomLib\\Models\\UserManagement\\PersonalDetails.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:11:57.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Address.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\Address.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\UserManagement\\Address.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\Address.cs",
+              "RelativeToolTip": "EcomLib\\Models\\UserManagement\\Address.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:11:51.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IWishlistRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\WishListRepository\\IWishlistRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\WishListRepository\\IWishlistRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\WishListRepository\\IWishlistRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\WishListRepository\\IWishlistRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:06:53.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProductDetailsDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductDetailsDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\ProductDetailsDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductDetailsDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\ProductDtos\\ProductDetailsDTO.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAxwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T04:26:02.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserProfileDto.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\UserProfileDto.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\UserProfileDto.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\UserProfileDto.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\UserProfileDto.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA7wBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T05:00:31.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwCgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:04:04.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Wishlist.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\Wishlist.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\Wishlist.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\Wishlist.cs",
+              "RelativeToolTip": "EcomLib\\Models\\Wishlist.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T04:30:45.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WishlistService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\WishlistService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\WishlistService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\WishlistService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\WishlistService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:09:39.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\User.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\UserManagement\\User.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\User.cs",
+              "RelativeToolTip": "EcomLib\\Models\\UserManagement\\User.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:12:06.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ProductReviewService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductReviewService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\ProductReviewService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductReviewService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\ProductReviewService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwBQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:29:51.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ReviewDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ReviewDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\ReviewDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ReviewDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\ReviewDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:20:44.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProductReviewRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ReviewRepository\\ProductReviewRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\ReviewRepository\\ProductReviewRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ReviewRepository\\ProductReviewRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\ReviewRepository\\ProductReviewRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAewCUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:21:44.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ProductRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\ProductRepository\\IProductRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ProductRepository\\IProductRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\ProductRepository\\IProductRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T05:44:44.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ProductReview.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductReview.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\ProductReview.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductReview.cs",
+              "RelativeToolTip": "EcomLib\\Models\\ProductReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:30:23.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "20241005043811_AddedWishList.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241005043811_AddedWishList.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Migrations\\20241005043811_AddedWishList.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241005043811_AddedWishList.cs",
+              "RelativeToolTip": "EcomLib\\Migrations\\20241005043811_AddedWishList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T04:38:11.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "20241005052619_ChechWishListAdd.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241005052619_ChechWishListAdd.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Migrations\\20241005052619_ChechWishListAdd.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241005052619_ChechWishListAdd.cs",
+              "RelativeToolTip": "EcomLib\\Migrations\\20241005052619_ChechWishListAdd.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:26:19.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EcomLib\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAywCoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T03:56:15.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "SellerDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\SellerDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\SellerDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\SellerDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\SellerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T01:25:43.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\Product.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\ProductManagment\\Product.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\Product.cs",
+              "RelativeToolTip": "EcomLib\\Models\\ProductManagment\\Product.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwCQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:08:32.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ISellerAnalysis.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\AnalyticsRepository\\SellerAnalysis\\ISellerAnalysis.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\AnalyticsRepository\\SellerAnalysis\\ISellerAnalysis.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\AnalyticsRepository\\SellerAnalysis\\ISellerAnalysis.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\AnalyticsRepository\\SellerAnalysis\\ISellerAnalysis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T11:18:34.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "SalesanalyticsDtos.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\AnalyticsDtos\\SalesanalyticsDtos.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\AnalyticsDtos\\SalesanalyticsDtos.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\AnalyticsDtos\\SalesanalyticsDtos.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\AnalyticsDtos\\SalesanalyticsDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T17:26:45.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SellerAnaliticsDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\AnalyticsDtos\\SellerAnaliticsDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\AnalyticsDtos\\SellerAnaliticsDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\AnalyticsDtos\\SellerAnaliticsDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\AnalyticsDtos\\SellerAnaliticsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T11:16:15.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "SellerProductDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\SellerProductDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\SellerProductDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\SellerProductDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\ProductDtos\\SellerProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T01:16:40.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ProductWithSellerDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductWithSellerDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\ProductWithSellerDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductWithSellerDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\ProductDtos\\ProductWithSellerDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T05:39:57.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "SellerDetailsDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\SellerDetailsDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\SellerDetailsDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\SellerDetailsDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\SellerDetailsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:28:27.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\OrderRepository\\IOrderRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\IOrderRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\OrderRepository\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:42:07.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\OrderManagement\\OrderItem.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\OrderManagement\\OrderItem.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\OrderManagement\\OrderItem.cs",
+              "RelativeToolTip": "EcomLib\\Models\\OrderManagement\\OrderItem.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:16:42.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\OrderManagement\\Order.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\OrderManagement\\Order.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\OrderManagement\\Order.cs",
+              "RelativeToolTip": "EcomLib\\Models\\OrderManagement\\Order.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:15:58.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CustomExceptions.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Exceptionhandling\\CustomExceptions.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Exceptionhandling\\CustomExceptions.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Exceptionhandling\\CustomExceptions.cs",
+              "RelativeToolTip": "EcomLib\\Exceptionhandling\\CustomExceptions.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAUwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:37:00.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "20241001042306_ChangeOrderRelated.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241001042306_ChangeOrderRelated.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Migrations\\20241001042306_ChangeOrderRelated.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241001042306_ChangeOrderRelated.cs",
+              "RelativeToolTip": "EcomLib\\Migrations\\20241001042306_ChangeOrderRelated.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T04:23:06.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\CartService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\CartService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\CartService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\CartService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwEoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T10:46:07.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\Payment.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\Payment.cs",
+              "RelativeToolTip": "EcomLib\\Models\\Payment.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAD4vx4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:21:26.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\PaymentRepository\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\PaymentRepository\\PaymentRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\PaymentRepository\\PaymentRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\PaymentRepository\\PaymentRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAnwBMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:45:33.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\DiscountService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\DiscountService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\DiscountService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\DiscountService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswFEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:43:42.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ProductDiscount.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\DiscountManagemnt\\ProductDiscount.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\DiscountManagemnt\\ProductDiscount.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\DiscountManagemnt\\ProductDiscount.cs",
+              "RelativeToolTip": "EcomLib\\Models\\DiscountManagemnt\\ProductDiscount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:17:43.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "DiscountDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\DiscountDtos\\DiscountDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\DiscountDtos\\DiscountDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\DiscountDtos\\DiscountDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\DiscountDtos\\DiscountDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:40:07.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "AddressDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:28:06.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\CartManagement\\CartItem.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\CartManagement\\CartItem.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\CartManagement\\CartItem.cs",
+              "RelativeToolTip": "EcomLib\\Models\\CartManagement\\CartItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBZwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:15:20.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "GetAddressDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\GetAddressDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\GetAddressDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\GetAddressDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\GetAddressDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T03:50:01.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CategoryRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\CategoryRepository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CategoryRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\CategoryRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:22:37.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CartRepository\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\CartRepository\\ICartRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CartRepository\\ICartRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\CartRepository\\ICartRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:19:03.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\UserDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\UserDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\UserDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:28:09.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "CartDtos.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\CartDtos\\CartDtos.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\CartDtos\\CartDtos.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\CartDtos\\CartDtos.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\CartDtos\\CartDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:23:54.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\CartManagement\\Cart.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\CartManagement\\Cart.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\CartManagement\\Cart.cs",
+              "RelativeToolTip": "EcomLib\\Models\\CartManagement\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:13:29.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\appsettings.json",
+              "RelativeDocumentMoniker": "EcomLib\\appsettings.json",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\appsettings.json",
+              "RelativeToolTip": "EcomLib\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T05:18:17.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "UserAnalyticsService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\UserAnalyticsService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\UserAnalyticsService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\UserAnalyticsService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\UserAnalyticsService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAASwCQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:59:53.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "CategoryDtos.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\CategoryDtos\\CategoryDtos.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\CategoryDtos\\CategoryDtos.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\CategoryDtos\\CategoryDtos.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\CategoryDtos\\CategoryDtos.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:25:31.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\CategoryRepository\\CategoryRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\CategoryRepository\\CategoryRepository.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAwGYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:31:29.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "EcomWebApp.csproj",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\EcomWebApp.csproj",
+              "RelativeDocumentMoniker": "EcomWebApp\\EcomWebApp.csproj",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\EcomWebApp.csproj",
+              "RelativeToolTip": "EcomWebApp\\EcomWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T12:59:05.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\CategoryService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\CategoryService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\CategoryService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwB4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:38:47.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ISalesAnalyticsRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\AnalyticsRepository\\SalesAnalytics\\ISalesAnalyticsRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\AnalyticsRepository\\SalesAnalytics\\ISalesAnalyticsRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\AnalyticsRepository\\SalesAnalytics\\ISalesAnalyticsRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\AnalyticsRepository\\SalesAnalytics\\ISalesAnalyticsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T17:26:07.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "ProductDiscountController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\ProductDiscountController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\ProductDiscountController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\ProductDiscountController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\ProductDiscountController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAgwHMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:44:58.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "UserAnalyticsDtos.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\AnalyticsDtos\\UserAnalyticsDtos.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\AnalyticsDtos\\UserAnalyticsDtos.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\AnalyticsDtos\\UserAnalyticsDtos.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\AnalyticsDtos\\UserAnalyticsDtos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:47:51.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "LastRegisteredDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\LastRegisteredDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\LastRegisteredDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\LastRegisteredDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\LastRegisteredDTO.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwBIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T11:36:48.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "log4net.config",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\log4net.config",
+              "RelativeDocumentMoniker": "EcomWebApp\\log4net.config",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\log4net.config",
+              "RelativeToolTip": "EcomWebApp\\log4net.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-20T14:52:25.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\AuditLog.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\AuditLog.cs",
+              "RelativeToolTip": "EcomLib\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:20:38.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\Inventory.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\Inventory.cs",
+              "RelativeToolTip": "EcomLib\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:21:09.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "InventoryRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\Inventoryrepository\\InventoryRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\Inventoryrepository\\InventoryRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\Inventoryrepository\\InventoryRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\Inventoryrepository\\InventoryRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:59:48.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "IProductReviewRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ReviewRepository\\IProductReviewRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\ReviewRepository\\IProductReviewRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ReviewRepository\\IProductReviewRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\ReviewRepository\\IProductReviewRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T17:20:12.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ProductDiscountService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductDiscountService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\ProductDiscountService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductDiscountService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\ProductDiscountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:53:47.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\Brand.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\ProductManagment\\Brand.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\Brand.cs",
+              "RelativeToolTip": "EcomLib\\Models\\ProductManagment\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:08:10.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\PaymentRepository\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\PaymentRepository\\IPaymentRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\PaymentRepository\\IPaymentRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\PaymentRepository\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:45:16.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "IDiscountRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\IDiscountRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\DiscountRepository\\IDiscountRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\IDiscountRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\DiscountRepository\\IDiscountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:42:00.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "ProductDiscountRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\ProductDiscountRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\DiscountRepository\\ProductDiscountRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\ProductDiscountRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\DiscountRepository\\ProductDiscountRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:52:43.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "IProductDiscountRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\IProductDiscountRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\DiscountRepository\\IProductDiscountRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\IProductDiscountRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\DiscountRepository\\IProductDiscountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:51:46.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "ProductDiscountDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\DiscountDtos\\ProductDiscountDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\DiscountDtos\\ProductDiscountDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\DiscountDtos\\ProductDiscountDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\DiscountDtos\\ProductDiscountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:40:24.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "InventoryDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\InventoryDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\InventoryDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\InventoryDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\ProductDtos\\InventoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:18:45.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\InventoryService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\InventoryService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\InventoryService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\InventoryService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T06:17:52.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\ProductDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\ProductDtos\\ProductDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:40:42.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "ParentCategory.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\ParentCategory.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\ProductManagment\\ParentCategory.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\ParentCategory.cs",
+              "RelativeToolTip": "EcomLib\\Models\\ProductManagment\\ParentCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:10:17.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "IInventoryRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\Inventoryrepository\\IInventoryRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\Inventoryrepository\\IInventoryRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\Inventoryrepository\\IInventoryRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\Inventoryrepository\\IInventoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:59:26.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "PersonalDetailsDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\PersonalDetailsDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\PersonalDetailsDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\PersonalDetailsDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\PersonalDetailsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:28:08.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "EcomLib\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:51:08.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "SubCategory.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\SubCategory.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Models\\ProductManagment\\SubCategory.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\SubCategory.cs",
+              "RelativeToolTip": "EcomLib\\Models\\ProductManagment\\SubCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:10:46.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\LoginRepository\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\LoginRepository\\ILoginRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\LoginRepository\\ILoginRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\LoginRepository\\ILoginRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:37:59.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "RegisterSellerDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\RegisterSellerDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\RegisterSellerDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\RegisterSellerDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\RegisterSellerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:28:00.484Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

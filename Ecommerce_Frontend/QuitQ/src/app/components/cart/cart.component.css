@@ -1,0 +1,153 @@
+.cart-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cart-header h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cart-icon {
+  position: relative; /* Make the cart icon a reference point for the badge */
+  display: inline-block;
+}
+
+.cart-icon i {
+  font-size: 2.5rem; /* Size the shopping cart icon */
+  color: #000000; /* Optional: Add a color to the shopping cart icon */
+}
+
+.cart-count {
+  position: absolute; /* Absolutely position the badge on the top-right corner */
+  top: -10px;
+  right: -10px;
+  font-size: 0.8rem; /* Adjust font size for better visibility */
+  padding: 5px 8px; /* Adjust padding for better fit */
+  background-color: red; /* You can change the badge color */
+  color: white;
+  border-radius: 50%; /* Make the badge circular */
+  font-weight: bold;
+}
+
+.cart-item {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cart-item .item-details h5 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.cart-item .item-details .item-price {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #888;
+}
+
+.cart-summary {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.discount-section,
+.address-section,
+.payment-method-section {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.discount-applied {
+  border: 2px solid #28a745; /* Green border */
+  background-color: #e6f9e6; /* Light green background */
+  color: #155724; /* Dark green text */
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+button.btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+button i {
+  margin-right: 5px;
+}
+
+.empty-cart {
+  font-size: 1.2rem;
+}
+
+.empty-cart a {
+  color: #007bff;
+  text-decoration: none;
+}
+.cart-buttons {
+  display: flex;
+  justify-content: space-between; /* Align the buttons evenly */
+  gap: 10px; /* Space between the buttons */
+}
+
+.cart-buttons button {
+  flex: 1; /* Make both buttons the same width */
+  padding: 10px 20px; /* Ensure uniform padding for both buttons */
+  font-size: 1.1rem; /* Ensure text size is equal for both */
+}
+
+.btn-success, .btn-warning {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Full width for uniformity */
+}
+
+.btn i {
+  margin-right: 8px; /* Add margin to the icons to separate them from the text */
+}
+
+  
+  /* Ensure footer is at the bottom only when the cart is empty */
+  :host ::ng-deep body {
+    margin-bottom: 80px; /* Ensure space for the footer when empty */
+  }
+  /* Empty cart message link */
+  .go-home-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .go-home-link:hover {
+    color: #0056b3;
+  }

@@ -1,0 +1,18 @@
+#initialize the SonarQube
+#Install the sonarScanner
+
+dotnet tool install --global dotnet-sonarscanner
+
+
+#Go to SonarQube directory of windows
+StartSonar.bat
+
+#initialize theSonar Scanner 
+dotnet-sonarscanner begin /k:"EcomQuitQ" /d:sonar.host.url="http://localhost:9000" /d:sonar.login="sqp_b1c3cf59164da1e4f5ad18b3f08c90528ebbba43"
+
+#build the solution
+dotnet build
+
+#Complete SonarQube Analysis
+dotnet-sonarscanner end /d:sonar.login="sqp_b1c3cf59164da1e4f5ad18b3f08c90528ebbba43"
+

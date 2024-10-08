@@ -1,0 +1,35 @@
+<div class="header navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" alt="QuitQ Logo" width="40" height="40" class="logo-img me-2">
+        <h1 class="h4 m-0">QuitQ</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/admin"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/manage-products"><i class="fas fa-box"></i> Manage Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/manage-categories"><i class="fas fa-tags"></i> Manage Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/manage-users"><i class="fas fa-users"></i> Manage Users</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/manage-orders"><i class="fas fa-shopping-cart"></i> Manage Orders</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+            <button (click)="goToUserProfile()" class="btn btn-outline-light me-2">Account</button>
+            <button (click)="logout()" class="btn btn-danger">Logout</button>
+        </div>          
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);">
+    <div class="container-fluid">
+      <!-- Logo and Website Name -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" alt="QuitQ Logo" width="40" height="40" class="logo-img me-2">
+        <h1 class="h4 m-0">QuitQ</h1>
+      </a>
+      
+      <!-- Toggle Button for Mobile View -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Left-Aligned Menu Items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/seller-dashboard">
+              <i class="fas fa-tachometer-alt me-1"></i> Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/manage-product-seller">
+              <i class="fas fa-box-open me-1"></i> Manage Products
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/manage-order-seller">
+              <i class="fas fa-shopping-cart me-1"></i> Manage Orders
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/user-profile">
+              <i class="fas fa-user me-1"></i> Account Profile
+            </a>
+          </li>
+        </ul>
+        
+        <!-- Account and Logout Button on the Right -->
+        <div class="d-flex">
+          <button (click)="logout()" class="btn btn-outline-light">Logout <i class="fas fa-sign-out-alt ms-1"></i></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  

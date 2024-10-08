@@ -1,0 +1,16 @@
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\bin\Debug\net8.0\appsettings.Development.json
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\bin\Debug\net8.0\appsettings.json
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\bin\Debug\net8.0\EcomLib.deps.json
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\bin\Debug\net8.0\EcomLib.runtimeconfig.json
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\bin\Debug\net8.0\EcomLib.dll
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\bin\Debug\net8.0\EcomLib.pdb
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.csproj.AssemblyReference.cache
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.AssemblyInfoInputs.cache
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.AssemblyInfo.cs
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.csproj.CoreCompileInputs.cache
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.dll
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\refint\EcomLib.dll
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.pdb
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.genruntimeconfig.cache
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\ref\EcomLib.dll

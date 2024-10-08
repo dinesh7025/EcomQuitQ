@@ -1,0 +1,40 @@
+.total-spending {
+    position: relative; /* Positioning for the total spending container */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+    z-index: 10; /* Ensure it's above other elements */
+}
+
+.order-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transition for hover effects */
+    border-radius: 10px; /* Rounded corners for the card */
+    height: 300px; /* Fixed height for cards */
+}
+
+/* Hover effect for cards */
+.order-item:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+}
+
+.card-img {
+    width: 80px; /* Fixed size for images */
+    height: 80px; /* Fixed size for images */
+    object-fit: cover; /* Ensures the image covers the entire circle */
+    margin: 10px auto; /* Center the image */
+}
+
+.price-text {
+    color: #007bff; /* Bootstrap primary color for prices */
+}
+
+.total-text {
+    color: #28a745; /* Green color for total prices */
+}
+
+.status-label {
+    display: inline-block;
+    padding: 0.5em 1em; /* Add padding for better appearance */
+    color: white; /* Default text color */
+    border-radius: 1em; /* Rounded corners for the badge */
+}

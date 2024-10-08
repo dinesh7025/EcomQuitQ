@@ -1,0 +1,126 @@
+2024-10-01 14:23:45,439 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 14:23:45,439 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 14:39:25,763 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 14:39:25,763 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:18:57,724 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:18:57,724 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:19:35,678 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:19:35,679 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:23:24,656 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:23:24,656 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:25:32,682 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:25:32,682 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:29:27,965 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:29:27,968 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:32:08,646 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:32:08,646 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:33:07,661 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:33:07,661 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:33:44,651 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:33:44,651 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:34:42,670 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:34:42,670 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:35:32,682 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:35:32,682 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:36:31,451 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:36:31,451 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:38:10,705 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:38:10,705 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:39:49,671 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:39:49,671 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:41:04,657 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:41:04,661 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:42:27,858 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:42:27,860 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:42:37,682 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:42:37,683 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:42:43,097 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:42:43,098 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:42:56,188 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:42:56,192 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:43:52,861 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:43:52,870 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:44:18,922 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:44:18,928 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:44:44,830 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:44:44,843 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:44:55,064 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:44:55,064 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:45:13,630 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:45:13,630 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:45:18,801 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:45:18,805 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:45:24,312 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:45:24,312 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:45:50,499 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:45:50,500 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:46:22,742 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:46:22,743 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:49:12,706 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 15:49:12,706 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:49:19,012 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:49:19,023 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-01 15:49:31,451 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 15:49:31,452 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-01 16:20:24,408 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-01 16:20:24,410 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 16:20:25,741 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 16:20:25,741 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 16:25:56,568 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 16:25:56,571 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-01 16:27:54,720 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 16:27:54,725 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-01 16:28:31,832 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-01 16:28:31,833 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 18:10:40,637 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 18:10:40,638 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 18:12:03,015 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 18:12:03,016 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 18:33:29,410 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-01 18:33:29,410 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-01 18:37:11,137 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email kakarot@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 18:44:15,136 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email kakarot@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 18:50:21,209 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email kakarot@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 18:51:58,261 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email kakarot@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 18:58:35,923 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email kakarot@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 18:58:36,137 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email kakarot@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 18:58:36,164 INFO  EcomWebApp.Controllers.UserController - Successfully retrieved user with username kakarot_0419.
+2024-10-01 18:58:36,182 INFO  EcomWebApp.Controllers.UserController - Successfully retrieved user with username kakarot_0419.
+2024-10-01 19:02:57,047 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email dinesh0419@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 19:05:55,253 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email dinesh0419@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 19:06:26,833 INFO  EcomWebApp.Controllers.UserController - Successfully retrieved user with email dinesh0419@gmail.com.
+2024-10-01 19:12:31,174 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email dinesh0419@gmail.com.
+2024-10-01 19:13:55,550 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email dinesh0419@gmail.com.
+2024-10-01 19:14:43,787 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email dinesh0419@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 19:15:19,568 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email dinesh0419@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 98
+2024-10-01 19:17:48,954 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email dinesh0419@gmail.com.

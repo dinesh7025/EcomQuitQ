@@ -1,0 +1,72 @@
+/* Header Background - Match Seller Dashboard */
+.header {
+  background-color: #2a2a72; /* Example: Dark blue */
+  background-image: linear-gradient(45deg, #2a2a72, #009ffd); /* Example: Gradient effect */
+  padding: 15px;
+}
+.header h1{
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Logo Styling */
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover;
+  border: 2px solid #ffffff; /* Optional: White border around the logo */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 10px;
+  padding: 8px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* Icons */
+.nav-link i {
+  margin-right: 8px; /* Spacing between icon and text */
+}
+
+/* Account and Logout Buttons */
+.btn-account, .btn-logout {
+  font-size: 1rem;
+  padding: 8px 20px;
+  margin-left: 10px;
+}
+
+.btn-outline-light {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #2a2a72; /* Adjust this if you want a different hover color */
+}
+
+.btn-danger {
+  background-color: #ff4c4c; /* Adjust if needed */
+  border-color: #ff4c4c; /* Adjust if needed */
+}
+
+.btn-danger:hover {
+  background-color: #ff3333; /* Adjust if needed */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .navbar-brand h1 {
+    font-size: 1.25rem;
+  }
+}

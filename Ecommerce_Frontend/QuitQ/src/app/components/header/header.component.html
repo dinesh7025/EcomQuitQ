@@ -1,0 +1,46 @@
+<header>
+  <div class="container">
+    <!-- Logo and App Name -->
+    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+      <span class="app-name">QuitQ</span>
+    </div>
+    <!-- Search Bar -->
+
+    <div class="search-bar">
+      <span class="icon-section">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </span>
+      <input type="text" [(ngModel)]="searchTerm" (input)="onSearchInputChange($event)" placeholder="Search products..." />
+      <button class="clear-btn" (click)="clearSearch()" *ngIf="searchTerm.length > 0">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <!-- Menu -->
+    <nav class="menu">
+      <a *ngIf="!authService.isLoggedIn()"href="/seller-signup" class="menu-item">Become a Seller</a>
+
+      <a *ngIf="authService.isLoggedIn()" href="/wish-list" class="menu-item">
+        <i class="fa fa-heart"></i> Wishlist
+      </a>
+
+      <a href="/cart" class="menu-item">
+        <i class="fa fa-shopping-cart"></i> Cart
+      </a>
+
+      <div class="menu-item dropdown" *ngIf="authService.isLoggedIn()">
+        <a href="#" class="account-link">
+          <i class="fa fa-user"></i> Account
+        </a>
+        <div class="dropdown-content">
+          <a href="/user-profile">Profile</a>
+          <a href="/user-order-history">Order History</a>
+        </div>
+      </div>
+
+      <a *ngIf="authService.isLoggedOut()" href="/login" class="menu-item login-btn">Login</a>
+      <a *ngIf="authService.isLoggedIn()" (click)="logout()" class="menu-item logout-btn">Logout</a> 
+    </nav>
+  </div>
+</header>

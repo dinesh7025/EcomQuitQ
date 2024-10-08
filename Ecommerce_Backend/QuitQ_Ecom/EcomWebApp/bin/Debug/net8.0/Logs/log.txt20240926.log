@@ -1,0 +1,4 @@
+2024-09-26 11:42:41,045 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-26 11:42:43,997 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-26 11:45:22,950 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-09-26 11:46:50,304 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated

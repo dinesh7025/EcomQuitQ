@@ -1,0 +1,88 @@
+<app-admin-header></app-admin-header>
+
+<body>
+  <div class="container">
+    <!-- Tiles Section -->
+    <section class="tiles-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card text-center tile bg-primary text-white" id="total-users">
+              <div class="card-body">
+                <h2 class="card-title">Total Users</h2>
+                <p class="card-text">{{ totalUsers }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card text-center tile bg-success text-white" id="total-sellers">
+              <div class="card-body">
+                <h2 class="card-title">Total Sellers</h2>
+                <p class="card-text">{{ totalSellers }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card text-center tile bg-warning text-dark" id="total-revenue">
+              <div class="card-body">
+                <h2 class="card-title">Total Revenue</h2>
+                <p class="card-text">{{ totalRevenue | currency: 'INR' }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Charts Section -->
+    <section class="charts-section">
+      <div class="chart-row">
+        <!-- Sales by Category Chart -->
+        <div class="chart-container">
+          <h3>Sales by Category</h3>
+          <canvas baseChart [data]="salesByCategoryChartData" [options]="chartOptions" [type]="'bar'"></canvas>
+        </div>
+
+        <!-- Sales by Product Chart -->
+        <div class="chart-container">
+          <h3>Sales by Product</h3>
+          <canvas baseChart [data]="salesByProductChartData" [options]="chartOptions" [type]="'bar'"></canvas>
+        </div>
+     
+
+      <!-- Daily Sales Chart (Separate Row) -->
+      <div class="chart-container">
+        <h3>Daily Sales</h3>
+        <canvas baseChart [data]="dailySalesChartData" [options]="chartOptions" [type]="'line'"></canvas>
+      </div>
+    </div>
+    </section>
+
+    <!-- Recent Activity Section -->
+    <section class="recent-activity-section">
+      <h3>Recent User Registration </h3>
+      <div class="activity-list">
+        <table class="activity-table">
+          <thead>
+            <tr>
+              <th>User ID</th>
+              <th>Username</th>
+              <th>Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Loop through recentActivities array -->
+            <tr *ngFor="let activity of recentActivities">
+              <td>{{ activity.userId }}</td>
+              <td>{{ activity.username }}</td>
+              <td>{{ activity.activity }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <app-admin-footer></app-admin-footer>
+</body>

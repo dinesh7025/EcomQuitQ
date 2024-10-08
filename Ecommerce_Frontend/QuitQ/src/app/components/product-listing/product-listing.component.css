@@ -1,0 +1,78 @@
+/* Container styling */
+.product-listing {
+  padding: 20px;
+}
+
+/* Card styling */
+.product-card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: 350px; /* Set a fixed height to maintain uniformity */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image styling */
+.product-image {
+  height: 150px; /* Set a fixed height for the image */
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Center and ensure spacing */
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Price styling */
+.card-text.text-success {
+  color: green;
+  font-weight: bold;
+}
+
+/* Button styling */
+.add-to-cart-btn {
+  width: fit-content;
+  padding: 6px 12px;
+}
+
+/* Cart icon animation */
+.cart-animate .fa-shopping-cart {
+  position: relative;
+  animation: fly-to-cart 0.7s ease-in-out;
+}
+
+/* Cart animation */
+@keyframes fly-to-cart {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.5);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Card hover shadow */
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuitQ Ecommerce</title>
+</head>
+<body>
+  <app-header (searchEvent)="onSearch($event)"></app-header>
+
+  <div class="category-menu">
+    <ul class="parent-category-list">
+      <li *ngFor="let parent of parentCategories" class="parent-category">
+        <div class="parent-category-content">
+          <img [src]="getImageUrl(parent.categoryName)" alt="{{ parent.categoryName }}" />
+          <span class="category-name" (click)="selectParentCategory(parent)">{{ parent.categoryName }}</span>
+        </div>
+        <ul class="sub-category-list" *ngIf="selectedParentCategory?.parentCategoryId === parent.parentCategoryId">
+          <li *ngFor="let sub of getSubCategoriesForParent(parent.parentCategoryId)" class="sub-category" (click)="selectSubCategory(sub)">
+            {{ sub.subCategoryName }}
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+
+  <section class="banner-section">
+    <div class="banner-slider">
+      <div class="banner" *ngFor="let banner of banners; let i = index" [class.active]="i === activeBannerIndex">
+        <img [src]="banner.image" alt="Banner {{ i + 1 }}" />
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <div class="d-flex justify-content-end mb-4">
+    <!-- Price Filtering Controls -->
+    <div class="input-group me-2" style="max-width: 150px;">
+      <input type="number" id="minPrice" [(ngModel)]="minPrice" (input)="filterProducts()" class="form-control" placeholder="Min Price" aria-label="Minimum Price">
+    </div>
+    <div class="input-group me-2" style="max-width: 150px;">
+      <input type="number" id="maxPrice" [(ngModel)]="maxPrice" (input)="filterProducts()" class="form-control" placeholder="Max Price" aria-label="Maximum Price">
+    </div>
+  
+    <!-- Brand Filtering Controls -->
+    <div class="brand-filter" style="max-width: 200px;">
+      <select id="brand" [(ngModel)]="selectedBrandId" (change)="filterProducts()" class="form-select">
+        <option [value]="null">All Brands</option> <!-- Send NULL value for All Brands -->
+        <option *ngFor="let brand of brands" [value]="brand.brandId">{{ brand.brandName }}</option>
+      </select>
+    </div>
+  </div>
+  
+
+
+<app-product-listing 
+[searchTerm]="searchTerm" 
+[minPrice]="minPrice" 
+[maxPrice]="maxPrice" 
+[products]="filteredProducts"
+[selectedBrandId] = "selectedBrandId">
+</app-product-listing>
+  
+  <app-footer></app-footer>
+</body>
+</html>

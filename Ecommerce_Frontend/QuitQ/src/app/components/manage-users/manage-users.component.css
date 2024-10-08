@@ -1,0 +1,260 @@
+/* General Container Styles */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header and Footer */
+app-admin-header,
+app-admin-footer {
+    margin-bottom: 20px;
+}
+
+/* Search Container Styles */
+.search-container {
+    margin: 15px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search-container input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    transition: border-color 0.3s;
+}
+
+.search-container input:focus {
+    border-color: #007bff; /* Change border color on focus */
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transition for button hover effect */
+}
+
+.search-container button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Table Container Styles */
+.user-table-container, .seller-table-container {
+    max-height: 500px; /* Set a maximum height for the table */
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-top: 20px; /* Add space above the table */
+    border: 1px solid #ddd; /* Optional border for the table container */
+    border-radius: 4px; /* Optional rounded corners */
+}
+
+/* Table Styles */
+.user-table, .seller-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th, .seller-table th {
+    padding: 12px;
+    text-align: left;
+    background-color: #f2f2f2; /* Header background color */
+}
+
+.user-table td, .seller-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table tr:hover, .seller-table tr:hover {
+    background-color: #f5f5f5; /* Change background color on row hover */
+}
+
+/* Fixed Header Styles */
+.user-table thead, .seller-table thead {
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Align it to the top */
+    z-index: 1; /* Ensure the header is above the body */
+}
+
+/* Align columns */
+.user-table th, .seller-table th, 
+.user-table td, .seller-table td {
+    width: auto; /* Automatically adjust column widths */
+}
+
+/* Button Styles */
+.btn-edit, .btn-delete {
+    margin-right: 5px; /* Add space between buttons */
+    transition: background-color 0.3s ease; /* Add transition for hover */
+}
+
+/* Button Styles for Actions */
+.btn-edit, .btn-delete {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-edit {
+    background-color: #28a745; /* Green for edit */
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+.btn-delete {
+    background-color: #dc3545; /* Red for delete */
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #c82333; /* Darker red on hover */
+    transform: scale(1.05);
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Add transition to modal appearance */
+}
+
+.modal-content p {
+    margin-bottom: 20px; /* Space between text and buttons */
+}
+
+.btn-confirm, .btn-cancel {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-confirm {
+    background-color: #c90a0a; /* Confirm button color */
+    color: white;
+}
+
+.btn-confirm:hover {
+    background-color: #9c1a05; /* Darker shade on hover */
+    transform: scale(1.05);
+}
+
+.btn-cancel {
+    background-color: #08c42a; /* Cancel button color */
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #0b9e21; /* Darker shade on hover */
+    transform: scale(1.05);
+}
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Modal Content */
+.modal-content {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Width of the modal */
+    max-width: 90%; /* Responsive */
+    position: relative; /* For positioning of inner elements */
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%; /* Full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+/* Update Button */
+.btn-update {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+/* Cancel Button */
+.btn-cancel {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+/* Hover Effects */
+.btn-update:hover {
+    background-color: #45a049; /* Darker green */
+    transform: scale(1.05); /* Slightly increase size */
+}
+
+.btn-cancel:hover {
+    background-color: #e53935; /* Darker red */
+    transform: scale(1.05); /* Slightly increase size */
+}

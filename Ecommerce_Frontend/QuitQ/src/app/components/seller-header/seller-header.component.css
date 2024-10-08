@@ -1,0 +1,51 @@
+/* Navbar Logo and Title Spacing */
+/* Make the logo image round */
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover;  /* Ensures the image covers the entire area inside the circle */
+  border: 2px solid #ffffff; /* Optional: White border around the logo */
+}
+
+/* Navbar styling */
+.navbar-brand h1 {
+  font-size: 1.5rem;
+  color: #ffffff; /* White color for the logo text */
+  margin-left: 10px;
+}
+
+
+/* Navbar Background and Box Shape */
+.navbar {
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  border-radius: 10px; /* Adds a box shape with rounded corners */
+  padding: 10px 20px;
+}
+
+/* Navbar Link Hover Effect */
+.nav-link {
+  color: #ffffff !important; /* White color for the nav links */
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #ffda79 !important; /* Soft yellow hover color */
+}
+
+/* Account and Logout Button Styling */
+.btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #4e54c8; /* Darker shade for the button hover */
+}
+
+/* Responsive Spacing */
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}

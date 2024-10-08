@@ -1,0 +1,779 @@
+2024-10-03 00:00:22,221 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 00:02:52,561 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 00:03:47,492 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:03:47,505 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:04:21,930 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 00:13:49,532 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:13:50,647 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:15:02,066 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 00:17:14,239 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 00:17:33,929 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:17:34,000 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:19:20,970 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 00:20:01,036 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 00:23:48,564 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:23:50,216 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:23:53,314 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 00:23:53,460 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 00:24:01,201 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:24:01,264 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:24:11,899 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:24:11,902 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:24:25,779 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 21
+2024-10-03 00:24:25,843 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 21
+2024-10-03 00:25:28,376 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:25:30,123 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:25:39,436 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 23
+2024-10-03 00:25:39,608 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 23
+2024-10-03 00:25:51,794 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:25:51,847 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:25:54,626 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 20 from cart for User ID: 4
+2024-10-03 00:25:54,661 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 20 for User ID: 4
+2024-10-03 00:26:01,510 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:26:01,514 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:26:48,048 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:26:49,063 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:26:52,417 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 19 from cart for User ID: 4
+2024-10-03 00:26:52,570 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 19 for User ID: 4
+2024-10-03 00:26:52,588 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:26:52,664 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:30:36,558 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 00:30:36,558 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:31:07,002 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 00:31:07,345 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 00:31:07,363 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 00:31:07,363 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:31:12,675 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 00:31:12,765 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 00:31:18,665 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 00:31:18,752 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 00:31:26,512 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 00:31:26,532 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 00:31:31,322 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 00:31:31,344 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 00:34:53,657 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 00:34:53,657 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:35:14,628 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:35:14,628 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 00:36:38,632 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 00:36:38,633 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:36:45,644 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:36:45,644 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 00:39:09,685 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:39:09,685 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 00:41:00,638 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 00:41:00,638 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:41:43,620 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:41:43,620 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 00:42:07,611 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 00:42:07,612 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:24:00,993 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:24:00,993 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:24:33,909 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 07:24:34,361 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 07:26:07,722 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 07:26:07,745 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 07:27:28,197 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:27:28,197 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:28:06,254 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:28:06,255 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:29:45,560 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:29:45,560 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:30:35,769 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:30:35,769 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:46:27,488 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:46:27,488 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:46:36,860 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 07:46:36,878 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 07:46:41,710 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:46:41,710 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:46:44,524 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 07:46:44,530 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 07:46:50,198 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 07:46:50,875 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 07:46:50,894 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:46:50,894 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:46:58,668 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 07:46:58,673 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 07:47:09,129 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:47:09,129 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:48:23,278 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:48:23,278 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:48:28,843 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 07:48:29,226 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 07:48:29,241 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 07:48:29,241 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:48:42,921 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 07:48:42,921 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 09:09:57,283 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 09:09:57,283 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 09:29:21,695 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 2
+2024-10-03 09:29:23,920 WARN  EcomWebApp.Controllers.UserController - No addresses found for the given user with Id 2
+2024-10-03 09:29:28,649 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 09:30:22,550 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 09:44:08,944 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 09:44:08,944 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 09:50:49,732 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 09:50:49,732 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 09:55:56,360 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 09:55:56,377 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 09:57:52,304 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 09:57:52,309 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 09:58:10,776 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 09:58:11,334 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 09:58:11,357 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 09:58:11,357 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 09:58:13,667 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 09:58:13,668 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 09:58:13,837 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 10:01:44,497 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 10:01:44,497 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 10:03:05,440 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 10:03:06,038 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 10:03:06,097 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 10:03:06,097 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 10:03:09,426 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 10:03:09,427 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 10:03:09,444 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 10:03:16,425 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 37
+2024-10-03 10:03:16,681 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 37
+2024-10-03 10:03:18,748 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 10:03:18,748 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 10:03:18,760 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 10:04:07,371 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 10:04:07,461 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 10:05:03,415 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 10:05:03,415 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 10:05:03,433 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 10:08:23,636 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 10:08:23,636 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 10:14:05,479 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 10:14:05,479 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 10:16:14,836 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 10:16:15,254 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 10:16:15,279 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 10:16:15,280 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 10:16:17,593 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 10:16:17,593 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 10:16:17,609 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 10:20:17,260 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 10:20:17,262 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 10:20:17,291 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 10:20:32,261 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 10:20:32,261 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 10:20:32,313 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 10:24:50,873 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 10:24:50,882 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 10:25:24,346 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 10:25:24,346 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 10:36:12,290 INFO  EcomWebApp.Controllers.DiscountController - Retrieving all discounts.
+2024-10-03 10:46:31,938 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 10:46:31,938 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 10:46:32,189 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 10:52:38,887 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 10:52:38,887 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 11:34:01,335 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 11:34:01,335 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 11:34:20,041 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:34:20,041 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:34:20,255 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:34:27,291 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:34:27,292 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:34:27,300 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:34:28,197 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:34:28,197 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:34:28,203 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:34:32,177 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 11:34:32,886 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 11:34:32,906 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 11:34:32,906 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 11:34:35,629 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:34:35,629 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:34:35,635 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:38:37,369 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:38:37,376 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:38:37,380 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:40:14,305 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 11:40:14,496 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 11:40:21,218 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 11:40:21,238 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 11:40:22,057 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 11:40:22,078 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 11:45:22,418 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:45:22,421 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:45:22,439 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:45:26,196 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:45:26,197 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:45:26,202 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:47:50,933 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:47:50,933 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:47:50,938 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:49:15,206 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:49:15,210 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:49:15,221 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:50:49,230 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:50:49,230 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:50:49,239 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:51:06,220 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:51:06,220 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:51:06,227 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:54:34,231 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:54:34,231 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:54:34,244 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:54:41,079 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 11:54:41,083 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 18 from cart for User ID: 4
+2024-10-03 11:54:41,084 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 21 from cart for User ID: 4
+2024-10-03 11:54:41,084 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 17 from cart for User ID: 4
+2024-10-03 11:54:41,095 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 11:54:41,135 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 21 for User ID: 4
+2024-10-03 11:54:41,135 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 18 for User ID: 4
+2024-10-03 11:54:41,135 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 17 for User ID: 4
+2024-10-03 11:54:41,139 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:54:41,145 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:54:41,148 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:54:41,152 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:54:41,154 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:54:41,158 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:54:44,821 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:54:44,821 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:54:44,825 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:54:47,443 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:54:47,443 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:54:47,446 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 11:54:50,844 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 10
+2024-10-03 11:54:50,903 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 10
+2024-10-03 11:54:53,087 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 18
+2024-10-03 11:54:53,098 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 18
+2024-10-03 11:54:56,009 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 11:54:56,009 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 11:54:56,013 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 14:38:49,473 ERROR OrderController - An error occurred while updating order item status for Order Item ID: 2.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'DeliveryDate'.
+Invalid column name 'ItemStatus'.
+Invalid column name 'SellerId'.
+Invalid column name 'ShippingDate'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at EcomLib.Repository.OrderRepository.OrderItemRepository.UpdateOrderItemStatusAsync(Int32 orderItemId, OrderItemStatus status) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\OrderRepository\OrderItemRepository.cs:line 31
+   at EcomLib.Service.OrderService.UpdateOrderItemStatusAsync(Int32 orderItemId, OrderItemStatus status) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\OrderService.cs:line 111
+   at OrderController.UpdateOrderItemStatus(Int32 orderItemId, OrderItemStatus status) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\OrderController.cs:line 50
+ClientConnectionId:b6997e4e-ccb6-4fa9-af23-eaba226d57ce
+Error Number:207,State:1,Class:16
+2024-10-03 15:20:11,090 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 15:20:11,090 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 15:21:33,355 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 15:21:33,355 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 15:21:33,638 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 15:21:43,218 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 15:21:43,846 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 15:21:43,877 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 15:21:43,877 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 15:21:46,017 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 15:21:46,018 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 15:21:46,024 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 15:22:14,845 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 15:22:15,045 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 15:25:44,877 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 15:25:44,881 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 15:25:44,885 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 15:40:55,664 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 15:40:55,664 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 15:40:55,679 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 15:46:37,924 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 15:46:37,924 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 15:46:37,934 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 15:48:18,317 ERROR OrderController - An error occurred while placing the order.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EcomLib.Repository.ProductRepository.ProductRepository.UpdateProductQuantityAsync(Int32 productId, Int32 quantity) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\ProductRepository\ProductRepository.cs:line 136
+   at EcomLib.Service.OrderService.PlaceOrderAsync(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\OrderService.cs:line 63
+   at OrderController.PlaceOrder(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\OrderController.cs:line 31
+2024-10-03 16:09:34,434 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 16:09:34,434 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 16:09:34,447 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 16:10:46,078 ERROR OrderController - An error occurred while placing the order.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'Pending' to data type int.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:9fa53a28-d2f8-46c4-8980-71858e427e0c
+Error Number:245,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.OrderRepository.OrderRepository.AddOrderAsync(Order order) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\OrderRepository\OrderRepository.cs:line 25
+   at EcomLib.Service.OrderService.PlaceOrderAsync(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\OrderService.cs:line 67
+   at OrderController.PlaceOrder(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\OrderController.cs:line 31
+2024-10-03 16:18:01,169 ERROR OrderController - An error occurred while placing the order.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'Pending' to data type int.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:9fa53a28-d2f8-46c4-8980-71858e427e0c
+Error Number:245,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.OrderRepository.OrderRepository.AddOrderAsync(Order order) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\OrderRepository\OrderRepository.cs:line 25
+   at EcomLib.Service.OrderService.PlaceOrderAsync(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\OrderService.cs:line 67
+   at OrderController.PlaceOrder(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\OrderController.cs:line 31
+2024-10-03 16:19:46,564 ERROR OrderController - An error occurred while placing the order.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value 'Pending' to data type int.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:a4bae29d-412b-4b70-8f5f-cfc97364f31b
+Error Number:245,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.OrderRepository.OrderRepository.AddOrderAsync(Order order) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\OrderRepository\OrderRepository.cs:line 25
+   at EcomLib.Service.OrderService.PlaceOrderAsync(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\OrderService.cs:line 67
+   at OrderController.PlaceOrder(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\OrderController.cs:line 31
+2024-10-03 18:17:35,778 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 18:17:35,778 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 18:17:37,999 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 18:20:48,529 ERROR OrderController - An error occurred while placing the order.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'DeliveryDate'.
+Invalid column name 'ShippingDate'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e05a0872-b0b6-453e-8be2-f1872f4e61a5
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.OrderRepository.OrderRepository.AddOrderAsync(Order order) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\OrderRepository\OrderRepository.cs:line 25
+   at EcomLib.Service.OrderService.PlaceOrderAsync(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\OrderService.cs:line 67
+   at OrderController.PlaceOrder(PlaceOrderDto orderDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\OrderController.cs:line 31
+2024-10-03 18:26:21,930 INFO  OrderController - Order placed successfully. Order ID: 9
+2024-10-03 18:28:01,820 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 18:28:01,821 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 18:28:01,951 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 18:31:12,151 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 18:31:12,152 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 18:31:12,207 WARN  EcomWebApp.Controllers.CartController - No cart found for User ID: 4
+2024-10-03 18:32:22,456 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 18:32:22,457 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 18:32:22,464 WARN  EcomWebApp.Controllers.CartController - No cart found for User ID: 4
+2024-10-03 18:32:30,729 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 18:32:30,729 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 18:32:37,430 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 18:32:38,010 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 18:32:38,035 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 18:32:38,035 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 18:32:39,778 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 18:32:39,778 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 18:32:39,785 WARN  EcomWebApp.Controllers.CartController - No cart found for User ID: 4
+2024-10-03 18:32:44,536 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 18
+2024-10-03 18:32:44,725 ERROR EcomWebApp.Controllers.CartController - Error while adding item to cart for User ID 4: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CartItems_Carts_CartId". The conflict occurred in database "EcomQuitQ", table "dbo.Carts", column 'CartId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:7db0a546-1758-423e-886d-30a8b6a53975
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EcomLib.Repository.CartRepository.CartRepository.Save() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\CartRepository\CartRepository.cs:line 53
+   at EcomLib.Service.CartService.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\CartService.cs:line 73
+   at EcomWebApp.Controllers.CartController.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\CartController.cs:line 57
+2024-10-03 18:32:45,793 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 19
+2024-10-03 18:32:45,847 ERROR EcomWebApp.Controllers.CartController - Error while adding item to cart for User ID 4: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CartItems_Carts_CartId". The conflict occurred in database "EcomQuitQ", table "dbo.Carts", column 'CartId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:7db0a546-1758-423e-886d-30a8b6a53975
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EcomLib.Repository.CartRepository.CartRepository.Save() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\CartRepository\CartRepository.cs:line 53
+   at EcomLib.Service.CartService.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\CartService.cs:line 73
+   at EcomWebApp.Controllers.CartController.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\CartController.cs:line 57
+2024-10-03 18:32:46,913 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 20
+2024-10-03 18:32:46,963 ERROR EcomWebApp.Controllers.CartController - Error while adding item to cart for User ID 4: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CartItems_Carts_CartId". The conflict occurred in database "EcomQuitQ", table "dbo.Carts", column 'CartId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:7db0a546-1758-423e-886d-30a8b6a53975
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EcomLib.Repository.CartRepository.CartRepository.Save() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\CartRepository\CartRepository.cs:line 53
+   at EcomLib.Service.CartService.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\CartService.cs:line 73
+   at EcomWebApp.Controllers.CartController.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\CartController.cs:line 57
+2024-10-03 18:32:49,248 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 18:32:49,248 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 18:32:49,252 WARN  EcomWebApp.Controllers.CartController - No cart found for User ID: 4
+2024-10-03 18:32:51,347 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 18:32:51,347 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 18:32:51,353 WARN  EcomWebApp.Controllers.CartController - No cart found for User ID: 4
+2024-10-03 18:33:04,200 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 9
+2024-10-03 18:33:04,262 ERROR EcomWebApp.Controllers.CartController - Error while adding item to cart for User ID 4: An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CartItems_Carts_CartId". The conflict occurred in database "EcomQuitQ", table "dbo.Carts", column 'CartId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:f66c39b3-f007-444d-bd4a-f2b2d4e00d1c
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at EcomLib.Repository.CartRepository.CartRepository.Save() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\CartRepository\CartRepository.cs:line 53
+   at EcomLib.Service.CartService.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\CartService.cs:line 73
+   at EcomWebApp.Controllers.CartController.AddToCart(Int32 userId, CartItemDTO cartItemDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\CartController.cs:line 57
+2024-10-03 18:34:26,987 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 10
+2024-10-03 18:39:55,331 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 9
+2024-10-03 18:40:56,781 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 10
+2024-10-03 18:42:16,166 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 10
+2024-10-03 18:42:22,156 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 20
+2024-10-03 18:42:27,051 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 20
+2024-10-03 18:42:31,981 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 19
+2024-10-03 18:42:32,078 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 19
+2024-10-03 18:42:54,840 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 18:42:54,849 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 18:42:54,849 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 18:45:54,737 INFO  OrderController - Order placed successfully. Order ID: 10
+2024-10-03 18:51:03,971 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 18:51:03,978 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 18:51:03,986 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 18:52:49,507 INFO  OrderController - Order placed successfully. Order ID: 11
+2024-10-03 19:05:47,339 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:05:47,343 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 19:05:47,352 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 19:23:17,422 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:23:17,424 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 19:23:17,435 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 19:23:21,157 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:23:21,158 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 19:23:21,161 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 19:23:22,075 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:23:22,075 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 19:23:22,115 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 19:23:34,532 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 31 from cart for User ID: 4
+2024-10-03 19:23:34,565 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 31 for User ID: 4
+2024-10-03 19:23:34,569 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:23:34,572 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 19:24:27,823 INFO  OrderController - Order placed successfully. Order ID: 12
+2024-10-03 19:24:27,840 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 29 from cart for User ID: 4
+2024-10-03 19:24:27,840 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 30 from cart for User ID: 4
+2024-10-03 19:24:27,887 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 19:24:27,889 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 29 for User ID: 4
+2024-10-03 19:24:27,890 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 30 for User ID: 4
+2024-10-03 19:24:27,895 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:24:27,899 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 19:24:27,901 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:24:27,906 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 19:24:27,907 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 19:24:47,409 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:24:47,409 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 19:24:47,412 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 19:27:10,697 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 19:27:10,697 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:27:10,707 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 19:46:17,152 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 19:46:17,153 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 19:46:17,164 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:02:45,807 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:02:45,807 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:02:45,823 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:02:59,278 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:02:59,279 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:02:59,284 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:03:06,646 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 20:03:06,646 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 20:03:13,844 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-03 20:03:14,294 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-03 20:03:14,316 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 20:03:14,316 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 20:03:21,572 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:03:21,572 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:03:21,576 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:03:28,134 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 37
+2024-10-03 20:03:28,152 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 37
+2024-10-03 20:03:29,906 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 36
+2024-10-03 20:03:29,920 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 36
+2024-10-03 20:03:35,273 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:03:35,273 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:03:35,279 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:03:57,457 INFO  OrderController - Order placed successfully. Order ID: 13
+2024-10-03 20:03:57,471 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 32 from cart for User ID: 4
+2024-10-03 20:03:57,471 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 33 from cart for User ID: 4
+2024-10-03 20:03:57,471 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:03:57,492 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 32 for User ID: 4
+2024-10-03 20:03:57,494 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 33 for User ID: 4
+2024-10-03 20:03:57,496 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:03:57,496 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:03:57,500 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:03:57,503 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:03:57,505 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:09:39,129 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 20:09:39,130 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 20:10:06,707 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-03 20:10:06,707 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-03 20:10:15,062 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 40
+2024-10-03 20:10:15,082 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 40
+2024-10-03 20:10:16,610 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 46
+2024-10-03 20:10:16,622 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 46
+2024-10-03 20:10:17,976 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 44
+2024-10-03 20:10:17,995 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 44
+2024-10-03 20:10:20,839 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:10:20,839 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:10:20,842 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:10:24,466 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:10:24,487 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:10:26,152 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:10:26,163 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:10:26,576 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:10:26,583 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:11:01,601 INFO  OrderController - Order placed successfully. Order ID: 14
+2024-10-03 20:11:01,619 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 34 from cart for User ID: 4
+2024-10-03 20:11:01,620 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 36 from cart for User ID: 4
+2024-10-03 20:11:01,620 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 35 from cart for User ID: 4
+2024-10-03 20:11:01,621 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:11:01,636 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 35 for User ID: 4
+2024-10-03 20:11:01,644 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 34 for User ID: 4
+2024-10-03 20:11:01,644 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:11:01,646 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 36 for User ID: 4
+2024-10-03 20:11:01,649 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:11:01,655 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:11:01,657 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:11:01,661 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:11:01,663 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:11:01,665 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:13:24,783 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 37
+2024-10-03 20:13:24,802 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 37
+2024-10-03 20:13:29,208 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 55
+2024-10-03 20:13:29,229 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 55
+2024-10-03 20:13:33,338 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:13:33,338 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:13:33,343 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:13:35,690 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:13:35,704 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:13:36,472 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:13:36,496 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:14:31,736 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:14:31,745 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:14:31,749 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:15:07,734 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:15:07,737 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:15:07,748 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:15:28,899 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:15:28,921 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:15:29,328 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:15:29,347 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:15:48,052 INFO  OrderController - Order placed successfully. Order ID: 15
+2024-10-03 20:15:48,068 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 38 from cart for User ID: 4
+2024-10-03 20:15:48,068 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 37 from cart for User ID: 4
+2024-10-03 20:15:48,068 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:15:48,109 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:15:48,113 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 37 for User ID: 4
+2024-10-03 20:15:48,114 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 38 for User ID: 4
+2024-10-03 20:15:48,116 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:15:48,120 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:15:48,121 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:15:48,124 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:16:32,722 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:16:32,722 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:16:32,733 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:16:38,702 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 98
+2024-10-03 20:16:38,720 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 98
+2024-10-03 20:16:43,026 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:16:43,026 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:16:43,029 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:16:59,303 INFO  OrderController - Order placed successfully. Order ID: 16
+2024-10-03 20:16:59,310 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 39 from cart for User ID: 4
+2024-10-03 20:16:59,315 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:16:59,325 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 39 for User ID: 4
+2024-10-03 20:16:59,326 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:16:59,328 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:16:59,331 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:18:29,422 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 9
+2024-10-03 20:18:29,439 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 9
+2024-10-03 20:18:31,297 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:18:31,297 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:18:31,299 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:21:43,912 INFO  OrderController - Order placed successfully. Order ID: 17
+2024-10-03 20:21:43,921 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 40 from cart for User ID: 4
+2024-10-03 20:21:43,922 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:21:43,931 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:21:43,933 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 40 for User ID: 4
+2024-10-03 20:21:43,942 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:21:43,945 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:27:44,803 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:27:44,803 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:27:44,811 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:28:03,643 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 22
+2024-10-03 20:28:03,664 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 22
+2024-10-03 20:28:06,355 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:28:06,356 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-03 20:28:06,358 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-03 20:29:15,057 INFO  OrderController - Order placed successfully. Order ID: 18
+2024-10-03 20:29:15,067 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 41 from cart for User ID: 4
+2024-10-03 20:29:15,068 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-03 20:29:15,076 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-03 20:29:15,077 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 41 for User ID: 4
+2024-10-03 20:29:15,081 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-03 20:29:15,084 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4

@@ -1,0 +1,135 @@
+/* Fixed-size Image */
+.fixed-size-image {
+  width: 400px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  object-fit: contain; /* Ensures image fits the container */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+/* Product Name, Brand, and Price Styles */
+.product-name {
+  color: green; /* Green color for product name */
+}
+
+.brand, .price {
+  font-weight: bold; /* Bold for brand and price */
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+.checked {
+  color: gold; /* Change to desired color for checked stars */
+}
+
+.fa-star {
+  cursor: pointer; /* Show pointer cursor for star rating */
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.reviews {
+  visibility: visible; /* Ensure it is visible */
+  opacity: 1; /* Ensure it is fully opaque */
+}
+/* Wishlist Button Styles */
+.wishlist-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content; /* Set fixed width */
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 16px;
+  transition: background-color 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+.wishlist-btn .icon-section {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.wishlist-btn .text-section {
+  font-weight: bold;
+}
+
+/* Wishlist Button States */
+.wishlist-btn:not(.added) .icon-section i {
+  color: gray;
+}
+
+.wishlist-btn.added {
+  border-color: red;
+  background-color: #ffe6e6; /* Optional background when added */
+}
+
+.wishlist-btn.added .icon-section i {
+  color: red;
+}
+
+.wishlist-btn:hover {
+  border-color: red;
+  background-color: #ffe6e6;
+}
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0056b3; /* Darken on hover */
+}
+
+/* Review Card Styles */
+.review-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: box-shadow 0.3s;
+  background-color: #f9f9f9;
+  max-width: 350px; /* Fixed width for review cards */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.review-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hover effect */
+}
+
+/* Username and Comment Styles */
+.username {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-comment {
+  margin: 5px 0;
+}
+
+/* Review Rating Stars */
+.review-rating .fa-star {
+  color: lightgray; /* Default star color */
+}
+
+.review-rating .fa-star.checked {
+  color: gold; /* Checked star color */
+}
+
+/* Animation on Load */
+.reviews {
+  visibility: visible; /* Ensure it is visible */
+  opacity: 1; /* Ensure it is fully opaque */
+  transition: opacity 0.5s ease-in; /* Fade in effect */
+}

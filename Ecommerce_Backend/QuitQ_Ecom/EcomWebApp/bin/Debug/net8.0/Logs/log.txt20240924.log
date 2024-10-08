@@ -1,0 +1,83 @@
+2024-09-24 16:42:14,258 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: string
+2024-09-24 16:42:15,650 ERROR EcomWebApp.Controllers.AuthController - Unauthorized login attempt: Invalid username, email, or password.
+2024-09-24 17:47:51,421 WARN  AdminController - UserNotFoundException: No users registered in the last 7 Days.
+2024-09-24 17:48:11,151 ERROR AdminController - UserNotFoundException: No users found in the last 24 hours.
+EcomLib.Exceptionhandling.UserNotFoundException: There are no users registered in the last 24 hours.
+   at EcomQuitQ.BusinessLogicLayer.UserRepository.UserRepository.GetUsersLast24HoursAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\UserRepository\UserRepository .cs:line 203
+   at EcomLib.Service.UserService.GetUsersLast24HoursAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 210
+   at AdminController.GetUsersLast24Hours() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\AdminController.cs:line 23
+2024-09-24 20:18:19,811 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 20:18:22,132 ERROR EcomWebApp.Controllers.UserController - Error while fetching users.
+System.InvalidOperationException: Nullable object must have a value.
+   at lambda_method29(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EcomQuitQ.BusinessLogicLayer.UserRepository.UserRepository.GetAllUsersAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\UserRepository\UserRepository .cs:line 56
+   at EcomLib.Service.UserService.GetAllUsersAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 162
+   at EcomWebApp.Controllers.UserController.GetAllUsersAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 237
+2024-09-24 20:20:36,685 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 20:20:50,604 ERROR EcomWebApp.Controllers.UserController - Error while fetching users.
+System.InvalidOperationException: Nullable object must have a value.
+   at lambda_method29(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EcomQuitQ.BusinessLogicLayer.UserRepository.UserRepository.GetAllUsersAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\UserRepository\UserRepository .cs:line 56
+   at EcomLib.Service.UserService.GetAllUsersAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 162
+   at EcomWebApp.Controllers.UserController.GetAllUsersAsync() in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 237
+2024-09-24 20:33:43,445 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 20:33:51,136 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 21:32:03,048 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 21:32:04,618 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 22:07:33,123 ERROR EcomWebApp.Controllers.UserController - Error occurred while deleting user with ID 0: User with Id 0Not Found in the records
+EcomLib.Exceptionhandling.UserNotFoundException: User with Id 0Not Found in the records
+   at EcomLib.Service.UserService.DeleteUserAsync(Int32 userId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 203
+   at EcomWebApp.Controllers.UserController.DeleteUser(Int32 id) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 174
+2024-09-24 22:24:03,188 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 22:24:03,360 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 22:25:03,342 INFO  EcomWebApp.Controllers.UserController - Successfully deleted user with ID 28.
+2024-09-24 22:25:26,837 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 22:25:26,855 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 22:28:02,649 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 22:28:02,682 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 22:32:57,558 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 22:32:57,610 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 22:33:03,031 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 22:33:03,043 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 22:34:25,560 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 22:34:25,578 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 22:45:12,966 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 22:45:13,003 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 22:53:51,615 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 22:53:51,657 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:00:33,560 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:00:33,604 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:01:14,603 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:01:14,658 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:02:43,969 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:02:43,995 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:05:47,609 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:05:47,630 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:06:10,599 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:06:10,669 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:06:42,613 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:06:42,626 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:08:17,654 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:08:17,682 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:10:36,836 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:10:36,860 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:28:12,566 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:28:12,607 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:38:42,867 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:38:42,895 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:39:13,313 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:39:13,328 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:39:57,630 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:39:57,645 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:55:25,681 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:55:25,728 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:56:49,002 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:56:49,017 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.
+2024-09-24 23:57:48,348 INFO  EcomWebApp.Controllers.UserController - Fetching all users.
+2024-09-24 23:57:48,372 INFO  EcomWebApp.Controllers.UserController - Users fetched successfully.

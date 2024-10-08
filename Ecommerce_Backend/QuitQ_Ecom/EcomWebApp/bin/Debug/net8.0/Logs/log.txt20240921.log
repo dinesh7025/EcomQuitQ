@@ -1,0 +1,8 @@
+2024-09-21 00:35:04,573 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total user registrations successfully.
+2024-09-21 00:35:15,318 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total seller registrations successfully.
+2024-09-21 00:35:23,379 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched top 0 active users successfully.
+2024-09-21 00:35:28,813 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched top 3 active users successfully.
+2024-09-21 00:35:34,964 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched top 5 active users successfully.
+2024-09-21 00:35:38,266 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched top 1 active users successfully.
+2024-09-21 00:35:45,755 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched activity log for userId 2 successfully.
+2024-09-21 00:35:50,322 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched activity log for userId 3 successfully.

@@ -1,0 +1,151 @@
+2024-09-15 10:57:45,776 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-09-15 10:57:57,922 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-09-15 10:58:08,529 INFO  EcomWebApp.Controllers.CategoryController - DeleteParentCategory initiated for ID: 1
+2024-09-15 10:58:09,032 ERROR EcomWebApp.Controllers.CategoryController - DeleteParentCategory failed: Parent Category not Found with this ID
+2024-09-15 16:34:58,521 INFO  EcomWebApp.Controllers.CartController - Attempting to retrieve cart with ID: 1
+2024-09-15 16:34:59,104 ERROR EcomWebApp.Controllers.CartController - Cart with ID 1 not found. Error: Cart not found with ID 1
+2024-09-15 16:35:14,188 INFO  EcomWebApp.Controllers.CartController - Attempting to retrieve cart for user ID: 1
+2024-09-15 16:35:14,423 ERROR EcomWebApp.Controllers.CartController - Cart for user with ID 1 not found. Error: Cart for user with ID 1 not found
+2024-09-15 16:35:27,271 INFO  EcomWebApp.Controllers.CartController - Attempting to retrieve cart for user ID: 4
+2024-09-15 16:35:27,388 ERROR EcomWebApp.Controllers.CartController - Cart for user with ID 4 not found. Error: Cart for user with ID 4 not found
+2024-09-15 16:40:55,764 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:40:56,084 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 1
+2024-09-15 16:41:09,449 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:41:09,461 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 2
+2024-09-15 16:41:17,423 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:41:22,489 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 3
+2024-09-15 16:41:31,675 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:41:31,695 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 4
+2024-09-15 16:41:51,749 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:41:51,766 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 5
+2024-09-15 16:41:59,965 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:42:00,096 ERROR EcomWebApp.Controllers.CategoryController - AddParentCategory failed: Parent Category Already Exists
+2024-09-15 16:42:04,138 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:42:04,161 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 6
+2024-09-15 16:42:15,954 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:42:15,966 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 7
+2024-09-15 16:42:24,507 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:42:28,067 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 8
+2024-09-15 16:42:33,099 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:42:33,110 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 9
+2024-09-15 16:42:41,131 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:42:41,152 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 10
+2024-09-15 16:43:04,030 INFO  EcomWebApp.Controllers.CategoryController - GetParentCategoryById initiated for ID: 7
+2024-09-15 16:43:09,980 INFO  EcomWebApp.Controllers.CategoryController - GetParentCategoryById initiated for ID: 11
+2024-09-15 16:43:10,098 ERROR EcomWebApp.Controllers.CategoryController - GetParentCategoryById failed: Parent Category not Found with this ID
+2024-09-15 16:43:28,414 INFO  EcomWebApp.Controllers.CategoryController - DeleteParentCategory initiated for ID: 10
+2024-09-15 16:43:28,479 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory deleted with ID: 10
+2024-09-15 16:43:56,059 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-09-15 16:44:05,915 INFO  EcomWebApp.Controllers.CategoryController - AddParentCategory initiated
+2024-09-15 16:44:05,927 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory added with ID: 11
+2024-09-15 16:45:24,878 INFO  EcomWebApp.Controllers.CategoryController - UpdateParentCategory initiated
+2024-09-15 16:45:24,920 INFO  EcomWebApp.Controllers.CategoryController - ParentCategory updated with ID: 11
+2024-09-15 16:45:35,184 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-09-15 16:50:59,560 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:50:59,650 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 1
+2024-09-15 16:51:22,700 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:51:22,747 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 2
+2024-09-15 16:51:39,316 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:51:39,357 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 3
+2024-09-15 16:51:59,082 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:51:59,102 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 4
+2024-09-15 16:52:19,022 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:52:19,056 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 5
+2024-09-15 16:52:36,621 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:52:36,633 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 6
+2024-09-15 16:52:52,268 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:52:52,288 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 7
+2024-09-15 16:54:33,663 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:54:33,692 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 8
+2024-09-15 16:54:53,558 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:54:53,570 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 9
+2024-09-15 16:55:08,760 INFO  EcomWebApp.Controllers.CategoryController - AddSubCategory initiated
+2024-09-15 16:55:08,782 INFO  EcomWebApp.Controllers.CategoryController - SubCategory added with ID: 10
+2024-09-15 16:57:06,765 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoryById initiated for ID: 1
+2024-09-15 16:57:13,221 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoryById initiated for ID: 10
+2024-09-15 16:57:17,321 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoryById initiated for ID: 11
+2024-09-15 16:57:17,441 ERROR EcomWebApp.Controllers.CategoryController - GetSubCategoryById failed: Sub Category not Found with this ID
+2024-09-15 16:57:38,930 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-09-15 16:57:51,473 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 11
+2024-09-15 17:01:50,872 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:01:50,945 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 1
+2024-09-15 17:02:00,600 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:02:00,610 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 2
+2024-09-15 17:02:09,048 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:02:09,306 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 3
+2024-09-15 17:02:27,968 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:02:27,988 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 4
+2024-09-15 17:02:41,905 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:02:41,925 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 5
+2024-09-15 17:04:21,462 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:04:22,442 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 6
+2024-09-15 17:04:33,432 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:04:33,442 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 7
+2024-09-15 17:04:42,309 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:04:42,326 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 8
+2024-09-15 17:04:51,223 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:04:51,242 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 9
+2024-09-15 17:04:59,168 INFO  EcomWebApp.Controllers.CategoryController - AddBrand initiated
+2024-09-15 17:04:59,177 INFO  EcomWebApp.Controllers.CategoryController - Brand added with ID: 10
+2024-09-15 17:05:12,382 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-09-15 20:46:58,569 INFO  EcomWebApp.Controllers.DiscountController - Retrieving all discounts.
+2024-09-15 20:49:17,754 INFO  EcomWebApp.Controllers.DiscountController - Creating new discount.
+2024-09-15 20:49:50,536 INFO  EcomWebApp.Controllers.DiscountController - Creating new discount.
+2024-09-15 20:50:03,733 INFO  EcomWebApp.Controllers.DiscountController - Creating new discount.
+2024-09-15 20:50:12,882 INFO  EcomWebApp.Controllers.DiscountController - Creating new discount.
+2024-09-15 20:50:38,511 INFO  EcomWebApp.Controllers.DiscountController - Retrieving all discounts.
+2024-09-15 20:50:50,981 INFO  EcomWebApp.Controllers.DiscountController - Retrieving discount with ID: 7
+2024-09-15 20:50:51,193 ERROR EcomWebApp.Controllers.DiscountController - Error while retrieving discount with ID: 7. Error: Discount not found
+2024-09-15 20:50:56,441 INFO  EcomWebApp.Controllers.DiscountController - Retrieving discount with ID: 3
+2024-09-15 20:51:48,404 INFO  EcomWebApp.Controllers.ProductDiscountController - Retrieving all product discounts.
+2024-09-15 20:56:32,646 INFO  EcomWebApp.Controllers.ProductDiscountController - Creating new product discount.
+2024-09-15 20:56:42,693 INFO  EcomWebApp.Controllers.ProductDiscountController - Creating new product discount.
+2024-09-15 20:56:52,964 INFO  EcomWebApp.Controllers.ProductDiscountController - Creating new product discount.
+2024-09-15 20:56:54,868 INFO  EcomWebApp.Controllers.ProductDiscountController - Creating new product discount.
+2024-09-15 20:57:06,920 INFO  EcomWebApp.Controllers.ProductDiscountController - Creating new product discount.
+2024-09-15 20:57:14,531 INFO  EcomWebApp.Controllers.ProductDiscountController - Creating new product discount.
+2024-09-15 20:57:24,908 INFO  EcomWebApp.Controllers.ProductDiscountController - Creating new product discount.
+2024-09-15 20:57:31,873 INFO  EcomWebApp.Controllers.ProductDiscountController - Retrieving all product discounts.
+2024-09-15 20:57:46,096 INFO  EcomWebApp.Controllers.ProductDiscountController - Deleting product discount with ID: 4
+2024-09-15 20:57:50,577 INFO  EcomWebApp.Controllers.ProductDiscountController - Deleting product discount with ID: 5
+2024-09-15 20:58:02,431 INFO  EcomWebApp.Controllers.ProductDiscountController - Retrieving all product discounts.
+2024-09-15 20:58:10,961 INFO  EcomWebApp.Controllers.ProductDiscountController - Retrieving product discount with ID: 1
+2024-09-15 20:58:15,228 INFO  EcomWebApp.Controllers.ProductDiscountController - Retrieving product discount with ID: 4
+2024-09-15 20:58:15,324 ERROR EcomWebApp.Controllers.ProductDiscountController - Error while retrieving product discount with ID: 4. Error: Product discount not found
+2024-09-15 21:16:21,417 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email arunkumar123@gmail.com.
+2024-09-15 21:16:57,077 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email subashini89@gmail.com.
+2024-09-15 21:17:02,656 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email subashini89@gmail.com: A user with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A user with this email already exists.
+   at EcomLib.Service.UserService.RegisterUserAsync(RegisterUserDTO registerUserDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 27
+   at EcomWebApp.Controllers.UserController.RegisterUser(RegisterUserDTO userDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 96
+2024-09-15 21:17:19,612 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email ganesh24@gmail.com.
+2024-09-15 21:17:32,012 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email nandhini_sharma@gmail.com.
+2024-09-15 21:17:42,947 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email mohanraj_k@gmail.com.
+2024-09-15 21:17:55,141 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email keerthana_raj@gmail.com.
+2024-09-15 21:18:08,484 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email vikram_madhavan@gmail.com.
+2024-09-15 21:18:19,688 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email lakshmi_narayanan@gmail.com.
+2024-09-15 21:18:29,664 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email gopal_k@gmail.com.
+2024-09-15 21:18:40,061 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email priya_s@gmail.com.
+2024-09-15 21:18:50,159 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email rahul_verma@gmail.com.
+2024-09-15 21:18:59,559 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email deepak_ravi@gmail.com.
+2024-09-15 21:19:14,173 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email anitha_j@gmail.com.
+2024-09-15 21:19:26,613 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email rajini_krishna@gmail.com.
+2024-09-15 21:19:39,015 INFO  EcomWebApp.Controllers.UserController - Successfully registered user with email bharath_vijay@gmail.com.
+2024-09-15 21:22:02,851 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email shiva_enterprises@gmail.com.
+2024-09-15 21:22:22,988 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email raj_fashion_house@gmail.com.
+2024-09-15 21:22:41,380 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email bharathi_traders@gmail.com.
+2024-09-15 21:23:30,739 ERROR EcomWebApp.Controllers.UserController - Error occurred while registering user with email bharathi_traders@gmail.com: A seller with this email already exists.
+EcomLib.Exceptionhandling.InvalidInputException: A seller with this email already exists.
+   at EcomLib.Service.UserService.RegisterSellerAsync(RegisterSellerDTO registerSellerDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\UserService.cs:line 65
+   at EcomWebApp.Controllers.UserController.RegisterEmail(RegisterSellerDTO sellerDto) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\UserController.cs:line 123
+2024-09-15 21:23:42,912 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email priya_handicrafts@gmail.com.
+2024-09-15 21:41:56,426 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email krishna_tech_solutions@gmail.com.
+2024-09-15 21:42:36,776 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email laxmi_textiles@gmail.com.
+2024-09-15 21:42:50,268 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email arun_furniture@gmail.com.
+2024-09-15 21:44:24,981 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email green_agro_products@gmail.com.
+2024-09-15 21:44:42,135 INFO  EcomWebApp.Controllers.UserController - Successfully registered Seller with email metro_innovations@gmail.com.
+2024-09-15 23:22:45,447 INFO  EcomWebApp.Controllers.CartController - Attempting to add a new cart.
+2024-09-15 23:35:24,336 INFO  EcomWebApp.Controllers.CartController - Attempting to add a new cart.
+2024-09-15 23:38:58,283 INFO  EcomWebApp.Controllers.CartController - Attempting to add a new cart.
+2024-09-15 23:51:19,156 INFO  EcomWebApp.Controllers.EcomWebApp.Controllers.OrderController - Placing order for userId: 4, shippingAddressId: 4, billingAddressId: 4, discountCode: SUMMER21, paymentMethod: CreditCard
+2024-09-15 23:51:21,860 INFO  EcomWebApp.Controllers.EcomWebApp.Controllers.OrderController - Order placed successfully with OrderId: 1

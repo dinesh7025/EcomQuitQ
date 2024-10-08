@@ -1,0 +1,1487 @@
+2024-10-05 10:23:24,634 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 10:23:24,634 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 10:24:00,058 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 10:24:00,528 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 10:24:00,546 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 10:24:00,546 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 10:24:15,507 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: shiva_enterprises@gmail.com
+2024-10-05 10:24:15,717 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: shiva_enterprises@gmail.com
+2024-10-05 10:24:36,492 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 10:24:36,500 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-05 10:24:48,951 INFO  EcomWebApp.Controllers.CategoryController - GetSubCategoriesByParentId initiated for ParentCategoryID: 1
+2024-10-05 10:25:25,655 INFO  OrderController - Order item status updated. Order Item ID: 24, New Status: Shipped
+2024-10-05 10:26:56,760 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by product for sellerId: 4
+2024-10-05 10:50:26,777 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=6 to UserId=4's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Wishlists'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:eba8df45-fc7f-4d5b-a9e5-75568b541079
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 32
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 22
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 10:52:14,894 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=6 to UserId=4's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Wishlists'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:eba8df45-fc7f-4d5b-a9e5-75568b541079
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 32
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 22
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 10:57:22,668 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=6 added to wishlist for UserId=4.
+2024-10-05 10:58:16,978 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 11:03:47,357 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 11:05:05,371 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=18 added to wishlist for UserId=4.
+2024-10-05 11:06:07,362 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=10 added to wishlist for UserId=4.
+2024-10-05 11:06:18,728 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=10 removed from wishlist for UserId=4.
+2024-10-05 11:34:33,696 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 11:38:21,865 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 12:00:45,245 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:00:45,245 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:02:12,042 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:02:12,042 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:03:02,721 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:03:02,724 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:03:08,676 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:03:08,676 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:06:49,743 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:06:49,743 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:14:09,858 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:14:09,858 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:14:11,474 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=10.
+2024-10-05 12:14:32,132 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:14:32,132 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:14:33,218 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 12:14:36,585 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:14:36,585 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:14:38,590 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=34.
+2024-10-05 12:14:43,931 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:14:43,931 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:14:45,861 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=35.
+2024-10-05 12:14:47,459 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:14:47,459 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:14:49,125 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=23.
+2024-10-05 12:14:50,456 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:14:50,456 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:14:52,293 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=37.
+2024-10-05 12:14:54,176 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:14:54,176 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:14:56,605 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=42.
+2024-10-05 12:14:58,449 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:14:58,449 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:15:00,253 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=41.
+2024-10-05 12:15:01,632 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:15:01,632 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:15:03,583 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=41.
+2024-10-05 12:15:04,929 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:15:04,930 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:15:06,176 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=10.
+2024-10-05 12:15:11,489 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 12:15:11,489 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 12:15:28,588 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=10.
+2024-10-05 12:37:14,851 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=10.
+2024-10-05 12:49:58,963 INFO  EcomWebApp.Controllers.ProductReviewController - Review added successfully with ID: 3 by UserId: 5 for productId: 6
+2024-10-05 13:34:21,180 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 13:34:21,180 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 13:34:38,794 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=10.
+2024-10-05 13:34:42,863 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 13:34:42,863 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 13:34:45,172 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 13:36:56,053 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 13:37:19,017 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 13:37:26,680 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 13:38:52,057 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 13:38:56,260 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 13:41:49,214 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 13:41:49,215 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 13:41:51,221 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 13:41:58,509 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 13:41:58,510 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 13:42:24,804 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=19.
+2024-10-05 13:43:40,692 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 13:43:40,692 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 13:47:37,781 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 13:47:37,781 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 13:47:39,909 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=10.
+2024-10-05 13:48:05,703 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=10.
+2024-10-05 13:48:13,297 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 13:48:13,297 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 13:48:14,608 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=18.
+2024-10-05 13:48:53,695 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=18.
+2024-10-05 13:49:17,690 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=18.
+2024-10-05 13:49:38,732 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=18.
+2024-10-05 13:50:16,377 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 13:50:16,378 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 13:50:18,352 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 13:52:20,861 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 13:52:32,832 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 15:42:23,392 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 15:42:23,392 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 15:42:53,599 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 15:42:54,438 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 15:42:54,464 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 15:42:54,464 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 15:43:03,512 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 15:43:03,512 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 15:43:03,671 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 15:43:12,335 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=18.
+2024-10-05 15:43:15,449 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 15:43:15,449 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 15:43:16,730 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 15:44:29,726 INFO  EcomWebApp.Controllers.ProductReviewController - Review added successfully with ID: 4 by UserId: 4 for productId: 6
+2024-10-05 15:44:29,756 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 15:49:08,033 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 15:50:31,136 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 15:52:44,300 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 15:52:50,614 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 15:55:30,167 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 15:56:17,155 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 6
+2024-10-05 15:56:17,252 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 6
+2024-10-05 15:56:20,786 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 15:56:20,786 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 15:56:22,378 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 15:56:22,379 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 15:56:22,383 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 15:56:26,217 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-05 15:56:26,267 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-05 15:56:27,505 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-05 15:56:27,525 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-05 15:56:37,434 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 15:56:59,130 INFO  EcomWebApp.Controllers.ProductReviewController - Review added successfully with ID: 5 by UserId: 4 for productId: 20
+2024-10-05 15:56:59,141 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 15:57:06,240 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 15:57:06,240 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:01:09,493 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:01:12,960 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:02:34,194 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:02:40,175 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:02:47,387 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:02:47,388 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:02:49,855 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:03:37,269 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:05:44,923 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:06:46,015 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:10:13,028 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:10:53,984 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:08,974 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:09,010 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:12,397 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=4 removed from wishlist for UserId=6.
+2024-10-05 16:14:13,846 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=4 removed from wishlist for UserId=6.
+2024-10-05 16:14:15,846 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:15,859 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:16,989 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=4 removed from wishlist for UserId=6.
+2024-10-05 16:14:18,508 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:18,511 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:24,332 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=6's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:40b5c3d3-814a-4bf0-9e92-71c9771e0843
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:14:25,854 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:25,855 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:27,892 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=6's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:40b5c3d3-814a-4bf0-9e92-71c9771e0843
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:14:29,333 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:29,335 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:30,445 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:14:30,445 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:14:33,863 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:33,866 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:35,159 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=6's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:dad3adf7-26e0-4e47-a7d9-0b167cf28d7a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:14:36,255 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:14:36,256 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:14:37,313 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:37,317 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:39,457 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:39,459 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:41,113 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=6's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:dad3adf7-26e0-4e47-a7d9-0b167cf28d7a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:14:41,985 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:14:41,985 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:14:43,153 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:43,157 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:46,870 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:14:46,870 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:14:52,563 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:52,566 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:14:54,056 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=6's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:40b5c3d3-814a-4bf0-9e92-71c9771e0843
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:14:56,278 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:14:56,282 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:15:46,042 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:15:46,042 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:15:47,088 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:15:47,089 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:15:54,094 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=4 removed from wishlist for UserId=6.
+2024-10-05 16:15:55,549 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:15:55,549 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:15:56,484 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:15:56,487 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:15:58,078 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=6's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:7368a7f5-d2df-46b2-9594-677cab975379
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:15:59,853 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:15:59,853 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:16:00,913 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:00,917 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:03,031 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:03,033 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:04,096 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:16:04,096 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:16:04,917 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:04,920 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:06,549 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=6's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:dad3adf7-26e0-4e47-a7d9-0b167cf28d7a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:16:07,494 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:16:07,494 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:16:08,489 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:08,493 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:09,835 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=6's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:dad3adf7-26e0-4e47-a7d9-0b167cf28d7a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:16:10,789 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:16:10,789 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:16:11,577 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:11,580 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:14,125 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:14,127 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:39,283 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:16:39,284 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:16:41,297 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:41,298 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:46,453 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:16:46,453 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:16:47,334 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:47,337 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:51,280 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:51,282 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:51,713 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:51,716 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:54,166 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:54,167 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:16:55,704 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:16:55,704 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:16:56,801 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:16:56,804 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:00,903 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:00,905 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:02,072 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:02,072 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:07,667 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=4 removed from wishlist for UserId=6.
+2024-10-05 16:17:09,008 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:17:09,009 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:17:10,368 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:10,372 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:11,635 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:11,636 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:12,540 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:12,542 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:13,356 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:13,359 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:14,060 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:14,063 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:15,651 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=6's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:dad3adf7-26e0-4e47-a7d9-0b167cf28d7a
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:17:17,312 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:17:17,312 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:17:18,794 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:18,796 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:20,629 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:20,631 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:21,499 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:21,504 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:22,095 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:22,097 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:17:22,625 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:17:22,627 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:22:37,438 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:22:37,443 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:22:39,935 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:22:39,940 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:22:46,537 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=4 removed from wishlist for UserId=6.
+2024-10-05 16:22:47,985 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:22:47,987 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:22:49,277 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:22:49,279 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:22:50,620 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:22:50,623 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:23:43,326 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:23:54,803 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:23:54,807 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:23:55,601 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:23:55,604 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:23:56,966 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=4 removed from wishlist for UserId=6.
+2024-10-05 16:24:03,085 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:05,373 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:09,943 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:24:09,945 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:11,944 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:11,946 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:24:15,073 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:19,583 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:24:19,583 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:24:21,072 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:21,077 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:24:22,275 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=9's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:df34c34c-81c9-4e27-84b8-90f653bf072f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:24:25,936 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:27,782 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:39,400 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:39,403 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:24:40,091 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:40,093 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:24:40,692 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:40,694 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:24:41,270 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:41,272 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:24:41,840 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:41,842 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:24:42,394 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:42,396 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:24:42,831 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:24:42,833 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:24:58,863 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=5.
+2024-10-05 16:25:02,387 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:25:17,258 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=6 removed from wishlist for UserId=4.
+2024-10-05 16:25:20,528 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:25:37,756 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:25:37,758 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:26:38,361 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:26:38,376 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:26:42,408 ERROR EcomWebApp.Controllers.WishlistController - An error occurred while adding ProductId=4 to UserId=9's wishlist.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Wishlists_Products_ProductId". The conflict occurred in database "EcomQuitQ", table "dbo.Products", column 'ProductId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:df34c34c-81c9-4e27-84b8-90f653bf072f
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcomLib.Repository.WishListRepository.WishlistRepository.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Repository\WishListRepository\WishlistRepository.cs:line 33
+   at EcomLib.Service.WishlistService.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\Service\WishlistService.cs:line 23
+   at EcomWebApp.Controllers.WishlistController.AddToWishlist(Int32 userId, Int32 productId) in D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\Controllers\WishlistController.cs:line 32
+2024-10-05 16:27:52,766 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:27:52,768 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:27:56,125 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:28:16,015 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:28:16,015 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:28:18,909 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:28:39,859 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:28:39,860 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:28:58,597 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:33:42,629 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:33:42,629 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:33:45,434 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:34:17,458 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:34:17,563 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:34:21,320 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:34:27,326 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:34:29,588 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:34:32,528 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:34:34,278 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:34:36,214 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:34:36,214 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:34:38,655 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:34:38,658 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:34:41,175 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:34:41,175 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:34:42,277 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:34:42,330 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:34:44,521 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=6 added to wishlist for UserId=4.
+2024-10-05 16:34:46,012 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:34:46,012 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:34:50,540 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:34:50,542 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:34:54,257 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:34:54,261 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:39:59,191 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:39:59,199 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:40:01,752 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:40:01,759 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:40:03,190 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:40:04,641 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:40:04,641 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:40:07,093 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:40:07,093 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:40:09,813 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:40:09,816 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:40:16,187 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:40:17,310 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:40:17,310 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:40:20,556 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:40:20,561 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 16:40:22,390 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:40:22,390 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:40:23,171 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:40:23,171 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:40:24,610 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:40:33,641 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:40:33,641 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:40:35,996 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:40:35,999 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:40:38,949 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:40:38,952 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:41:04,983 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:41:32,856 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:41:32,860 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:41:33,692 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:41:33,695 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:41:43,576 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:41:50,203 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:41:56,336 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:41:57,864 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:41:57,865 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:42:01,147 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:42:07,351 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:42:09,008 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:42:09,011 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:42:10,172 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:42:10,176 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:42:11,102 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:42:11,103 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:42:11,876 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:42:11,877 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:42:13,444 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:42:13,445 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:42:14,792 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:42:14,794 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:42:19,958 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:14,152 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:14,155 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:16,307 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:43:16,308 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:43:17,936 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:17,938 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:19,587 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:19,589 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:20,802 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:43:21,920 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:43:21,920 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:43:22,966 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:22,969 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:24,005 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:24,006 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:24,849 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:24,851 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:29,404 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:34,730 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:43:37,023 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:37,027 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:38,543 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:43:38,543 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:43:39,881 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:39,882 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:41,286 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:41,288 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:42,119 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:42,121 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:43,760 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:43:45,330 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:45,332 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:45,949 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:43:45,949 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:43:47,051 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:47,057 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:49,336 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:43:49,338 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:50,138 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:43:50,140 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:46:56,998 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:46:57,005 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:47:22,978 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:47:22,984 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:47:27,295 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:47:32,901 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:48:01,419 INFO  EcomWebApp.Controllers.ProductReviewController - Review added successfully with ID: 6 by UserId: 4 for productId: 9
+2024-10-05 16:48:01,432 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:48:06,676 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:49:53,968 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:49:53,979 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:49:56,276 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:49:58,290 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:49:58,292 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:49:59,445 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:50:05,682 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:50:29,583 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:50:29,584 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:51:00,258 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 16:51:00,261 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:51:02,042 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 added to wishlist for UserId=4.
+2024-10-05 16:51:03,420 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=9 removed from wishlist for UserId=4.
+2024-10-05 16:51:46,946 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:51:46,947 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:51:50,216 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=18.
+2024-10-05 16:51:50,220 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:52:04,348 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 16:52:04,349 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 16:52:06,052 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 16:52:06,054 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:56:59,436 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 16:56:59,441 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:57:16,278 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 16:57:16,285 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:57:20,322 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=22 added to wishlist for UserId=4.
+2024-10-05 16:57:21,501 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=22 removed from wishlist for UserId=4.
+2024-10-05 16:57:44,675 INFO  EcomWebApp.Controllers.ProductReviewController - Review added successfully with ID: 7 by UserId: 4 for productId: 22
+2024-10-05 16:57:44,689 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 16:57:56,378 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 16:57:56,378 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:58:36,827 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 16:58:36,827 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 16:59:00,242 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 16:59:00,244 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:00:00,957 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:00:00,962 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 17:00:12,201 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 17:00:12,215 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:00:21,676 INFO  EcomWebApp.Controllers.ProductReviewController - Review added successfully with ID: 8 by UserId: 4 for productId: 22
+2024-10-05 17:00:21,687 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 17:00:28,878 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:00:28,885 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 17:03:08,476 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 17:03:08,477 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:03:18,518 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=22 added to wishlist for UserId=4.
+2024-10-05 17:03:20,740 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=22 removed from wishlist for UserId=4.
+2024-10-05 17:04:22,194 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 17:04:22,200 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:04:42,533 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:04:42,539 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=22.
+2024-10-05 17:05:42,214 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:05:42,214 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:05:44,065 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:05:44,068 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=9.
+2024-10-05 17:05:45,648 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:05:45,648 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:05:46,536 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:05:46,546 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=10.
+2024-10-05 17:05:47,665 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:05:47,665 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:05:48,398 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:05:48,400 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=34.
+2024-10-05 17:05:49,561 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:05:49,561 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:05:50,693 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:05:50,696 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=35.
+2024-10-05 17:05:52,362 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:05:52,362 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:05:53,292 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:05:53,294 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:05:55,722 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:05:55,722 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:05:58,701 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:05:58,712 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=23.
+2024-10-05 17:06:06,306 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=23 added to wishlist for UserId=4.
+2024-10-05 17:06:07,648 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:06:07,648 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:06:08,609 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=18.
+2024-10-05 17:06:08,611 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:06:09,905 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:06:09,905 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:06:12,085 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:06:12,088 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=23.
+2024-10-05 17:06:13,466 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:06:13,466 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:06:14,650 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:06:14,653 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=41.
+2024-10-05 17:06:16,410 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:06:16,410 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:06:17,671 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=42.
+2024-10-05 17:06:17,672 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:06:19,905 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:06:19,905 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:06:21,313 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:06:21,315 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:12:51,089 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:12:51,106 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:13:04,028 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:13:04,033 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:13:40,819 INFO  EcomWebApp.Controllers.ProductReviewController - Review added successfully with ID: 9 by UserId: 4 for productId: 43
+2024-10-05 17:13:40,835 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:14:04,979 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:14:04,981 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:14:37,998 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:14:38,002 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:14:55,977 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:14:55,979 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:15:50,882 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:15:50,888 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:16:07,805 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:16:07,809 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:19:08,386 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:19:08,392 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:20:05,641 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:20:05,647 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=43.
+2024-10-05 17:20:29,734 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:20:29,734 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:20:31,970 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:20:31,973 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=35.
+2024-10-05 17:20:45,186 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:20:45,186 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:20:46,266 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:20:46,275 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=19.
+2024-10-05 17:20:50,399 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:20:50,399 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:20:51,360 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:20:51,365 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 17:21:24,886 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:21:24,889 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 17:21:51,993 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:21:52,001 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 17:22:09,742 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 17:22:09,742 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:22:58,987 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 17:22:59,002 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:23:32,700 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:23:32,706 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 17:23:43,808 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:23:43,811 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 17:23:45,019 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=20 added to wishlist for UserId=4.
+2024-10-05 17:23:46,062 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=20 removed from wishlist for UserId=4.
+2024-10-05 17:24:36,940 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=20 added to wishlist for UserId=4.
+2024-10-05 17:24:39,376 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=20 removed from wishlist for UserId=4.
+2024-10-05 17:24:54,991 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 17:24:55,007 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:24:56,704 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=20 added to wishlist for UserId=4.
+2024-10-05 17:24:57,843 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=20 removed from wishlist for UserId=4.
+2024-10-05 17:25:03,302 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 17:25:03,304 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=20.
+2024-10-05 17:26:43,900 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:26:43,900 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:29:00,826 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:29:00,826 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:39:33,903 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:39:33,904 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:40:36,882 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:40:36,882 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:40:56,920 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:40:56,922 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:41:24,988 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 17:41:24,991 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 17:41:25,069 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 17:42:08,954 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 17:42:09,378 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 17:42:09,399 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:42:09,399 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:43:20,277 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:43:20,277 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:43:25,725 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:43:25,725 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:43:45,070 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:43:45,070 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:46:18,958 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:46:18,960 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:47:49,071 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 17:47:49,279 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 17:47:49,294 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:47:49,298 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:52:20,999 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 17:52:21,252 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 17:52:21,279 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:52:21,279 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:54:10,032 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 17:54:10,039 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 17:56:58,114 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 17:56:58,114 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 17:56:58,135 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 18:03:34,994 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:03:34,999 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:06:39,988 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:06:39,988 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:26:04,450 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:26:04,453 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:26:59,936 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:26:59,938 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:27:42,452 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:27:42,452 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:27:53,920 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:27:53,920 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:31:22,076 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:31:22,076 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:31:33,924 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:31:33,924 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:31:42,220 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:31:42,220 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:31:54,510 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:31:54,510 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:32:06,938 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:32:06,939 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:32:17,927 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:32:17,927 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:34:46,000 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:34:46,000 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:36:14,000 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:36:14,000 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:36:40,928 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:36:40,928 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:37:14,924 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:37:14,924 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:39:53,879 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:39:53,879 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:40:06,974 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:40:06,975 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 18:40:17,829 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 18:40:17,829 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 19:05:19,048 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 19:05:19,048 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 19:06:04,381 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 19:06:04,381 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 19:06:36,518 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 19:06:36,758 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 19:06:36,777 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 19:06:36,777 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 19:06:39,469 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 19:07:57,125 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 19:08:31,964 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 19:09:24,212 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 21:45:16,324 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 21:45:16,324 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 21:45:25,584 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 21:45:25,881 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=19.
+2024-10-05 21:45:57,266 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 21:45:57,266 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 21:46:41,528 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 21:46:42,373 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 21:46:42,411 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 21:46:42,411 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 21:46:45,424 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 21:47:59,637 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=23 removed from wishlist for UserId=4.
+2024-10-05 21:47:59,656 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 21:48:12,918 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 21:48:12,918 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 21:48:12,993 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 21:48:52,924 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-05 21:48:53,051 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-05 21:48:56,491 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-05 21:48:56,519 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-05 21:50:21,015 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 21:50:21,061 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 21:50:36,557 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 21:50:36,558 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 21:52:05,585 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 21:52:05,585 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 21:58:41,328 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 21:58:41,328 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:02:14,125 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 22:02:14,545 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 22:02:14,576 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:02:14,576 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:02:16,709 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:02:40,130 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:02:40,134 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:02:40,142 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:02:45,928 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:02:45,935 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:02:45,935 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:02:50,042 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:02:51,001 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:02:51,018 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 22:02:57,538 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:02:58,406 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:02:58,415 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=18.
+2024-10-05 22:03:01,575 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:03:02,610 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:03:02,614 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 22:03:18,847 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:06:25,701 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:07:32,245 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:07:34,866 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 6
+2024-10-05 22:07:34,968 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 6
+2024-10-05 22:07:41,465 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:07:41,465 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:07:41,473 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:08:23,747 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 48 from cart for User ID: 4
+2024-10-05 22:08:23,794 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 48 for User ID: 4
+2024-10-05 22:08:23,802 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:08:23,809 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:09:03,804 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 46 from cart for User ID: 4
+2024-10-05 22:09:03,806 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 47 from cart for User ID: 4
+2024-10-05 22:09:03,806 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-05 22:09:03,862 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-05 22:09:03,872 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 46 for User ID: 4
+2024-10-05 22:09:03,873 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 47 for User ID: 4
+2024-10-05 22:09:03,880 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:09:03,886 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:09:03,889 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:09:03,894 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:09:13,624 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=74.
+2024-10-05 22:09:13,626 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:09:15,875 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=74 added to wishlist for UserId=4.
+2024-10-05 22:09:56,279 INFO  EcomWebApp.Controllers.ProductReviewController - Review added successfully with ID: 10 by UserId: 4 for productId: 74
+2024-10-05 22:09:56,300 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=74.
+2024-10-05 22:10:17,617 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:10:29,713 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:10:29,715 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:10:31,817 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:10:31,831 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=19.
+2024-10-05 22:10:33,493 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=19 added to wishlist for UserId=4.
+2024-10-05 22:10:34,816 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:10:34,816 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:10:35,891 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:10:35,896 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=21.
+2024-10-05 22:10:37,160 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=21 added to wishlist for UserId=4.
+2024-10-05 22:10:38,604 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:10:38,604 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:10:40,061 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:10:40,068 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=23.
+2024-10-05 22:10:42,081 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=23 added to wishlist for UserId=4.
+2024-10-05 22:10:43,636 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:10:43,637 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:10:44,855 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:11:17,712 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:11:17,712 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:11:17,724 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:12:55,801 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:12:55,801 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:12:58,668 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:17:59,717 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:17:59,717 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:17:59,761 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:18:10,267 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:18:10,267 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:18:10,284 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:21:20,273 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:21:20,280 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:21:20,321 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:21:45,263 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:21:45,265 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:21:45,281 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:23:29,322 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:23:29,324 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:23:29,335 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:23:32,640 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:23:32,640 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:23:32,684 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:23:46,929 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:23:46,929 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:23:46,939 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:23:49,070 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:23:49,074 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:23:49,094 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:24:03,250 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:24:03,251 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:24:03,259 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:24:55,297 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:24:55,305 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:24:55,330 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:25:58,270 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:25:58,271 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:25:58,285 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:28:06,756 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:28:06,764 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:28:06,774 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:28:09,449 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:28:09,455 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:28:09,460 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:29:15,594 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:29:31,304 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=18 removed from wishlist for UserId=4.
+2024-10-05 22:29:33,120 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:29:34,192 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=6 removed from wishlist for UserId=4.
+2024-10-05 22:29:35,232 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:29:36,062 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=19 removed from wishlist for UserId=4.
+2024-10-05 22:29:37,403 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:29:40,013 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=21 removed from wishlist for UserId=4.
+2024-10-05 22:29:41,193 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:29:42,374 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=74 removed from wishlist for UserId=4.
+2024-10-05 22:29:43,979 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 22:29:45,113 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=23 removed from wishlist for UserId=4.
+2024-10-05 22:29:46,424 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:29:49,544 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:32:03,267 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:35:32,483 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:35:59,322 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:36:01,069 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:36:01,069 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:36:07,641 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:36:12,828 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:36:12,828 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:36:12,838 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:36:35,318 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:36:35,319 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:36:35,332 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:37:43,260 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:37:43,266 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:37:43,278 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:38:39,133 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:38:39,133 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:38:39,146 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:39:05,268 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:39:05,269 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:39:22,807 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 18
+2024-10-05 22:39:22,849 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=18.
+2024-10-05 22:39:22,869 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 18
+2024-10-05 22:39:22,874 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:39:26,624 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:39:26,624 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:39:28,392 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 10
+2024-10-05 22:39:28,431 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 10
+2024-10-05 22:39:28,432 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:39:28,437 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=10.
+2024-10-05 22:39:44,657 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:39:44,657 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:39:51,773 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 19
+2024-10-05 22:39:51,796 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=19.
+2024-10-05 22:39:51,800 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:39:51,816 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 19
+2024-10-05 22:39:55,054 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:39:55,054 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:44:06,336 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:44:06,336 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:44:18,404 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:44:18,405 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:44:36,154 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=19.
+2024-10-05 22:44:36,154 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 22:44:38,571 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:44:38,572 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:44:40,216 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 10
+2024-10-05 22:44:40,261 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 10
+2024-10-05 22:44:42,447 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:44:42,447 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:44:42,461 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:44:47,321 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 49 from cart for User ID: 4
+2024-10-05 22:44:47,349 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 49 for User ID: 4
+2024-10-05 22:44:47,356 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:44:47,363 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:44:47,806 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 50 from cart for User ID: 4
+2024-10-05 22:44:47,837 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 50 for User ID: 4
+2024-10-05 22:44:47,843 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:44:47,850 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:44:48,271 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 51 from cart for User ID: 4
+2024-10-05 22:44:48,299 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 51 for User ID: 4
+2024-10-05 22:44:48,305 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:44:48,311 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:44:48,812 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 52 from cart for User ID: 4
+2024-10-05 22:44:48,842 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 52 for User ID: 4
+2024-10-05 22:44:48,847 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:44:48,854 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:44:52,512 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 9
+2024-10-05 22:44:52,535 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 9
+2024-10-05 22:44:53,915 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:44:53,915 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:44:53,922 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:44:58,629 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 20
+2024-10-05 22:44:58,647 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 20
+2024-10-05 22:45:00,321 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:45:00,321 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:45:00,332 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:48:15,268 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:48:15,268 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:48:20,225 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:48:20,225 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:48:24,939 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 35
+2024-10-05 22:48:24,983 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 35
+2024-10-05 22:48:29,290 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:48:29,291 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:48:29,299 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:48:31,651 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 55 from cart for User ID: 4
+2024-10-05 22:48:31,673 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 55 for User ID: 4
+2024-10-05 22:48:31,679 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:48:31,685 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:52:27,275 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:52:27,275 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:54:15,299 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:54:15,299 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:54:18,242 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 22:54:18,243 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 22:54:38,164 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 63
+2024-10-05 22:54:38,200 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 63
+2024-10-05 22:54:43,142 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:54:43,142 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:54:43,148 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:54:45,237 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 56 from cart for User ID: 4
+2024-10-05 22:54:45,258 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 56 for User ID: 4
+2024-10-05 22:54:45,263 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:54:45,269 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:54:46,014 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 54 from cart for User ID: 4
+2024-10-05 22:54:46,041 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 54 for User ID: 4
+2024-10-05 22:54:46,046 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:54:46,052 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:54:46,659 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 53 from cart for User ID: 4
+2024-10-05 22:54:46,673 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 53 for User ID: 4
+2024-10-05 22:54:46,679 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:54:46,685 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:58:39,275 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:58:39,276 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:58:39,316 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:58:43,270 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:58:43,270 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:58:43,279 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 22:58:48,172 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 22:58:48,173 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 22:58:48,189 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:00:54,298 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:00:54,298 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:00:54,316 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:01:31,256 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:01:31,256 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:01:31,277 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:01:48,292 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:01:48,294 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:01:48,306 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:02:03,217 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:02:03,217 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:02:03,226 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:02:25,207 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:02:25,213 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:02:25,219 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:03:10,992 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:03:11,004 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:03:32,227 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 23:03:32,644 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 23:03:32,688 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:03:32,696 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:03:38,760 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:03:38,761 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:03:38,769 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:03:41,381 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:03:41,381 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:03:44,212 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 35
+2024-10-05 23:03:44,255 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 35
+2024-10-05 23:03:46,756 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:03:46,756 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:03:46,763 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:04:49,270 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:04:49,272 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:04:49,290 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:04:52,254 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:04:52,254 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:04:52,272 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:05:36,229 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:05:36,229 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:05:36,247 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:06:12,522 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:06:12,522 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:06:12,550 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:06:18,120 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:06:18,120 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:08:01,068 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by product for sellerId: 19
+2024-10-05 23:08:01,179 WARN  EcomWebApp.Controllers.SalesAnalyticsController - No sales data found for sellerId: 19
+2024-10-05 23:08:08,469 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by product for sellerId: 4
+2024-10-05 23:08:42,941 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by month for sellerId: 4
+2024-10-05 23:09:10,667 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching top-selling product for sellerId: 4
+2024-10-05 23:35:39,615 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:35:39,615 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:35:45,680 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 23:35:45,895 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 23:35:45,905 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:35:45,906 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:35:55,762 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 23:36:01,973 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:36:01,973 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:36:04,085 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:36:04,085 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:36:04,090 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:36:09,632 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 23:36:11,117 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:36:11,117 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:36:23,289 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 6
+2024-10-05 23:36:23,319 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 6
+2024-10-05 23:36:27,951 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:36:27,951 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:36:27,955 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:36:33,878 WARN  EcomWebApp.Controllers.WishlistController - No wishlist found for UserId=4.
+2024-10-05 23:36:33,881 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 23:37:20,271 INFO  EcomWebApp.Controllers.ProductReviewController - Review added successfully with ID: 11 by UserId: 4 for productId: 6
+2024-10-05 23:37:20,283 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-05 23:37:26,970 INFO  EcomWebApp.Controllers.WishlistController - Product with ProductId=6 added to wishlist for UserId=4.
+2024-10-05 23:37:30,001 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 23:38:00,652 INFO  EcomWebApp.Controllers.CartController - Adding item to cart for User ID: 4, Product ID: 6
+2024-10-05 23:38:00,682 INFO  EcomWebApp.Controllers.CartController - Successfully added item to cart. User ID: 4, Product ID: 6
+2024-10-05 23:38:04,721 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:38:04,721 INFO  EcomWebApp.Controllers.UserController - Fetching address for user with Id 4
+2024-10-05 23:38:04,724 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:38:30,010 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-05 23:38:30,059 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-05 23:38:49,425 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 23:39:20,783 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 23:39:58,066 INFO  EcomWebApp.Controllers.WishlistController - Fetched wishlist for UserId=4.
+2024-10-05 23:40:24,596 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 59 from cart for User ID: 4
+2024-10-05 23:40:24,616 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 59 for User ID: 4
+2024-10-05 23:40:24,620 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:40:24,623 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:40:29,409 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-05 23:40:29,435 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-05 23:40:30,285 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-05 23:40:30,304 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-05 23:40:32,205 INFO  EcomWebApp.Controllers.CartController - Updating cart for User ID: 4
+2024-10-05 23:40:32,214 INFO  EcomWebApp.Controllers.CartController - Successfully updated cart for User ID: 4
+2024-10-05 23:40:35,621 INFO  EcomWebApp.Controllers.CartController - Removing item with CartItem ID: 58 from cart for User ID: 4
+2024-10-05 23:40:35,642 INFO  EcomWebApp.Controllers.CartController - Successfully removed item with CartItem ID: 58 for User ID: 4
+2024-10-05 23:40:35,645 INFO  EcomWebApp.Controllers.CartController - Fetching cart for User ID: 4
+2024-10-05 23:40:35,648 INFO  EcomWebApp.Controllers.CartController - Successfully fetched cart for User ID: 4
+2024-10-05 23:42:04,392 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:42:04,393 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:48:34,179 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: arunkumar123@gmail.com
+2024-10-05 23:48:34,442 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: arunkumar123@gmail.com
+2024-10-05 23:48:34,463 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:48:34,463 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:49:08,603 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:49:08,603 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:56:28,354 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:56:28,356 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:56:28,514 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-05 23:56:28,514 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-05 23:56:40,390 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: shiva_enterprises@gmail.com
+2024-10-05 23:56:40,611 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: shiva_enterprises@gmail.com
+2024-10-05 23:56:40,629 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by month for sellerId: 0
+2024-10-05 23:56:40,629 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching sales by product for sellerId: 0
+2024-10-05 23:56:40,629 INFO  EcomWebApp.Controllers.SalesAnalyticsController - Fetching top-selling product for sellerId: 0
+2024-10-05 23:56:40,644 WARN  EcomWebApp.Controllers.SalesAnalyticsController - No top-selling product found for sellerId: 0
+2024-10-05 23:56:40,646 WARN  EcomWebApp.Controllers.SalesAnalyticsController - No sales data found for sellerId: 0
+2024-10-05 23:56:40,647 WARN  EcomWebApp.Controllers.SalesAnalyticsController - No monthly sales data found for sellerId: 0
