@@ -53,7 +53,110 @@
                     <p>Discount Applied: {{ discount.description }} ({{ discount.discountValue }} {{ discount.discountType === DiscountType.Percentage ? '%' : 'INR' }})</p>
                 </div>
             </div>
-
+            <div class="container mt-4">
+                <h5 class="text-center">Manage Addresses</h5>
+              
+                <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addAddressModal" 
+                        (click)="openAddAddressModal()">
+                  Add New Address
+                </button>
+              
+                <div class="list-group">
+                  <div *ngFor="let address of addresses" class="list-group-item">
+                    <p>{{ address.addressLine1 }}, {{ address.city }}</p>
+                    <p>{{ address.addressLine2 }}</p>
+                    <p>{{ address.state }}, {{ address.country }} - {{ address.postalCode }}</p>
+                    <button class="btn btn-warning btn-sm me-2" data-bs-toggle="modal" data-bs-target="#updateAddressModal" 
+                            (click)="openUpdateAddressModal(address)">
+                      Edit
+                    </button>
+                  </div>
+                </div>
+              </div>
+              
+             <!-- Add Address Modal -->
+<div class="modal fade" id="addAddressModal" tabindex="-1" aria-labelledby="addAddressModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="addAddressModalLabel">Add Address</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="addAddressForm" (ngSubmit)="addAddress()">
+            <div class="mb-3">
+              <label for="addressLine1" class="form-label">Address Line 1</label>
+              <input type="text" class="form-control" id="addressLine1" formControlName="addressLine1" required>
+            </div>
+            <div class="mb-3">
+              <label for="addressLine2" class="form-label">Address Line 2</label>
+              <input type="text" class="form-control" id="addressLine2" formControlName="addressLine2">
+            </div>
+            <div class="mb-3">
+              <label for="city" class="form-label">City</label>
+              <input type="text" class="form-control" id="city" formControlName="city" required>
+            </div>
+            <div class="mb-3">
+              <label for="state" class="form-label">State</label>
+              <input type="text" class="form-control" id="state" formControlName="state" required>
+            </div>
+            <div class="mb-3">
+              <label for="postalCode" class="form-label">Postal Code</label>
+              <input type="text" class="form-control" id="postalCode" formControlName="postalCode" required>
+            </div>
+            <div class="mb-3">
+              <label for="country" class="form-label">Country</label>
+              <input type="text" class="form-control" id="country" formControlName="country" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Address</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Update Address Modal -->
+  <div class="modal fade" id="updateAddressModal" tabindex="-1" aria-labelledby="updateAddressModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="updateAddressModalLabel">Update Address</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="updateAddressForm" (ngSubmit)="updateAddress()">
+            <div class="mb-3">
+              <label for="addressLine1Update" class="form-label">Address Line 1</label>
+              <input type="text" class="form-control" id="addressLine1Update" formControlName="addressLine1" required>
+            </div>
+            <div class="mb-3">
+              <label for="addressLine2Update" class="form-label">Address Line 2</label>
+              <input type="text" class="form-control" id="addressLine2Update" formControlName="addressLine2">
+            </div>
+            <div class="mb-3">
+              <label for="cityUpdate" class="form-label">City</label>
+              <input type="text" class="form-control" id="cityUpdate" formControlName="city" required>
+            </div>
+            <div class="mb-3">
+              <label for="stateUpdate" class="form-label">State</label>
+              <input type="text" class="form-control" id="stateUpdate" formControlName="state" required>
+            </div>
+            <div class="mb-3">
+              <label for="postalCodeUpdate" class="form-label">Postal Code</label>
+              <input type="text" class="form-control" id="postalCodeUpdate" formControlName="postalCode" required>
+            </div>
+            <div class="mb-3">
+              <label for="countryUpdate" class="form-label">Country</label>
+              <input type="text" class="form-control" id="countryUpdate" formControlName="country" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Update Address</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              
             <!-- Address Section -->
             <div class="address-section mb-4">
                 <h4>Select Shipping & Billing Address</h4>

@@ -114,6 +114,35 @@ namespace EcomLib.Service
             }
             await _userRepository.UpdateUserAsync(userDto, userId);
         }
+        public void AddAddress(AddAddressDTO addressDto)
+        {
+            var newAddress = new Address
+            {
+                UserId = addressDto.UserId,
+                AddressLine1 = addressDto.AddressLine1,
+                AddressLine2 = addressDto.AddressLine2,
+                City = addressDto.City,
+                State = addressDto.State,
+                PostalCode = addressDto.PostalCode,
+                Country = addressDto.Country
+            };
+            _userRepository.AddAddress(newAddress);
+        }
+        public void UpdateAddress(UpdateAddressDTO addressDto)
+        {
+            var existingAddress = _userRepository.GetAddressById(addressDto.AddressId);
+            if (existingAddress != null)
+            {
+                existingAddress.AddressLine1 = addressDto.AddressLine1;
+                existingAddress.AddressLine2 = addressDto.AddressLine2;
+                existingAddress.City = addressDto.City;
+                existingAddress.State = addressDto.State;
+                existingAddress.PostalCode = addressDto.PostalCode;
+                existingAddress.Country = addressDto.Country;
+
+                _userRepository.UpdateAddress(existingAddress);
+            }
+        }
 
         // Update personal details
         public async Task UpdateAddressAsync(int userId, AddressDTO addressDto)

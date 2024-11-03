@@ -432,5 +432,22 @@ namespace EcomQuitQ.BusinessLogicLayer.UserRepository
                 await _context.SaveChangesAsync();
             }
         }
+        // Add a new address
+        public void AddAddress(Address address)
+        {
+            _context.Addresses.Add(address);
+            _context.SaveChanges();
+        }
+        // Update an existing address
+        public void UpdateAddress(Address address)
+        {
+            _context.Addresses.Update(address);
+            _context.SaveChanges();
+        }
+        // Optional: Get an address by ID (for editing)
+        public Address GetAddressById(int addressId)
+        {
+            return _context.Addresses.FirstOrDefault(a => a.AddressId == addressId);
+        }
     }
 }

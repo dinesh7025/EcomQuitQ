@@ -39,5 +39,8 @@ namespace EcomLib.Repository.UserRepository
 
         Task<UserProfileDto> GetUserProfileByIdAsync(int userId);
         Task UpdateUserProfileAsync(UserProfileDto userProfileDto);
+        void AddAddress(Address address);
+        void UpdateAddress(Address address);
+        Address GetAddressById(int addressId);
     }
 }

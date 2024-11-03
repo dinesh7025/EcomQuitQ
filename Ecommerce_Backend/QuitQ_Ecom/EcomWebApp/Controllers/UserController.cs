@@ -182,25 +182,50 @@ namespace EcomWebApp.Controllers
                 return StatusCode(500, new { message = "Internal server error." });
             }
         }
-        // PUT: api/user/update-address
-        [HttpPut("update-address")]
-        public async Task<IActionResult> UpdateAddressAsync(int userId, AddressDTO addressDto)
+
+        [HttpPost("AddAdress-user")]
+        public async Task<IActionResult> AddAddress([FromBody] AddAddressDTO addressDto)
         {
             try
             {
-                log.Info($"Updating address for user ID: {userId}");
-                await _userService.UpdateAddressAsync(userId, addressDto);
-                log.Info($"Address updated successfully for user ID: {userId}");
-                return Ok("Address updated successfully.");
+                log.Info($"Adding new address for user ID: {addressDto.UserId}");
+                _userService.AddAddress(addressDto);
+                log.Info($"Successfully added new address for user ID: {addressDto.UserId}");
+
+                return Ok(new {message = "New Address Added"});
+            }
+            catch (Exception ex)
+            {
+                log.Error($"Error adding address for user ID: {addressDto.UserId}", ex);
+                return StatusCode(500, "An error occurred while adding the address.");
+            }
+        }
+        // PUT: api/useraddress/{id}
+        [HttpPut("UpdateAdress-user/{id}")]
+        public async Task<IActionResult> UpdateAddress(int id, [FromBody] UpdateAddressDTO addressDto)
+        {
+            if (id != addressDto.AddressId)
+            {
+                log.Warn($"Address ID mismatch. Path ID: {id}, DTO ID: {addressDto.AddressId}");
+                return BadRequest("Address ID mismatch.");
+            }
+
+            try
+            {
+                log.Info($"Updating address with ID: {id}");
+                _userService.UpdateAddress(addressDto);
+                log.Info($"Address with ID: {id} updated successfully");
+
+                return Ok(new {message= "Address updated successfully." });
             }
             catch (UserNotFoundException ex)
             {
-                log.Warn($"UserNotFoundException: User with ID {userId} not found.");
+                log.Warn($"UserNotFoundException: {ex.Message}");
                 return NotFound(ex.Message);
             }
             catch (Exception ex)
             {
-                log.Error($"Error while updating address for user ID: {userId}", ex);
+                log.Error($"Error while updating address with ID: {id}", ex);
                 return StatusCode(500, "An error occurred while updating the address.");
             }
         }

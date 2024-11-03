@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CartService } from '../../services/cart.service';
 import { CartDTO, CartItemDTO } from '../../models/cart.model';
 import { AuthService } from '../../services/auth-service.service';
 import { Observable } from 'rxjs';
-import { Address } from '../../models/address.model';
+import { AddAddressDTO, Address, UpdateAddressDTO } from '../../models/address.model';
 import { UserService } from '../../services/user.service';
-import { FormsModule } from '@angular/forms';
+import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Discount, DiscountType } from '../../models/discount.model';
 import { DiscountService } from '../../services/discount.service';
 import { Order, OrderStatus, OrderItemStatus, PaymentMethod, PaymentStatus } from '../../models/order.model';
@@ -17,11 +17,14 @@ import { ModalService } from '../../services/modal.service';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { RouterModule } from '@angular/router';
+import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
+
+declare const bootstrap: any;
 
 @Component({
   selector: 'app-cart',
   standalone: true,
-  imports: [CommonModule, FormsModule, HeaderComponent, FooterComponent,RouterModule],
+  imports: [CommonModule, FormsModule, HeaderComponent, FooterComponent,RouterModule,ReactiveFormsModule,MatSnackBarModule],
   templateUrl: './cart.component.html',
   styleUrls: ['./cart.component.css']
 })
@@ -34,7 +37,11 @@ export class CartComponent implements OnInit {
   DiscountType = DiscountType;
   selectedShippingAddressId: number | null = null;
   selectedBillingAddressId: number | null = null;
-  addresses: Address[] = []; // Addresses for user
+  addresses: Address[] = [];
+  addAddressForm!: FormGroup;
+  updateAddressForm!: FormGroup;
+  selectedAddressId: number | null = null;
+  userId: number|null;
 
   selectedPaymentMethod: PaymentMethod | null = null;
   paymentMethods: { label: string; value: PaymentMethod }[] = [
@@ -53,16 +60,37 @@ export class CartComponent implements OnInit {
     private userService: UserService,
     private discountService: DiscountService,
     private orderService: OrderService,
-    private modalService: ModalService
+    private modalService: ModalService,
+    private fb: FormBuilder,
+    private snackBar: MatSnackBar,
   )
     {
       this.totalPrice = 0;
       this.discountedTotal = this.totalPrice;
+      this.userId = this.authService.getUserIdFromToken()!;
+      this.addAddressForm = this.fb.group({
+        addressLine1: ['', Validators.required],
+        addressLine2: [''],
+        city: ['', Validators.required],
+        state: ['', Validators.required],
+        postalCode: ['', Validators.required],
+        country: ['', Validators.required],
+      });
+  
+      this.updateAddressForm = this.fb.group({
+        addressId: [null], // You can set this value when opening the modal
+        addressLine1: ['', Validators.required],
+        addressLine2: [''],
+        city: ['', Validators.required],
+        state: ['', Validators.required],
+        postalCode: ['', Validators.required],
+        country: ['', Validators.required],
+      });
     }
 
   ngOnInit(): void {
     this.getCart(); // Fetch cart on component load
-    this.getAddresses(); //fetch adresses on load
+    this.loadAddresses(this.userId!);
     this.getTotalItems();
   }
 
@@ -175,23 +203,89 @@ export class CartComponent implements OnInit {
     return this.cart?.cartItems?.reduce((total, item) => total + item.totalPrice, 0) || 0;
   }
 
- // Fetch user addresses for checkout
- getAddresses(): void {
-  const userId = this.authService.getUserIdFromToken();
-
-  if (userId) {
-    this.userService.getUserAddress(userId).subscribe(
-      (addresses: Address[]) => {
-        this.addresses = addresses;
-        this.selectedShippingAddressId= addresses[0]?.addressId || null;
-        this.selectedBillingAddressId = addresses[0]?.addressId || null;
-      },
-      (error) => {
-        console.error('Error fetching addresses:', error);
-      }
-    );
+ // Initialize add address form
+  initAddAddressForm() {
+    this.addAddressForm = this.fb.group({
+      userId: [this.userId], // Replace with dynamic userId if needed
+      addressLine1: ['', Validators.required],
+      addressLine2: [''],
+      city: ['', Validators.required],
+      state: ['', Validators.required],
+      postalCode: ['', Validators.required],
+      country: ['', Validators.required]
+    });
   }
-}
+
+  // Initialize update address form
+  initUpdateAddressForm() {
+    this.updateAddressForm = this.fb.group({
+      addressId: [''],
+      userId: [this.userId], // Replace with dynamic userId
+      addressLine1: ['', Validators.required],
+      addressLine2: [''],
+      city: ['', Validators.required],
+      state: ['', Validators.required],
+      postalCode: ['', Validators.required],
+      country: ['', Validators.required]
+    });
+  }
+
+  // Load all addresses for the user
+  loadAddresses(userId: number) {
+    this.userService.getUserAddress(userId).subscribe((data) => {
+      this.addresses = data;
+      console.log(data);
+    });
+    console.log(this.addresses);
+  }
+
+  // Open the add address modal
+  openAddAddressModal() {
+    this.addAddressForm.reset({ userId: this.userId });
+  }
+
+  // Open the update address modal and populate form with address data
+  openUpdateAddressModal(address: Address) {
+    this.updateAddressForm.patchValue(address);  // Populate the form with selected address data
+  }
+
+  addAddress() {
+    const newAddress: AddAddressDTO = {
+      userId: this.userId,
+      ...this.addAddressForm.value,
+    };
+
+    this.userService.addAddress(newAddress).subscribe(() => {
+      this.addAddressForm.reset();
+      this.showSnackbar('Address added successfully!');
+      const modal = document.getElementById('addAddressModal') as any;
+      const modalInstance = bootstrap.Modal.getInstance(modal);
+      modalInstance.hide(); // Close the modal
+    });
+  }
+
+  updateAddress() {
+    const updatedAddress: UpdateAddressDTO = {
+      addressId: this.updateAddressForm.value.addressId,
+      userId: this.userId,
+      ...this.updateAddressForm.value,
+    };
+    console.log(updatedAddress)
+    this.userService.updateAddress(updatedAddress).subscribe(() => {
+      this.updateAddressForm.reset();
+      this.showSnackbar('Address updated successfully!');
+      const modal = document.getElementById('updateAddressModal') as any;
+      const modalInstance = bootstrap.Modal.getInstance(modal);
+      modalInstance.hide(); // Close the modal
+    });
+  }
+
+  private showSnackbar(message: string) {
+    this.snackBar.open(message, 'Close', {
+      duration: 2000, // Duration in milliseconds
+      panelClass: ['snackbar-success'], // Add a custom class for styling
+    });
+  }
 
 applyDiscount(): void {
   if (!this.discountCode) {

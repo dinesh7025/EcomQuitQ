@@ -14,3 +14,4 @@ D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\
 D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.pdb
 D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.genruntimeconfig.cache
 D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\ref\EcomLib.dll
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomLib\obj\Debug\net8.0\EcomLib.sourcelink.json

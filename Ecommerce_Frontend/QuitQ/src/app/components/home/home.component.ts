@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,AfterViewInit, ElementRef, ViewChild  } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { CommonModule } from '@angular/common';
@@ -11,6 +11,7 @@ import { Product } from '../../models/product.model';
 import { ProductService } from '../../services/product.service';
 import { BrandDTO } from '../../models/brand.model';
 import { RouterLink } from '@angular/router';
+declare var noUiSlider: any;
 
 @Component({
   selector: 'app-home',
@@ -24,13 +25,39 @@ export class HomeComponent implements OnInit {
   subCategories: SubCategory[] = []; 
   selectedParentCategory: ParentCategory | null = null;
   selectedSubCategory: SubCategory | null = null;
-  minPrice: number | null = null;
-  maxPrice: number | null = null;
+  minPrice: number = 0;
+  maxPrice: number = 100000;
   products: Product[] = [];
   selectedBrandId: number | null = null; 
   brands: BrandDTO[] = []; 
   filteredProducts: Product[] = [];
   searchTerm: string = '';
+  sortOption: 'asc' | 'desc' | null = null;
+
+  @ViewChild('priceSlider') priceSlider!: ElementRef;
+
+  ngAfterViewInit() {
+    this.initializeSlider();
+  }
+
+  initializeSlider() {
+    const slider = document.getElementById('priceSlider') as any;
+
+    noUiSlider.create(slider, {
+      start: [this.minPrice, this.maxPrice],
+      connect: true,
+      range: {
+        'min': 0,
+        'max': 100000
+      },
+      step: 1000,
+    });
+
+    slider.noUiSlider.on('update', (values: string[]) => {
+      this.minPrice = parseFloat(values[0]);
+      this.maxPrice = parseFloat(values[1]);
+    });
+  }
 
   targetParentCategories = ['Electronics', 'Fashion', 'Home & Kitchen', 'Beauty & Personal Care', 'Toys & Games'];
   categoryImages: { [key: string]: string } = {
@@ -129,6 +156,29 @@ export class HomeComponent implements OnInit {
     this.searchTerm = term;
     this.filterProducts();  // Call filterProducts after search term changes
   }
+  updatePriceRange(): void {
+    // Call filterProducts whenever the price range is changed
+    this.filterProducts();
+  }
+
+
+
+  resetFilters(): void {
+    this.minPrice = 0;
+    this.maxPrice = 100000
+    this.selectedBrandId = null;
+    this.selectedParentCategory = null;
+    this.selectedSubCategory = null;
+
+    this.sortOption = null;
+
+    // Reset the slider values
+    const slider = document.getElementById('priceSlider') as any; // Cast to 'any'
+    slider.noUiSlider.set([this.minPrice, this.maxPrice]);
+
+    // Reapply filters after resetting
+    this.filterProducts();
+  }
   
   filterProducts() {
     this.filteredProducts = this.products.filter(product => {
@@ -146,6 +196,13 @@ export class HomeComponent implements OnInit {
   
       return matchesSearchTerm && isInCategory && isInPriceRange;  
     });
+
+    // Sort the filtered products based on the selected sort option
+    if (this.sortOption === 'asc') {
+      this.filteredProducts.sort((a, b) => a.price - b.price); // Sort by price ascending
+    } else if (this.sortOption === 'desc') {
+      this.filteredProducts.sort((a, b) => b.price - a.price); // Sort by price descending
+    }
   
     console.log('Filtered Products:', this.filteredProducts);
   }

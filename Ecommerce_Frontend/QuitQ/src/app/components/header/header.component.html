@@ -31,7 +31,7 @@
 
       <div class="menu-item dropdown" *ngIf="authService.isLoggedIn()">
         <a href="#" class="account-link">
-          <i class="fa fa-user"></i> Account
+          <i class="fa fa-user"></i> {{ username || 'Account' }}
         </a>
         <div class="dropdown-content">
           <a href="/user-profile">Profile</a>

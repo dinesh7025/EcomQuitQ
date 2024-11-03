@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\userrepository\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\userrepository\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\salesanalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\salesanalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\wishlistrepository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\wishlistrepository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\salesanalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\salesanalyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\discountmanagemnt\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\discountrepository\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomtests\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F93A17C-7D74-4539-9AEB-F99F8CDCFD29}|EcomTests\\EcomTests.csproj|solutionrelative:ecomtests\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\cartrepository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\cartrepository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\userrepository\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\userrepository\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\loginrepository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,16 +91,8 @@
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|solutionrelative:ecomwebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1187E3E-9C3D-4762-8D84-D57974239E3C}|EcomWebApp\\EcomWebApp.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomwebapp\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -155,10 +147,6 @@
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\usermanagement\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\models\\usermanagement\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -201,10 +189,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\repository\\wishlistrepository\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\repository\\wishlistrepository\\iwishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\models\\productmanagment\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -293,10 +277,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\getaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\getaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\userdtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\dtos\\userdtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\dtos\\cartdtos\\cartdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -457,6 +437,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\migrations\\20241005052619_chechwishlistadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\migrations\\20241005052619_chechwishlistadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|d:\\dotnet fsd training\\casestudy\\ecommerce_backend\\quitq_ecom\\ecomlib\\migrations\\20241025074642_updatedadressuniqueconstraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6120A622-4D2B-47A6-B0EF-1CBE7C448861}|EcomLib\\EcomLib.csproj|solutionrelative:ecomlib\\migrations\\20241025074642_updatedadressuniqueconstraint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -466,11 +450,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 109,
+              "Title": "20241025074642_UpdatedAdressUniqueConstraint.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241025074642_UpdatedAdressUniqueConstraint.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Migrations\\20241025074642_UpdatedAdressUniqueConstraint.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241025074642_UpdatedAdressUniqueConstraint.cs",
+              "RelativeToolTip": "EcomLib\\Migrations\\20241025074642_UpdatedAdressUniqueConstraint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T07:46:42.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WishlistRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:05:09.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Discount.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\DiscountManagemnt\\Discount.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\DiscountManagemnt\\Discount.cs",
@@ -479,163 +487,6 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAswBQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T05:17:35.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WishlistRepository.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
-              "RelativeDocumentMoniker": "EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
-              "RelativeToolTip": "EcomLib\\Repository\\WishListRepository\\WishlistRepository.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAIBJwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T05:05:09.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SalesAnalyticsController.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
-              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
-              "RelativeToolTip": "EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T18:26:04.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InventoryController.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\InventoryController.cs",
-              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\InventoryController.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\InventoryController.cs",
-              "RelativeToolTip": "EcomWebApp\\Controllers\\InventoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T06:18:43.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "EcomWebApp\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwFkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T07:28:18.446Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class1.cs",
-              "RelativeDocumentMoniker": "EcomTests\\Class1.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class1.cs",
-              "RelativeToolTip": "EcomTests\\Class1.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwFAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:18:47.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "EcomLib\\Service\\ProductService.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductService.cs",
-              "RelativeToolTip": "EcomLib\\Service\\ProductService.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAA9wJQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T07:31:26.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
-              "RelativeToolTip": "EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAnwIoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T14:08:54.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserRepository .cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\UserRepository .cs",
-              "RelativeDocumentMoniker": "EcomLib\\Repository\\UserRepository\\UserRepository .cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\UserRepository .cs",
-              "RelativeToolTip": "EcomLib\\Repository\\UserRepository\\UserRepository .cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwC0AAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T06:23:19.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DiscountRepository.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
-              "RelativeDocumentMoniker": "EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
-              "RelativeToolTip": "EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:42:30.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Class2.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class2.cs",
-              "RelativeDocumentMoniker": "EcomTests\\Class2.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class2.cs",
-              "RelativeToolTip": "EcomTests\\Class2.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAA0wH8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:21:11.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Class3.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class3.cs",
-              "RelativeDocumentMoniker": "EcomTests\\Class3.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class3.cs",
-              "RelativeToolTip": "EcomTests\\Class3.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAIBJwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:23:58.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Class4.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class4.cs",
-              "RelativeDocumentMoniker": "EcomTests\\Class4.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class4.cs",
-              "RelativeToolTip": "EcomTests\\Class4.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:40:29.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class5.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class5.cs",
-              "RelativeDocumentMoniker": "EcomTests\\Class5.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomTests\\Class5.cs",
-              "RelativeToolTip": "EcomTests\\Class5.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAcwF0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:41:50.567Z"
             },
             {
               "$type": "Document",
@@ -675,7 +526,152 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAkwOEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:44:26.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\UserService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\UserService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\UserService.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAQwI4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T04:25:33.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:04:04.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddressDTO.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
+              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:28:06.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EcomLib\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAewPsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T03:56:15.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository .cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\UserRepository .cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\UserRepository\\UserRepository .cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\UserRepository .cs",
+              "RelativeToolTip": "EcomLib\\Repository\\UserRepository\\UserRepository .cs",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAiwLYBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:23:19.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SalesAnalyticsController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\SalesAnalyticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:26:04.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DiscountRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\DiscountRepository\\DiscountRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T13:42:30.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
+              "RelativeToolTip": "EcomLib\\Repository\\ProductRepository\\ProductRepository.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAnwIoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:08:54.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "EcomLib\\Service\\ProductService.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductService.cs",
+              "RelativeToolTip": "EcomLib\\Service\\ProductService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAA9wJQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:31:26.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwFkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:28:18.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\InventoryController.cs",
+              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "EcomWebApp\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T06:18:43.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "ProductReviewController.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\ProductReviewController.cs",
               "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\ProductReviewController.cs",
@@ -687,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CartRepository\\CartRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\CartRepository\\CartRepository.cs",
@@ -748,18 +744,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "EcomLib\\Service\\UserService.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\UserService.cs",
-              "RelativeToolTip": "EcomLib\\Service\\UserService.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAADwv6UAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T04:25:33.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "OrderDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\OrderDtos\\OrderDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\OrderDtos\\OrderDTO.cs",
@@ -771,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "WishlistController.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\WishlistController.cs",
               "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\WishlistController.cs",
@@ -784,18 +768,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\UserController.cs",
-              "RelativeToolTip": "EcomWebApp\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAmwIQAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:44:26.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
               "Title": "UserAnalyticsController.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\UserAnalyticsController.cs",
               "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\UserAnalyticsController.cs",
@@ -807,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "DiscountController.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\DiscountController.cs",
               "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\DiscountController.cs",
@@ -819,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\CartController.cs",
@@ -831,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\AdminController.cs",
@@ -843,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "IOrderItemRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\IOrderItemRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\OrderRepository\\IOrderItemRepository.cs",
@@ -855,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "OrderService.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\OrderService.cs",
               "RelativeDocumentMoniker": "EcomLib\\Service\\OrderService.cs",
@@ -867,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\OrderRepository\\OrderRepository.cs",
@@ -879,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "TokenGeneration.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\JWT\\TokenGeneration.cs",
               "RelativeDocumentMoniker": "EcomLib\\JWT\\TokenGeneration.cs",
@@ -891,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "GetOrderDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\OrderDtos\\GetOrderDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\OrderDtos\\GetOrderDTO.cs",
@@ -903,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "OrderItemRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\OrderItemRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\OrderRepository\\OrderItemRepository.cs",
@@ -915,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 37,
               "Title": "SellerDetails.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\SellerDetails.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\UserManagement\\SellerDetails.cs",
@@ -927,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 38,
               "Title": "PersonalDetails.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\PersonalDetails.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\UserManagement\\PersonalDetails.cs",
@@ -939,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 39,
               "Title": "Address.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\Address.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\UserManagement\\Address.cs",
@@ -951,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 46,
               "Title": "IWishlistRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\WishListRepository\\IWishlistRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\WishListRepository\\IWishlistRepository.cs",
@@ -963,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 41,
               "Title": "ProductDetailsDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductDetailsDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\ProductDetailsDTO.cs",
@@ -975,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 35,
               "Title": "UserProfileDto.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\UserProfileDto.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\UserProfileDto.cs",
@@ -987,19 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
-              "RelativeToolTip": "EcomLib\\Repository\\UserRepository\\IUserRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAUwCgAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T06:04:04.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 40,
               "Title": "Wishlist.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\Wishlist.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\Wishlist.cs",
@@ -1011,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 42,
               "Title": "WishlistService.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\WishlistService.cs",
               "RelativeDocumentMoniker": "EcomLib\\Service\\WishlistService.cs",
@@ -1023,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 36,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\UserManagement\\User.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\UserManagement\\User.cs",
@@ -1035,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 44,
               "Title": "ProductReviewService.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductReviewService.cs",
               "RelativeDocumentMoniker": "EcomLib\\Service\\ProductReviewService.cs",
@@ -1047,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 43,
               "Title": "ReviewDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ReviewDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\ReviewDTO.cs",
@@ -1059,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 45,
               "Title": "ProductReviewRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ReviewRepository\\ProductReviewRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\ReviewRepository\\ProductReviewRepository.cs",
@@ -1071,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 48,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ProductRepository\\IProductRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\ProductRepository\\IProductRepository.cs",
@@ -1083,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 49,
               "Title": "ProductReview.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductReview.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\ProductReview.cs",
@@ -1095,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 107,
               "Title": "20241005043811_AddedWishList.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241005043811_AddedWishList.cs",
               "RelativeDocumentMoniker": "EcomLib\\Migrations\\20241005043811_AddedWishList.cs",
@@ -1107,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 108,
               "Title": "20241005052619_ChechWishListAdd.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241005052619_ChechWishListAdd.cs",
               "RelativeDocumentMoniker": "EcomLib\\Migrations\\20241005052619_ChechWishListAdd.cs",
@@ -1119,19 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EcomLib\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "EcomLib\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAywCoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T03:56:15.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 53,
               "Title": "SellerDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\SellerDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\SellerDTO.cs",
@@ -1143,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 47,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\Product.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\ProductManagment\\Product.cs",
@@ -1155,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 50,
               "Title": "ISellerAnalysis.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\AnalyticsRepository\\SellerAnalysis\\ISellerAnalysis.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\AnalyticsRepository\\SellerAnalysis\\ISellerAnalysis.cs",
@@ -1167,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 52,
               "Title": "SalesanalyticsDtos.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\AnalyticsDtos\\SalesanalyticsDtos.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\AnalyticsDtos\\SalesanalyticsDtos.cs",
@@ -1179,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 51,
               "Title": "SellerAnaliticsDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\AnalyticsDtos\\SellerAnaliticsDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\AnalyticsDtos\\SellerAnaliticsDTO.cs",
@@ -1191,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 54,
               "Title": "SellerProductDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\SellerProductDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\SellerProductDTO.cs",
@@ -1203,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 55,
               "Title": "ProductWithSellerDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductWithSellerDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\ProductWithSellerDTO.cs",
@@ -1215,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 56,
               "Title": "SellerDetailsDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\SellerDetailsDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\SellerDetailsDTO.cs",
@@ -1227,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 57,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\OrderRepository\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\OrderRepository\\IOrderRepository.cs",
@@ -1239,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 58,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\OrderManagement\\OrderItem.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\OrderManagement\\OrderItem.cs",
@@ -1251,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 59,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\OrderManagement\\Order.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\OrderManagement\\Order.cs",
@@ -1263,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 64,
               "Title": "CustomExceptions.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Exceptionhandling\\CustomExceptions.cs",
               "RelativeDocumentMoniker": "EcomLib\\Exceptionhandling\\CustomExceptions.cs",
@@ -1275,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 61,
               "Title": "20241001042306_ChangeOrderRelated.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Migrations\\20241001042306_ChangeOrderRelated.cs",
               "RelativeDocumentMoniker": "EcomLib\\Migrations\\20241001042306_ChangeOrderRelated.cs",
@@ -1287,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 60,
               "Title": "CartService.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\CartService.cs",
               "RelativeDocumentMoniker": "EcomLib\\Service\\CartService.cs",
@@ -1299,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 62,
               "Title": "Payment.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\Payment.cs",
@@ -1311,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 63,
               "Title": "PaymentRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\PaymentRepository\\PaymentRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\PaymentRepository\\PaymentRepository.cs",
@@ -1323,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 65,
               "Title": "DiscountService.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\DiscountService.cs",
               "RelativeDocumentMoniker": "EcomLib\\Service\\DiscountService.cs",
@@ -1335,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 67,
               "Title": "ProductDiscount.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\DiscountManagemnt\\ProductDiscount.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\DiscountManagemnt\\ProductDiscount.cs",
@@ -1347,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 66,
               "Title": "DiscountDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\DiscountDtos\\DiscountDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\DiscountDtos\\DiscountDTO.cs",
@@ -1359,19 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "AddressDTO.cs",
-              "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
-              "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
-              "ToolTip": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
-              "RelativeToolTip": "EcomLib\\Dtos\\UserDtos\\AddressDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T06:28:06.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 70,
               "Title": "CartItem.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\CartManagement\\CartItem.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\CartManagement\\CartItem.cs",
@@ -1383,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 68,
               "Title": "GetAddressDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\GetAddressDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\GetAddressDTO.cs",
@@ -1395,7 +1331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 72,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CategoryRepository\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\CategoryRepository\\ICategoryRepository.cs",
@@ -1407,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 71,
               "Title": "ICartRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CartRepository\\ICartRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\CartRepository\\ICartRepository.cs",
@@ -1419,7 +1355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 74,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\UserDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\UserDTO.cs",
@@ -1431,7 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 69,
               "Title": "CartDtos.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\CartDtos\\CartDtos.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\CartDtos\\CartDtos.cs",
@@ -1443,7 +1379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 73,
               "Title": "Cart.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\CartManagement\\Cart.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\CartManagement\\Cart.cs",
@@ -1455,7 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 80,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\appsettings.json",
               "RelativeDocumentMoniker": "EcomLib\\appsettings.json",
@@ -1467,7 +1403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 75,
               "Title": "UserAnalyticsService.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\UserAnalyticsService.cs",
               "RelativeDocumentMoniker": "EcomLib\\Service\\UserAnalyticsService.cs",
@@ -1479,7 +1415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 78,
               "Title": "CategoryDtos.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\CategoryDtos\\CategoryDtos.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\CategoryDtos\\CategoryDtos.cs",
@@ -1491,7 +1427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 76,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\CategoryRepository\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\CategoryRepository\\CategoryRepository.cs",
@@ -1503,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 79,
               "Title": "EcomWebApp.csproj",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\EcomWebApp.csproj",
               "RelativeDocumentMoniker": "EcomWebApp\\EcomWebApp.csproj",
@@ -1515,7 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 77,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\CategoryService.cs",
               "RelativeDocumentMoniker": "EcomLib\\Service\\CategoryService.cs",
@@ -1527,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 83,
               "Title": "ISalesAnalyticsRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\AnalyticsRepository\\SalesAnalytics\\ISalesAnalyticsRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\AnalyticsRepository\\SalesAnalytics\\ISalesAnalyticsRepository.cs",
@@ -1539,7 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 81,
               "Title": "ProductDiscountController.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\Controllers\\ProductDiscountController.cs",
               "RelativeDocumentMoniker": "EcomWebApp\\Controllers\\ProductDiscountController.cs",
@@ -1551,7 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 82,
               "Title": "UserAnalyticsDtos.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\AnalyticsDtos\\UserAnalyticsDtos.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\AnalyticsDtos\\UserAnalyticsDtos.cs",
@@ -1563,7 +1499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 87,
               "Title": "LastRegisteredDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\LastRegisteredDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\LastRegisteredDTO.cs",
@@ -1575,7 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 84,
               "Title": "log4net.config",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomWebApp\\log4net.config",
               "RelativeDocumentMoniker": "EcomWebApp\\log4net.config",
@@ -1587,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 85,
               "Title": "AuditLog.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\AuditLog.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\AuditLog.cs",
@@ -1599,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 86,
               "Title": "Inventory.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\Inventory.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\Inventory.cs",
@@ -1611,7 +1547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 90,
               "Title": "InventoryRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\Inventoryrepository\\InventoryRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\Inventoryrepository\\InventoryRepository.cs",
@@ -1623,7 +1559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 89,
               "Title": "IProductReviewRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\ReviewRepository\\IProductReviewRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\ReviewRepository\\IProductReviewRepository.cs",
@@ -1635,7 +1571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 88,
               "Title": "ProductDiscountService.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\ProductDiscountService.cs",
               "RelativeDocumentMoniker": "EcomLib\\Service\\ProductDiscountService.cs",
@@ -1647,7 +1583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 91,
               "Title": "Brand.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\Brand.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\ProductManagment\\Brand.cs",
@@ -1659,7 +1595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 92,
               "Title": "IPaymentRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\PaymentRepository\\IPaymentRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\PaymentRepository\\IPaymentRepository.cs",
@@ -1671,7 +1607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 93,
               "Title": "IDiscountRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\IDiscountRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\DiscountRepository\\IDiscountRepository.cs",
@@ -1683,7 +1619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 94,
               "Title": "ProductDiscountRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\ProductDiscountRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\DiscountRepository\\ProductDiscountRepository.cs",
@@ -1695,7 +1631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 95,
               "Title": "IProductDiscountRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\DiscountRepository\\IProductDiscountRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\DiscountRepository\\IProductDiscountRepository.cs",
@@ -1707,7 +1643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 96,
               "Title": "ProductDiscountDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\DiscountDtos\\ProductDiscountDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\DiscountDtos\\ProductDiscountDTO.cs",
@@ -1719,7 +1655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 98,
               "Title": "InventoryDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\InventoryDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\InventoryDTO.cs",
@@ -1731,7 +1667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 97,
               "Title": "InventoryService.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Service\\InventoryService.cs",
               "RelativeDocumentMoniker": "EcomLib\\Service\\InventoryService.cs",
@@ -1743,7 +1679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 99,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\ProductDtos\\ProductDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\ProductDtos\\ProductDTO.cs",
@@ -1755,7 +1691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 100,
               "Title": "ParentCategory.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\ParentCategory.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\ProductManagment\\ParentCategory.cs",
@@ -1767,7 +1703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 101,
               "Title": "IInventoryRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\Inventoryrepository\\IInventoryRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\Inventoryrepository\\IInventoryRepository.cs",
@@ -1779,7 +1715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 103,
               "Title": "PersonalDetailsDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\PersonalDetailsDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\PersonalDetailsDTO.cs",
@@ -1791,7 +1727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 104,
               "Title": "AppDbContextFactory.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Data\\AppDbContextFactory.cs",
               "RelativeDocumentMoniker": "EcomLib\\Data\\AppDbContextFactory.cs",
@@ -1803,7 +1739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 102,
               "Title": "SubCategory.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Models\\ProductManagment\\SubCategory.cs",
               "RelativeDocumentMoniker": "EcomLib\\Models\\ProductManagment\\SubCategory.cs",
@@ -1815,7 +1751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 105,
               "Title": "ILoginRepository.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Repository\\LoginRepository\\ILoginRepository.cs",
               "RelativeDocumentMoniker": "EcomLib\\Repository\\LoginRepository\\ILoginRepository.cs",
@@ -1827,7 +1763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 106,
               "Title": "RegisterSellerDTO.cs",
               "DocumentMoniker": "D:\\DOTNET FSD Training\\CaseStudy\\Ecommerce_Backend\\QuitQ_Ecom\\EcomLib\\Dtos\\UserDtos\\RegisterSellerDTO.cs",
               "RelativeDocumentMoniker": "EcomLib\\Dtos\\UserDtos\\RegisterSellerDTO.cs",

@@ -247,6 +247,10 @@ namespace EcomQuitQ.Data
                 .Property(p => p.PaymentAmount)
                 .HasColumnType("decimal(18,2)");
 
+            modelBuilder.Entity<Address>()
+                .HasIndex(a => a.UserId)
+                .IsUnique(false);
+
             base.OnModelCreating(modelBuilder);
 
         }

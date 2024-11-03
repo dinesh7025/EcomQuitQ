@@ -88,3 +88,4 @@ D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\obj\Deb
 D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\obj\Debug\net8.0\EcomWebApp.genruntimeconfig.cache
 D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\obj\Debug\net8.0\ref\EcomWebApp.dll
 D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\DOTNET FSD Training\CaseStudy\Ecommerce_Backend\QuitQ_Ecom\EcomWebApp\obj\Debug\net8.0\EcomWebApp.sourcelink.json

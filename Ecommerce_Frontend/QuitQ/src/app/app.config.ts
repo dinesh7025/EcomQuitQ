@@ -15,6 +15,6 @@ export const appConfig: ApplicationConfig = {
           provideHttpClient(),
           provideCharts(withDefaultRegisterables()), 
           provideAnimationsAsync(),
-          provideHttpClient(withInterceptors([authInterceptor]))
+          provideHttpClient(withInterceptors([authInterceptor])), provideAnimationsAsync()
         ]
 };

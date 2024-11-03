@@ -95,8 +95,8 @@ export class ProductListingComponent implements OnInit, OnChanges {
   }
 
   filterProducts(): void {
-    console.log('Selected Brand ID:', this.selectedBrandId); // Log the selected brand ID
-    console.log('Products:', this.products); // Log the products array
+    //console.log('Selected Brand ID:', this.selectedBrandId); // Log the selected brand ID
+    //console.log('Products:', this.products); // Log the products array
 
     this.filteredProducts = this.products.filter(product => {
         const matchesSearchTerm = product.productName.toLowerCase().includes(this.searchTerm.toLowerCase());
@@ -106,12 +106,12 @@ export class ProductListingComponent implements OnInit, OnChanges {
         const isActive = product.isActive; // Ensure the product is active
 
         // Log the evaluation of each product
-        console.log(`Product: ${product.productName}, Matches: ${matchesSearchTerm && matchesPriceRange && matchesBrand && isActive}`);
+        //console.log(`Product: ${product.productName}, Matches: ${matchesSearchTerm && matchesPriceRange && matchesBrand && isActive}`);
         return matchesSearchTerm && matchesPriceRange && matchesBrand && isActive; // Return products that match all criteria
     });
 
     // Log filtered products
-    console.log('Filtered Products:', this.filteredProducts);
+    console.log('Filtered Products:', this.filteredProducts.length);
 }
 
 

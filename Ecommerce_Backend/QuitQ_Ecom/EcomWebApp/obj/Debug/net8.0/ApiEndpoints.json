@@ -1092,6 +1092,22 @@
   },
   {
     "ContainingType": "EcomWebApp.Controllers.UserController",
+    "Method": "AddAddress",
+    "RelativePath": "api/User/AddAdress-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressDto",
+        "Type": "EcomLib.Dtos.AddAddressDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcomWebApp.Controllers.UserController",
     "Method": "DeleteUser",
     "RelativePath": "api/User/DeleteUser/{id}",
     "HttpMethod": "DELETE",
@@ -1214,27 +1230,6 @@
   },
   {
     "ContainingType": "EcomWebApp.Controllers.UserController",
-    "Method": "UpdateAddressAsync",
-    "RelativePath": "api/User/update-address",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "addressDto",
-        "Type": "EcomLib.Dtos.AddressDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EcomWebApp.Controllers.UserController",
     "Method": "UpdateSellerDetailsAsync",
     "RelativePath": "api/User/update-seller-details",
     "HttpMethod": "PUT",
@@ -1249,6 +1244,27 @@
       {
         "Name": "sellerDetailsDto",
         "Type": "EcomLib.Dtos.SellerDetailsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcomWebApp.Controllers.UserController",
+    "Method": "UpdateAddress",
+    "RelativePath": "api/User/UpdateAdress-user/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "addressDto",
+        "Type": "EcomLib.Dtos.UpdateAddressDTO",
         "IsRequired": true
       }
     ],

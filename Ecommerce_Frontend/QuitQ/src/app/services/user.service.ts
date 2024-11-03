@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { User, UpdateUser} from '../models/user.model';
 import { HttpClient } from '@angular/common/http';
-import { Address } from '../models/address.model';
+import { AddAddressDTO, Address, UpdateAddressDTO } from '../models/address.model';
 import { UserProfile } from '../models/userProfile.model';
 
 @Injectable({
@@ -31,6 +31,16 @@ export class UserService {
   getUserAddress(userId: number): Observable<Address[]> {
     return this.http.get<Address[]>(`${this.baseUrl}/userAddress/${userId}`);
   }
+  
+  // Add a new address
+  addAddress(address: AddAddressDTO): Observable<any> {
+    return this.http.post(`${this.baseUrl}/AddAdress-user`, address);
+  }
+
+  // Update an existing address
+  updateAddress(address: UpdateAddressDTO): Observable<any> {
+    return this.http.put(`${this.baseUrl}/UpdateAdress-user/${address.addressId}`, address);
+  }
    // Get user profile by ID
    getUserProfile(userId: number): Observable<UserProfile> {
     return this.http.get<UserProfile>(`${this.baseUrl}/${userId}`);
@@ -40,4 +50,5 @@ export class UserService {
   updateUserProfile(user: UserProfile): Observable<UserProfile> {
     return this.http.put<UserProfile>(this.baseUrl, user);
   }
+
 }

@@ -81,6 +81,14 @@ export class AuthService {
   const decodedToken = this.decodeToken();
   return decodedToken?.UserId || null;  // Assuming 'userId' is part of the payload
 }
+ getUserName(): any | null{
+  const token = this.getToken();
+  if(!token){
+    return null;
+  }
+  const decodedToken =this.decodeToken();
+  return decodedToken?.unique_name || null;
+ }
   // Attach token to the Authorization header
   getAuthHeaders(): HttpHeaders {
     const token = this.getToken();

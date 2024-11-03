@@ -1,0 +1,9 @@
+2024-10-24 09:17:23,833 INFO  EcomWebApp.Controllers.CategoryController - GetAllParentCategories initiated
+2024-10-24 09:17:23,833 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-24 09:17:23,833 INFO  EcomWebApp.Controllers.CategoryController - GetAllSubCategories initiated
+2024-10-24 09:17:26,539 INFO  EcomWebApp.Controllers.CategoryController - GetAllBrands initiated
+2024-10-24 09:18:40,704 INFO  EcomWebApp.Controllers.ProductController - Fetched details for ProductId=6.
+2024-10-24 09:19:34,671 INFO  EcomWebApp.Controllers.AuthController - Login attempt for user: admin2@quitq.in
+2024-10-24 09:19:35,261 INFO  EcomWebApp.Controllers.AuthController - Token generated successfully for user: admin2@quitq.in
+2024-10-24 09:19:35,397 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total user registrations successfully.
+2024-10-24 09:19:35,397 INFO  EcomWebApp.Controllers.AnalyticsController - Fetched total seller registrations successfully.
